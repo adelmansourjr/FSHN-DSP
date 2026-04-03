@@ -7,7 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit -p tsconfig.ci.json",
     "check:server": "npm --prefix server run check",
     "test:server:integration": "npm --prefix server run test:integration",
     "check:functions": "npm --prefix functions run check",

@@ -1,14 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 import { VertexAI } from '@google-cloud/vertexai';
-import { loadDurablePairwiseScores, persistDurablePairwiseScores } from '../recommendation/DurablePromptCache.ts';
+import { loadDurablePairwiseScores, persistDurablePairwiseScores } from '../recommendation/DurablePromptCache';
 import {
   CATEGORY_PHRASES,
   SemanticCorpusStats,
   buildSemanticCorpusStats,
   filterCorpusTerms,
   loadCanonicalIndex,
-} from '../canonical_index.ts';
+} from '../canonical_index';
 import {
   ALLOWED_COLOURS,
   CategoryMain,
@@ -20,7 +20,6 @@ import {
   OccasionTag,
   PaletteMode,
   PaletteOverrideStrength,
-  PromptIntent,
   SettingContext,
   ActivityContext,
   DaypartContext,
@@ -57,9 +56,9 @@ import {
   toFit,
   toSport,
   uniqueColours,
-} from '../fashion_taxonomy.ts';
-import { uniq } from '../text.ts';
-import { buildPromptSemanticBundle, deriveStyleSignals } from '../style_semantics.ts';
+} from '../fashion_taxonomy';
+import { uniq } from '../text';
+import { buildPromptSemanticBundle, deriveStyleSignals } from '../style_semantics';
 import {
   EmbeddingSidecar,
   createGoogleGenAIClient,
@@ -69,7 +68,7 @@ import {
   resolvePromptEmbeddingCachePath,
   resolveEmbeddingSidecarPath,
   weightedAverageVectors,
-} from '../semantic_embeddings.ts';
+} from '../semantic_embeddings';
 import {
   EmbeddingMode,
   GeminiIntentState,
@@ -91,6 +90,7 @@ import {
   ScoredOutfit,
   Outfit,
   PhraseHit,
+  PromptIntentV2 as PromptIntent,
 } from './types';
 
 const DEFAULT_EPSILON = 0.08;

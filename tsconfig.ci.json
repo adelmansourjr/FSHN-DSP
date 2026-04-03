@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "server",
+    "functions",
+    "tryon-local",
+    "Testing py",
+    "src/components/classifier/classify_images.ts",
+    "src/components/classifier/classify_images old.ts",
+    "src/components/recommender",
+    "src/components/recommender/**",
+    "src/components/reccomender",
+    "src/components/reccomender/**",
+    "src/lib/recommender",
+    "src/lib/recommender/**"
+  ]
+}
