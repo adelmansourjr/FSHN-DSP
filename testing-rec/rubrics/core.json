@@ -1,0 +1,898 @@
+{
+  "men_old_money_stage1": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "vibeTagsAny": ["formal", "preppy", "minimal", "chic"],
+      "occasionTagsAny": ["smart_casual", "formal"],
+      "sportContext": "none"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["knitwear", "shirt", "polo", "cardigan", "blazer", "jacket"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top", "dress"],
+        "forbiddenTerms": ["graphic", "cropped", "ruffle", "floral"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "forbiddenFamilies": ["jeans", "leggings", "active_bottom", "shorts"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "derbies", "oxfords", "boots_refined", "boat_shoes"],
+        "forbiddenFamilies": ["sneakers", "heels", "pumps", "sandals", "active_shoes"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 3 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    },
+    "diversity": {
+      "minUniqueOutfits": 2,
+      "slotTargets": { "top": 2, "bottom": 2, "shoes": 2 }
+    }
+  },
+  "men_old_money_stage2": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "vibeTagsAny": ["formal", "preppy", "minimal", "chic"],
+      "occasionTagsAny": ["smart_casual", "formal"],
+      "sportContext": "none"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["knitwear", "polo", "shirt", "cardigan"],
+        "preferredColoursAny": ["cream", "beige", "white", "navy"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "forbiddenFamilies": ["jeans", "leggings", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "derbies", "oxfords", "boots_refined"],
+        "forbiddenFamilies": ["sneakers", "heels", "pumps", "active_shoes"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 1 }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.6
+    }
+  },
+  "men_old_money_stage3": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "vibeTagsAny": ["formal", "preppy", "minimal", "chic"],
+      "occasionTagsAny": ["smart_casual", "formal"],
+      "sportContext": "none"
+    },
+    "global": {
+      "forbiddenTerms": ["sneaker", "trainers"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["knitwear", "polo", "shirt"],
+        "preferredColoursAny": ["navy", "cream", "white"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "preferredColoursAny": ["beige", "tan", "khaki", "cream"],
+        "forbiddenFamilies": ["jeans", "leggings", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "derbies", "oxfords", "boots_refined"],
+        "forbiddenFamilies": ["sneakers", "heels", "pumps", "active_shoes"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["sneaker", "trainers"]
+    },
+    "deterministic": {
+      "minSemanticStability": 0.65
+    }
+  },
+  "women_dinner_stage1": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "occasionTagsAny": ["formal", "evening", "smart_casual"],
+      "vibeTagsAny": ["chic", "formal", "minimal"],
+      "sportContext": "none"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "cardigan", "blazer", "jacket"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "skirt"],
+        "forbiddenFamilies": ["jeans", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["heels", "pumps", "boots_refined"],
+        "forbiddenFamilies": ["loafers", "boat_shoes", "active_shoes", "sneakers"]
+      }
+    }
+  },
+  "women_dinner_stage2": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "occasionTagsAny": ["formal", "evening", "smart_casual"],
+      "vibeTagsAny": ["chic", "formal", "minimal"],
+      "sportContext": "none"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "cardigan", "blazer"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "skirt"],
+        "forbiddenFamilies": ["jeans", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["heels", "pumps", "boots_refined"],
+        "forbiddenFamilies": ["loafers", "boat_shoes", "active_shoes", "sneakers"]
+      }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.55
+    }
+  },
+  "women_dinner_stage3": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "occasionTagsAny": ["formal", "evening", "smart_casual"],
+      "vibeTagsAny": ["chic", "formal", "minimal"],
+      "sportContext": "none"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "cardigan", "blazer"],
+        "preferredColoursAny": ["black"],
+        "requiredTermsAny": ["silk", "satin", "black"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "skirt"],
+        "forbiddenFamilies": ["jeans", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["heels", "pumps"],
+        "forbiddenFamilies": ["loafers", "boat_shoes", "active_shoes", "sneakers"]
+      }
+    },
+    "color": {
+      "selectionColoursAny": ["black"]
+    },
+    "deterministic": {
+      "minSemanticStability": 0.6
+    }
+  },
+  "men_jeans_timbs": {
+    "selectionForm": "bottom_shoes",
+    "intent": {
+      "requestedForm": "bottom_shoes",
+      "targetGender": "men"
+    },
+    "selection": {
+      "bottom": {
+        "requiredFamiliesAny": ["jeans"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["boots", "timberland"]
+      }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.8
+    }
+  },
+  "women_black_cocktail": {
+    "selectionForm": "mono_shoes",
+    "intent": {
+      "requestedForm": "mono_shoes",
+      "targetGender": "women",
+      "occasionTagsAny": ["formal", "evening"],
+      "vibeTagsAny": ["chic", "formal"]
+    },
+    "selection": {
+      "mono": {
+        "requiredFamiliesAny": ["dress"],
+        "preferredColoursAny": ["black"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["heels", "pumps"],
+        "forbiddenFamilies": ["active_shoes", "sneakers"]
+      }
+    },
+    "color": {
+      "selectionColoursAny": ["black"]
+    },
+    "deterministic": {
+      "minSemanticStability": 0.75
+    }
+  },
+  "men_oxford_trousers": {
+    "selectionForm": "top_bottom",
+    "intent": {
+      "requestedForm": "top_bottom",
+      "targetGender": "men"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt"],
+        "requiredTermsAny": ["oxford", "shirt", "button"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "preferredColoursAny": ["navy", "blue"]
+      }
+    },
+    "color": {
+      "slotColours": {
+        "top": ["white"],
+        "bottom": ["navy", "blue"]
+      }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.8
+    }
+  },
+  "women_leather_boots": {
+    "selectionForm": "top_shoes",
+    "intent": {
+      "requestedForm": "top_shoes",
+      "targetGender": "women"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["jacket"],
+        "requiredTermsAny": ["leather", "jacket"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["boots"]
+      }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.7
+    }
+  },
+  "men_red_hoodie": {
+    "selectionForm": "single_top",
+    "intent": {
+      "requestedForm": "top",
+      "targetGender": "men"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["hoodie"],
+        "preferredColoursAny": ["red"]
+      }
+    },
+    "color": {
+      "slotColours": {
+        "top": ["red"]
+      }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.8
+    }
+  },
+  "women_little_black_dress": {
+    "selectionForm": "single_mono",
+    "intent": {
+      "requestedForm": "mono",
+      "targetGender": "women"
+    },
+    "selection": {
+      "mono": {
+        "requiredFamiliesAny": ["dress"],
+        "preferredColoursAny": ["black"]
+      }
+    },
+    "color": {
+      "slotColours": {
+        "mono": ["black"]
+      }
+    },
+    "deterministic": {
+      "minSemanticStability": 0.85
+    }
+  },
+  "men_no_sneakers": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men"
+    },
+    "global": {
+      "forbiddenTerms": ["sneaker", "trainers"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["blazer", "shirt", "jacket"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "preferredColoursAny": ["black"]
+      },
+      "shoes": {
+        "forbiddenFamilies": ["sneakers", "active_shoes"],
+        "requiredFamiliesAny": ["loafers", "derbies", "oxfords", "boots_refined", "boots"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["sneaker", "trainers"]
+    },
+    "color": {
+      "selectionColoursAny": ["black"]
+    }
+  },
+  "women_no_pink_floral": {
+    "selectionForm": "mono_shoes",
+    "intent": {
+      "requestedForm": "mono_shoes",
+      "targetGender": "women"
+    },
+    "global": {
+      "forbiddenTerms": ["pink", "floral"]
+    },
+    "selection": {
+      "mono": {
+        "requiredFamiliesAny": ["dress"],
+        "forbiddenTerms": ["pink", "floral"]
+      },
+      "shoes": {
+        "forbiddenFamilies": ["active_shoes", "sneakers"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["pink", "floral"]
+    },
+    "color": {
+      "forbiddenColours": ["pink"]
+    }
+  },
+  "men_kanye": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "semanticSubjectKindsAny": ["persona"],
+      "styleAxesAny": ["streetwear", "minimalist", "utilitarian", "avant garde"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["hoodie", "jacket", "tee", "knitwear"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["cargo", "trousers", "jeans"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "boots"]
+      }
+    },
+    "persona": {
+      "requirePersonaIntent": true,
+      "styleAxesAny": ["streetwear", "minimalist", "utilitarian", "avant garde"],
+      "softBrandPriorsAny": ["yeezy", "balenciaga", "gap"]
+    }
+  },
+  "women_princess_diana": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "semanticSubjectKindsAny": ["persona"],
+      "styleAxesAny": ["classic", "preppy", "sporty", "polished"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "blazer", "cardigan", "hoodie"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "shorts", "skirt", "jeans"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "loafers", "boots", "pumps"]
+      }
+    },
+    "persona": {
+      "requirePersonaIntent": true,
+      "styleAxesAny": ["classic", "preppy", "sporty", "polished"]
+    }
+  },
+  "men_barca": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "sportContext": "football",
+      "semanticSubjectKindsAny": ["team", "theme"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["jersey"],
+        "requiredTermsAny": ["barca", "barcelona", "jersey"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["shorts", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["cleats", "active_shoes", "sneakers"]
+      }
+    }
+  },
+  "women_gym": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "sportContext": "gym"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["active_top", "tee", "hoodie"],
+        "forbiddenFamilies": ["blazer", "dress"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["active_bottom", "leggings", "shorts", "joggers"],
+        "forbiddenFamilies": ["jeans", "trousers", "skirt"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["active_shoes", "sneakers"],
+        "forbiddenFamilies": ["heels", "pumps", "loafers", "boat_shoes"]
+      }
+    }
+  },
+  "men_all_black_streetwear": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "vibeTagsAny": ["streetwear", "edgy"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["hoodie", "tee", "jacket"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["jeans", "cargo", "trousers"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "boots"]
+      }
+    },
+    "color": {
+      "selectionColoursAny": ["black"]
+    },
+    "diversity": {
+      "minUniqueOutfits": 2,
+      "slotTargets": { "top": 2, "bottom": 2, "shoes": 2 }
+    }
+  },
+  "women_cream_monochrome": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women"
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "cardigan", "blazer"],
+        "preferredColoursAny": ["cream", "beige", "white"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "skirt"],
+        "preferredColoursAny": ["cream", "beige", "white"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["heels", "pumps", "boots_refined", "loafers"],
+        "preferredColoursAny": ["cream", "beige", "white"]
+      }
+    },
+    "color": {
+      "selectionColoursAny": ["cream", "beige", "white"]
+    }
+  },
+  "men_clean_minimal_variety": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "styleAxesAny": ["minimal", "clean", "modern", "relaxed"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "tee", "knitwear", "jacket", "blazer"],
+        "forbiddenFamilies": ["jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "jeans", "chinos", "cargo"],
+        "forbiddenFamilies": ["active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "loafers", "boots_refined", "derbies", "boots"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    },
+    "diversity": {
+      "minUniqueOutfits": 2,
+      "slotTargets": { "top": 2, "bottom": 2, "shoes": 2 }
+    }
+  },
+  "women_elevated_casual_variety": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "styleAxesAny": ["casual", "polished", "contemporary", "minimal"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "tee", "knitwear", "jacket", "cardigan", "blazer"],
+        "forbiddenFamilies": ["jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "jeans", "skirt", "leggings"],
+        "forbiddenFamilies": ["active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "loafers", "boots", "heels", "pumps", "boots_refined"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    },
+    "diversity": {
+      "minUniqueOutfits": 2,
+      "slotTargets": { "top": 2, "bottom": 2, "shoes": 2 }
+    }
+  },
+  "men_no_denim_smart_casual": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "occasionTagsAny": ["smart_casual", "formal"],
+      "vibeTagsAny": ["minimal", "chic", "preppy"]
+    },
+    "global": {
+      "forbiddenTerms": ["denim", "jeans"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "blazer", "jacket"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "forbiddenFamilies": ["jeans"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "derbies", "oxfords", "boots_refined", "boots"],
+        "forbiddenFamilies": ["sneakers", "active_shoes"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["denim", "jeans"]
+    }
+  },
+  "women_office_no_heels": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "occasionTagsAny": ["office", "smart_casual", "formal"],
+      "vibeTagsAny": ["polished", "minimal", "formal"]
+    },
+    "global": {
+      "forbiddenTerms": ["heel", "heels", "pump", "pumps"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "blazer", "knitwear", "cardigan", "jacket"],
+        "forbiddenFamilies": ["hoodie", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "skirt"],
+        "forbiddenFamilies": ["jeans", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "boots_refined", "boots"],
+        "forbiddenFamilies": ["heels", "pumps", "sandals", "active_shoes"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["heel", "heels", "pump", "pumps"]
+    }
+  },
+  "men_playboi_carti": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "semanticSubjectKindsAny": ["persona"],
+      "styleAxesAny": ["streetwear", "edgy", "avant garde", "goth", "punk"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["hoodie", "tee", "jacket", "knitwear"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["jeans", "cargo", "trousers"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "boots"]
+      }
+    },
+    "persona": {
+      "requirePersonaIntent": true,
+      "styleAxesAny": ["streetwear", "edgy", "avant garde", "goth", "punk"]
+    }
+  },
+  "women_rihanna": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "semanticSubjectKindsAny": ["persona"],
+      "styleAxesAny": ["edgy", "streetwear", "glamorous", "fashion forward", "bold"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["jacket", "shirt", "tee", "knitwear", "blazer"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "jeans", "skirt", "leggings"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["boots", "heels", "pumps", "sneakers", "boots_refined"]
+      }
+    },
+    "persona": {
+      "requirePersonaIntent": true,
+      "styleAxesAny": ["edgy", "streetwear", "glamorous", "fashion forward", "bold"]
+    }
+  },
+  "men_quiet_luxury_summer_dinner": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "vibeTagsAny": ["minimal", "chic", "formal", "preppy"],
+      "occasionTagsAny": ["smart_casual", "formal"],
+      "styleAxesAny": ["minimal", "classic", "tailored", "refined"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "polo", "knitwear", "cardigan"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "forbiddenFamilies": ["jeans", "active_bottom", "shorts"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "boat_shoes", "derbies", "oxfords", "boots_refined"],
+        "forbiddenFamilies": ["sneakers", "active_shoes"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    }
+  },
+  "women_off_duty_model": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "styleAxesAny": ["minimal", "casual", "contemporary", "relaxed"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["tee", "shirt", "jacket", "blazer", "knitwear"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["jeans", "trousers", "leggings", "skirt"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "boots", "loafers", "heels"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    },
+    "diversity": {
+      "minUniqueOutfits": 2,
+      "slotTargets": { "top": 2, "bottom": 2, "shoes": 2 }
+    }
+  },
+  "men_gorp_clean": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "styleAxesAny": ["technical", "utilitarian", "clean", "minimal", "outdoor"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["jacket", "tee", "hoodie"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["cargo", "trousers", "joggers"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["boots", "sneakers", "active_shoes"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 1 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    }
+  },
+  "women_zendaya_airport": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "semanticSubjectKindsAny": ["persona"],
+      "styleAxesAny": ["minimal", "polished", "contemporary", "relaxed"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "tee", "knitwear", "jacket", "blazer"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "jeans", "leggings", "joggers"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "boots", "loafers", "pumps"]
+      }
+    },
+    "persona": {
+      "requirePersonaIntent": true,
+      "styleAxesAny": ["minimal", "polished", "contemporary", "relaxed"]
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    }
+  },
+  "men_gallery_opening_not_streetwear": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "styleAxesAny": ["minimal", "modern", "refined", "tailored"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "knitwear", "blazer", "jacket"],
+        "forbiddenFamilies": ["hoodie", "jersey", "active_top"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "chinos"],
+        "forbiddenFamilies": ["jeans", "active_bottom"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["loafers", "derbies", "oxfords", "boots_refined"],
+        "forbiddenFamilies": ["sneakers", "active_shoes"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["streetwear", "hoodie", "sneaker"]
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 1 }
+    }
+  },
+  "women_mob_wife_toned_down": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "styleAxesAny": ["glamorous", "polished", "fitted", "dramatic"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "blazer", "jacket", "knitwear", "cardigan"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "skirt", "jeans"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["heels", "pumps", "boots_refined", "loafers"]
+      }
+    },
+    "pools": {
+      "top": { "minRelevant": 2 },
+      "bottom": { "minRelevant": 2 },
+      "shoes": { "minRelevant": 2 }
+    },
+    "diversity": {
+      "minUniqueOutfits": 2,
+      "slotTargets": { "top": 2, "bottom": 2, "shoes": 2 }
+    }
+  },
+  "men_asap_rocky": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "men",
+      "semanticSubjectKindsAny": ["persona"],
+      "styleAxesAny": ["streetwear", "fashion forward", "tailored", "experimental", "layered"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["jacket", "shirt", "tee", "knitwear", "blazer"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "jeans", "cargo"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "boots", "loafers"]
+      }
+    },
+    "persona": {
+      "requirePersonaIntent": true,
+      "styleAxesAny": ["streetwear", "fashion forward", "tailored", "experimental", "layered"]
+    }
+  },
+  "women_no_logos_minimal": {
+    "selectionForm": "top_bottom_shoes",
+    "intent": {
+      "requestedForm": "top_bottom_shoes",
+      "targetGender": "women",
+      "styleAxesAny": ["minimal", "clean", "modern", "polished"]
+    },
+    "global": {
+      "forbiddenTerms": ["logo", "graphic"]
+    },
+    "selection": {
+      "top": {
+        "requiredFamiliesAny": ["shirt", "tee", "knitwear", "blazer", "jacket"],
+        "forbiddenTerms": ["logo", "graphic"]
+      },
+      "bottom": {
+        "requiredFamiliesAny": ["trousers", "jeans", "skirt"],
+        "forbiddenTerms": ["logo", "graphic"]
+      },
+      "shoes": {
+        "requiredFamiliesAny": ["sneakers", "loafers", "boots", "heels", "boots_refined"],
+        "forbiddenTerms": ["logo", "graphic"]
+      }
+    },
+    "negation": {
+      "forbiddenTerms": ["logo", "graphic"]
+    }
+  }
+}

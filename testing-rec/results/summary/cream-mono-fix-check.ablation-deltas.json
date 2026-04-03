@@ -1,0 +1,272 @@
+[
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "selection",
+    "meanDelta": 0.0004814814814815049,
+    "ciLow": -0.023592592592592564,
+    "ciHigh": 0.022148148148148184,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "semantic",
+    "meanDelta": 0.050240740740740766,
+    "ciLow": -0.0033703703703704237,
+    "ciHigh": 0.13916666666666663,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "color",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "persona",
+    "meanDelta": 0.8666666666666667,
+    "ciLow": 0.8666666666666667,
+    "ciHigh": 0.8666666666666667,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "pool_quality",
+    "meanDelta": 0.024074074074074248,
+    "ciLow": 0.024074074074074248,
+    "ciHigh": 0.024074074074074248,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "diversity",
+    "meanDelta": 0.5,
+    "ciLow": 0.5,
+    "ciHigh": 0.5,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "progression",
+    "meanDelta": 0.03239154795821464,
+    "ciLow": 0.012839506172839465,
+    "ciHigh": 0.05194358974358981,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "overall_cases",
+    "meanDelta": 0.06592364672364674,
+    "ciLow": 0.00007141093474417981,
+    "ciHigh": 0.15553156966490306,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.15783492138862512,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 7
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "selection",
+    "meanDelta": -0.0043333333333333,
+    "ciLow": -0.023592592592592564,
+    "ciHigh": 0.014444444444444482,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semantic",
+    "meanDelta": -0.002166666666666672,
+    "ciLow": -0.012037037037037046,
+    "ciHigh": 0.0072342592592593334,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "color",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "persona",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "pool_quality",
+    "meanDelta": 0.024074074074074248,
+    "ciLow": 0.024074074074074248,
+    "ciHigh": 0.024074074074074248,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "diversity",
+    "meanDelta": 0.5,
+    "ciLow": 0.5,
+    "ciHigh": 0.5,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "progression",
+    "meanDelta": 0.03239154795821464,
+    "ciLow": 0.012839506172839465,
+    "ciHigh": 0.05194358974358981,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_cases",
+    "meanDelta": 0.010396581196581222,
+    "ciLow": -0.016225749559082913,
+    "ciHigh": 0.04452307692307696,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.04871557982483912,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 7
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "selection",
+    "meanDelta": 0.01251851851851853,
+    "ciLow": -0.023135185185185137,
+    "ciHigh": 0.04814814814814812,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "semantic",
+    "meanDelta": 0.05625925925925927,
+    "ciLow": -0.010592592592592598,
+    "ciHigh": 0.1731111111111111,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "color",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "persona",
+    "meanDelta": 0.8666666666666667,
+    "ciLow": 0.8666666666666667,
+    "ciHigh": 0.8666666666666667,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "pool_quality",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "diversity",
+    "meanDelta": 0.5,
+    "ciLow": 0.5,
+    "ciHigh": 0.5,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "progression",
+    "meanDelta": 0.02402735042735038,
+    "ciLow": 0,
+    "ciHigh": 0.04805470085470076,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "overall_cases",
+    "meanDelta": 0.07080900827567496,
+    "ciLow": -0.008747795414462134,
+    "ciHigh": 0.19093544973544965,
+    "units": 5
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.1576377334599557,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 7
+  }
+]

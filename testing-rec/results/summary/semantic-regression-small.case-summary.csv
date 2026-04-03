@@ -1,0 +1,7 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,auto_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,2,2,1,20433,0.8013888888888888,0.9006944444444445,,,,0.513888888888889,,0.9166666666666667,0.7797863247863247,0.027588500000000002,0
+internal,auto_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,1,1,1,40140,0.8555555555555555,0.9277777777777778,,,,,,,0.8899470899470898,0.013972,0
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,1,1,1,531,1,1,,,1,,,,1,0.028928,0
+internal,auto_hybrid,men_barca,Barca soccer outfit,men,top_bottom_shoes,core,1,1,1,41994,1,1,,,,,,,1,0.004786,0
+internal,auto_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,1,1,1,42463,1,1,,,,,,,1,0.019027,0.066667
+internal,auto_hybrid,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,2,2,1,323.5,0.8916666666666667,0.9458333333333333,,1,,,,0.5,0.8755555555555558,0.0557055,0

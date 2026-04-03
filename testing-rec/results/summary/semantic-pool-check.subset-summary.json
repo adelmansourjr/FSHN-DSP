@@ -1,0 +1,62 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "subsetId": "all",
+    "caseCount": 26,
+    "overall": 0.8224378174603175,
+    "selection": 0.8667111111111112,
+    "semantic": 0.8760222222222223,
+    "pool_quality": 0.6428587962962963,
+    "diversity": 0.8333333333333333,
+    "successRate": 0.9615384615384616,
+    "meanLatencyMs": 2511.6373333333336,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "all",
+    "caseCount": 26,
+    "overall": 0.8229193121693121,
+    "selection": 0.8547222222222223,
+    "semantic": 0.8700277777777776,
+    "pool_quality": 0.6273611111111111,
+    "diversity": 0.9166666666666667,
+    "successRate": 0.9615384615384616,
+    "meanLatencyMs": 866.8426666666668,
+    "semanticShare": 0.06851468266666666,
+    "semanticFrontierShare": 0.0026666800000000003
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 10,
+    "overall": 0.7486658393788979,
+    "selection": 0.880432098765432,
+    "semantic": 0.8892901234567899,
+    "pool_quality": 0.6976851851851852,
+    "diversity": 0.8333333333333333,
+    "successRate": 0.9,
+    "meanLatencyMs": 264.19259259259263,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 10,
+    "overall": 0.744941135293369,
+    "selection": 0.8539506172839506,
+    "semantic": 0.8760493827160494,
+    "pool_quality": 0.6856481481481481,
+    "diversity": 0.9166666666666667,
+    "successRate": 0.9,
+    "meanLatencyMs": 375.3555555555555,
+    "semanticShare": 0.03219096296296296,
+    "semanticFrontierShare": 0
+  }
+]

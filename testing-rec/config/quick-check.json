@@ -1,0 +1,69 @@
+{
+  "internal": {
+    "indexPath": "tryon-local/recommender-assets/index.json",
+    "embeddingSidecarPath": "tryon-local/recommender-assets/index.embeddings.json",
+    "projectEnvKeys": ["RECOMMENDER_PROJECT", "GOOGLE_CLOUD_PROJECT", "GCLOUD_PROJECT"],
+    "location": "global",
+    "model": "gemini-2.5-flash",
+    "embeddingModel": "gemini-embedding-001",
+    "geminiTimeoutMs": 20000,
+    "poolSize": 12,
+    "perRoleLimit": 36,
+    "epsilon": 0.08,
+    "jitter": 0.03,
+    "seed": null,
+    "bypassParseCache": false,
+    "bypassEmbeddingCache": false,
+    "debug": false
+  },
+  "route": {
+    "enabled": false,
+    "url": null,
+    "poolSize": 12,
+    "perRoleLimit": 36,
+    "timeoutMs": 120000
+  },
+  "repeats": {
+    "standard": 1,
+    "determinism": 2,
+    "diversity": 2
+  },
+  "bootstrapIterations": 200,
+  "weights": {
+    "selection": 0.22,
+    "semantic": 0.2,
+    "negation": 0.12,
+    "color": 0.1,
+    "persona": 0.1,
+    "pool_quality": 0.15,
+    "deterministic": 0.08,
+    "progression": 0.05,
+    "diversity": 0.08
+  },
+  "configs": [
+    {
+      "id": "heuristic_off",
+      "surface": "internal",
+      "parserMode": "heuristic",
+      "embeddingMode": "off"
+    },
+    {
+      "id": "auto_off",
+      "surface": "internal",
+      "parserMode": "auto",
+      "embeddingMode": "off"
+    },
+    {
+      "id": "heuristic_hybrid",
+      "surface": "internal",
+      "parserMode": "heuristic",
+      "embeddingMode": "hybrid"
+    },
+    {
+      "id": "auto_hybrid",
+      "surface": "internal",
+      "parserMode": "auto",
+      "embeddingMode": "hybrid"
+    }
+  ]
+}

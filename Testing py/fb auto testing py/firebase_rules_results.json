@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-04-03T20:59:18.262Z",
+  "checks": [
+    {
+      "check_id": "unauthenticated_user_write_denied",
+      "name": "Unauthenticated clients cannot create user profiles",
+      "status": "PASS",
+      "summary": "Unauthenticated clients cannot create user profiles",
+      "details": ""
+    },
+    {
+      "check_id": "unauthenticated_profile_pic_upload_denied",
+      "name": "Unauthenticated clients cannot upload profile pictures",
+      "status": "PASS",
+      "summary": "Unauthenticated clients cannot upload profile pictures",
+      "details": ""
+    },
+    {
+      "check_id": "immutable_date_of_birth_update_denied",
+      "name": "Users cannot change date of birth after profile creation",
+      "status": "PASS",
+      "summary": "Users cannot change date of birth after profile creation",
+      "details": ""
+    },
+    {
+      "check_id": "immutable_username_update_denied",
+      "name": "Users cannot change username through direct profile writes",
+      "status": "PASS",
+      "summary": "Users cannot change username through direct profile writes",
+      "details": ""
+    },
+    {
+      "check_id": "counterfeit_followers_count_denied",
+      "name": "Counterfeit followersCount updates are rejected",
+      "status": "PASS",
+      "summary": "Counterfeit followersCount updates are rejected",
+      "details": ""
+    },
+    {
+      "check_id": "counterfeit_listing_like_count_denied",
+      "name": "Counterfeit listing likeCount updates are rejected",
+      "status": "PASS",
+      "summary": "Counterfeit listing likeCount updates are rejected",
+      "details": ""
+    },
+    {
+      "check_id": "batched_followers_increment_allowed",
+      "name": "Valid batched follow edge writes can increment followersCount",
+      "status": "PASS",
+      "summary": "Valid batched follow edge writes can increment followersCount",
+      "details": ""
+    },
+    {
+      "check_id": "batched_listing_like_increment_allowed",
+      "name": "Valid batched liker edge writes can increment listing likeCount",
+      "status": "PASS",
+      "summary": "Valid batched liker edge writes can increment listing likeCount",
+      "details": ""
+    },
+    {
+      "check_id": "listing_soft_remove_denied",
+      "name": "Seller clients cannot write moderation removal fields on listings",
+      "status": "PASS",
+      "summary": "Seller clients cannot write moderation removal fields on listings",
+      "details": ""
+    },
+    {
+      "check_id": "blocked_profile_read_denied",
+      "name": "Blocked users cannot read each other’s profile documents",
+      "status": "PASS",
+      "summary": "Blocked users cannot read each other’s profile documents",
+      "details": ""
+    },
+    {
+      "check_id": "blocked_profile_picture_read_denied",
+      "name": "Blocked users cannot read blocked profile pictures from Storage",
+      "status": "PASS",
+      "summary": "Blocked users cannot read blocked profile pictures from Storage",
+      "details": ""
+    },
+    {
+      "check_id": "stripe_customer_write_denied",
+      "name": "Clients cannot write Stripe customer state documents",
+      "status": "PASS",
+      "summary": "Clients cannot write Stripe customer state documents",
+      "details": ""
+    },
+    {
+      "check_id": "checkout_session_write_denied",
+      "name": "Clients cannot create checkout session documents directly",
+      "status": "PASS",
+      "summary": "Clients cannot create checkout session documents directly",
+      "details": ""
+    },
+    {
+      "check_id": "order_create_denied",
+      "name": "Clients cannot create order documents directly",
+      "status": "PASS",
+      "summary": "Clients cannot create order documents directly",
+      "details": ""
+    },
+    {
+      "check_id": "buyer_cannot_mark_order_shipped",
+      "name": "Buyers cannot forge seller-only shipment state transitions",
+      "status": "PASS",
+      "summary": "Buyers cannot forge seller-only shipment state transitions",
+      "details": ""
+    },
+    {
+      "check_id": "seller_can_mark_order_shipped",
+      "name": "Sellers can perform the allowed paid-to-shipped transition",
+      "status": "PASS",
+      "summary": "Sellers can perform the allowed paid-to-shipped transition",
+      "details": ""
+    }
+  ]
+}

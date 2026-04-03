@@ -1,0 +1,58 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "groupId": "men_old_money",
+    "stages": 1,
+    "score": 0.746448717948718
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "groupId": "men_old_money",
+    "stages": 1,
+    "score": 0.7177307692307693
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "groupId": "men_old_money",
+    "stages": 1,
+    "score": 0.764517094017094
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "groupId": "men_old_money",
+    "stages": 1,
+    "score": 0.7551837606837606
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "groupId": "women_dinner",
+    "stages": 1,
+    "score": 0.8229629629629629
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "groupId": "women_dinner",
+    "stages": 1,
+    "score": 0.8229629629629629
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "groupId": "women_dinner",
+    "stages": 1,
+    "score": 0.8229629629629629
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "groupId": "women_dinner",
+    "stages": 1,
+    "score": 0.8229629629629629
+  }
+]

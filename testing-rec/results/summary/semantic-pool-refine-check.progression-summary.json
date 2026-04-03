@@ -1,0 +1,16 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "groupId": "men_old_money",
+    "stages": 1,
+    "score": 0.8262008547008546
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "groupId": "women_dinner",
+    "stages": 1,
+    "score": 0.8614814814814813
+  }
+]

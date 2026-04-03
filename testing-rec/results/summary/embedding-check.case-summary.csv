@@ -1,0 +1,17 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall
+internal,heuristic_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,13387,0.8916666666666667,0.6958333333333333,,,0.13333333333333333,,,,0.6705128205128205
+internal,auto_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,286,1,1,,,1,,,,1
+internal,heuristic_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,371.6666666666667,0.8916666666666667,0.6958333333333333,,,0.13333333333333333,,,,0.6705128205128205
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,462,0.9638888888888889,0.9819444444444444,,,1,,,,0.9777777777777779
+internal,heuristic_off,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,13332.333333333334,0.8916666666666667,0.6958333333333333,,,0,,,,0.6448717948717949
+internal,auto_off,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,244,0.8916666666666667,0.9458333333333333,,,1,,,,0.9333333333333335
+internal,heuristic_hybrid,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,300.3333333333333,0.9638888888888889,0.7319444444444444,,,0,,,,0.6893162393162393
+internal,auto_hybrid,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,314.3333333333333,0.8916666666666667,0.9458333333333333,,,1,,,,0.9333333333333335
+internal,heuristic_off,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,231.66666666666666,0.8916666666666667,0.7791666666666667,,,,0.8333333333333334,,,0.8368421052631578
+internal,auto_off,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,869.3333333333334,0.8916666666666667,0.7791666666666667,,,,0.8333333333333334,,,0.8368421052631578
+internal,heuristic_hybrid,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,907,0.8916666666666667,0.7791666666666667,,,,0.8333333333333334,,,0.8368421052631578
+internal,auto_hybrid,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,1513,0.8916666666666667,0.7791666666666667,,,,0.8333333333333334,,,0.8368421052631578
+internal,heuristic_off,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,273.3333333333333,0.8916666666666667,0.7791666666666667,,,,1,,,0.8807017543859649
+internal,auto_off,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,901,0.8555555555555556,0.7611111111111111,,,,1,,,0.8604288499025341
+internal,heuristic_hybrid,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,957,0.9638888888888889,0.8152777777777777,,,,1,,,0.9212475633528263
+internal,auto_hybrid,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,1568.3333333333333,0.8916666666666667,0.7791666666666667,,,,1,,,0.8807017543859649

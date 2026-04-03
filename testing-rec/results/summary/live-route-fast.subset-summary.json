@@ -1,0 +1,32 @@
+[
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "subsetId": "all",
+    "caseCount": 4,
+    "overall": 0.9293333333333335,
+    "selection": 0.9819444444444444,
+    "semantic": 0.9909722222222221,
+    "pool_quality": 0.9518518518518517,
+    "diversity": 0.5,
+    "successRate": 1,
+    "meanLatencyMs": 20001.75,
+    "semanticShare": 0.01618825,
+    "semanticFrontierShare": 0.0605635
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 1,
+    "overall": 1,
+    "selection": 1,
+    "semantic": 1,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 13896,
+    "semanticShare": 0.027031,
+    "semanticFrontierShare": 0.196078
+  }
+]

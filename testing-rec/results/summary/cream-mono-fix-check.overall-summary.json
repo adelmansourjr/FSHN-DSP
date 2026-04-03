@@ -1,0 +1,42 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "overall": 0.78840522875817,
+    "successRate": 1,
+    "meanLatencyMs": 16923.68,
+    "progression": 0.8216652421652421,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "overall": 0.9039433551198257,
+    "successRate": 1,
+    "meanLatencyMs": 7562.5199999999995,
+    "progression": 0.8216652421652421,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "overall": 0.7881220043572986,
+    "successRate": 1,
+    "meanLatencyMs": 7836.093333333333,
+    "progression": 0.8300294396961063,
+    "semanticShare": 0.020985053333333333,
+    "semanticFrontierShare": 0.05763900000000001
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "overall": 0.9536191721132897,
+    "successRate": 1,
+    "meanLatencyMs": 17751.840000000004,
+    "progression": 0.8540567901234567,
+    "semanticShare": 0.021033773333333332,
+    "semanticFrontierShare": 0.027005400000000002
+  }
+]

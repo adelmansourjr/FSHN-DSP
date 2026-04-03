@@ -1,0 +1,30 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "groupId": "men_old_money",
+    "stages": 3,
+    "score": 0.6531265081990888
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "groupId": "men_old_money",
+    "stages": 3,
+    "score": 0.6526974687200493
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "groupId": "women_dinner",
+    "stages": 3,
+    "score": 0.8322126480221717
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "groupId": "women_dinner",
+    "stages": 3,
+    "score": 0.8322126480221717
+  }
+]

@@ -1,0 +1,11 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,deterministic,diversity,overall
+internal,heuristic_off,men_old_money_stage1,Old money fit,men,top_bottom_shoes,5,5,1,8253.4,0.8013888888888887,0.9006944444444445,,,,,0.8333333333333333,0.8473583877995643
+internal,heuristic_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,5,5,1,1071,0.8447222222222222,0.9223611111111112,,,,,0.8333333333333333,0.8770969498910675
+internal,heuristic_off,men_old_money_stage2,Old money fit with a cream knit polo and tailored trousers,men,top_bottom_shoes,5,5,1,149.2,0.5402777777777777,0.6701388888888888,,,,1,,0.6612911522633746
+internal,heuristic_hybrid,men_old_money_stage2,Old money fit with a cream knit polo and tailored trousers,men,top_bottom_shoes,5,5,1,803.4,0.5402777777777777,0.6701388888888888,,,,1,,0.6612911522633746
+internal,heuristic_off,men_old_money_stage3,"Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",men,top_bottom_shoes,5,5,1,162.4,0.7544444444444445,0.8772222222222222,1,,,1,,0.8736111111111112
+internal,heuristic_hybrid,men_old_money_stage3,"Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",men,top_bottom_shoes,5,5,1,823.4,0.7544444444444445,0.8772222222222222,1,,,1,,0.8736111111111112
+internal,heuristic_off,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,3,3,1,13412.333333333334,0.8555555555555555,0.9277777777777777,,,,,,0.8900966183574879
+internal,heuristic_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,3,3,1,950.3333333333334,0.8555555555555555,0.9277777777777777,,,,,,0.8900966183574879
+internal,heuristic_off,women_dinner_stage2,Elegant dinner date outfit with heels,women,top_bottom_shoes,5,5,1,248.4,0.8555555555555555,0.9277777777777778,,,,1,,0.9063786008230454
+internal,heuristic_hybrid,women_dinner_stage2,Elegant dinner date outfit with heels,women,top_bottom_shoes,5,5,1,982,0.8555555555555555,0.9277777777777778,,,,1,,0.9063786008230454

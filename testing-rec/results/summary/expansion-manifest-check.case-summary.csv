@@ -1,0 +1,7 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,auto_hybrid,men_clean_minimal_variety,Clean minimal outfit,men,top_bottom_shoes,expansion|embedding_sensitive,2,2,1,48162,0.9277777777777777,0.9638888888888888,,,,0.9398148148148148,,0.9166666666666667,0.9402991452991454,0.0550505,0
+internal,auto_hybrid,women_elevated_casual_variety,Elevated casual fit,women,top_bottom_shoes,expansion|embedding_sensitive,2,2,1,24586.5,1,0.8333333333333333,,,,0.9638888888888889,,0.8333333333333333,0.9198717948717948,0.05534699999999999,0
+internal,auto_hybrid,men_no_denim_smart_casual,Smart casual outfit with no denim,men,top_bottom_shoes,expansion,1,1,1,43996,1,1,1,,,,,,1,0.019103,0
+internal,auto_hybrid,women_office_no_heels,Modern office outfit with no heels,women,top_bottom_shoes,expansion,1,1,1,44022,0.8555555555555555,0.6777777777777778,0.7,,,,,,0.7551440329218106,0.016971,0
+internal,auto_hybrid,men_playboi_carti,Playboi Carti fit,men,top_bottom_shoes,expansion|embedding_sensitive,1,1,1,5725,1,0.875,,,0.5,,,,0.8557692307692307,0.053975,0
+internal,auto_hybrid,women_rihanna,Rihanna fit,women,top_bottom_shoes,expansion|embedding_sensitive,1,1,1,5770,1,0.75,,,0,,,,0.7115384615384615,0.054713,0

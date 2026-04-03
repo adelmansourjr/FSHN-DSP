@@ -1,0 +1,14 @@
+surface,subsetId,baselineConfig,comparatorConfig,metric,meanDelta
+internal,all,auto_hybrid,auto_off,overall,0.1586483390607102
+internal,all,auto_hybrid,auto_off,selection,0.03611111111111098
+internal,all,auto_hybrid,auto_off,semantic,0.018055555555555602
+internal,all,auto_hybrid,auto_off,pool_quality,0.16666666666666663
+internal,all,auto_hybrid,auto_off,diversity,0.41666666666666674
+internal,all,auto_hybrid,auto_off,semanticShare,0.021766999999999998
+internal,all,auto_hybrid,auto_off,semanticFrontierShare,0.03970033333333334
+internal,embedding_sensitive,auto_hybrid,auto_off,overall,0.16381606325426545
+internal,embedding_sensitive,auto_hybrid,auto_off,selection,0.04814814814814816
+internal,embedding_sensitive,auto_hybrid,auto_off,semantic,0.024074074074073915
+internal,embedding_sensitive,auto_hybrid,auto_off,pool_quality,0.3092592592592591
+internal,embedding_sensitive,auto_hybrid,auto_off,semanticShare,0.030961
+internal,embedding_sensitive,auto_hybrid,auto_off,semanticFrontierShare,0.06380333333333334

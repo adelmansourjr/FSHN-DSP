@@ -1,0 +1,12 @@
+{
+  "name": "fshn-firebase-rules-tests",
+  "private": true,
+  "scripts": {
+    "prepare:rules": "node prepare_rules.cjs",
+    "test:rules": "npm run prepare:rules && firebase emulators:exec --project demo-fshn-rules --config firebase.json --only firestore,storage \"node run_firebase_rules_tests.cjs\""
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^4.0.1",
+    "firebase-tools": "^14.3.1"
+  }
+}

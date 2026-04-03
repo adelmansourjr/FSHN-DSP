@@ -1,0 +1,128 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "selection",
+    "mean": 0.7833333333333333,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "semantic",
+    "mean": 0.8916666666666666,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "negation",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "color",
+    "mean": 1,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "persona",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "pool_quality",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "deterministic",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "diversity",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "progression",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "selection",
+    "mean": 0.7833333333333333,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "semantic",
+    "mean": 0.8916666666666666,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "negation",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "color",
+    "mean": 1,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "persona",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "pool_quality",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "deterministic",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "diversity",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "progression",
+    "mean": null,
+    "cases": 0
+  }
+]

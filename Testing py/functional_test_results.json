@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-04-03T22:45:32+0200",
+  "checks": [
+    {
+      "check_id": "firebase_rules_suite",
+      "name": "Firebase Security Rules Suite",
+      "area": "Firebase security rules",
+      "check_type": "executed",
+      "status": "PASS",
+      "summary": "Emulator-backed Firestore and Storage rules checks covered unauthenticated writes, immutable fields, counterfeit counters, blocked access, and payment-state protection.",
+      "evidence": "16/16 rule checks passed.",
+      "details": "All rules checks passed."
+    },
+    {
+      "check_id": "ts_compile_logic_modules",
+      "name": "Compile Runnable Logic Modules",
+      "area": "Harness",
+      "check_type": "executed",
+      "status": "FAIL",
+      "summary": "Failed to compile runnable TypeScript logic modules.",
+      "evidence": "shippingAddress.ts, listingEditor.ts, feedRanking.ts",
+      "details": "src/data/catalog.ts(2,33): error TS2732: Cannot find module './index.json'. Consider using '--resolveJsonModule' to import module with '.json' extension.\nsrc/data/catalog.ts(3,33): error TS2732: Cannot find module './index.classifiedfarfetch.json'. Consider using '--resolveJsonModule' to import module with '.json' extension.\nsrc/data/catalog.ts(124,40): error TS2550: Property 'replaceAll' does not exist on type 'string'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2021' or later."
+    },
+    {
+      "check_id": "shipping_address_logic",
+      "name": "Shipping Address Logic",
+      "area": "Authentication and profile persistence",
+      "check_type": "executed",
+      "status": "PASS",
+      "summary": "Shipping address sanitization, completeness gating, equality, and formatting behaved as expected.",
+      "evidence": "{\"completeOk\":true,\"incompleteOk\":false,\"equalOk\":true,\"formatted\":\"1 Main \u2022 London, SW1A \u2022 UK\"}",
+      "details": ""
+    },
+    {
+      "check_id": "listing_editor_logic",
+      "name": "Listing Editor Normalization Logic",
+      "area": "Listing creation and browsing",
+      "check_type": "executed",
+      "status": "PASS",
+      "summary": "Listing editor state cloning trimmed fields, de-duplicated tags, and detected meaningful listing content.",
+      "evidence": "{\"emptyHasContent\":false,\"filledHasContent\":true,\"title\":\"Jacket\",\"tags\":[\"Denim\",\"Blue\"],\"remotePhoto\":true}",
+      "details": ""
+    },
+    {
+      "check_id": "feed_ranking_logic",
+      "name": "Feed Ranking Logic",
+      "area": "Post publishing and feed display",
+      "check_type": "executed",
+      "status": "PASS",
+      "summary": "Feed ranking updated impression and like state, then ranked the stronger liked post first.",
+      "evidence": "{\"ranked\":[\"p1\",\"p2\"],\"postRecords\":2,\"authorRecords\":2}",
+      "details": ""
+    },
+    {
+      "check_id": "live_service_checks",
+      "name": "Live Service Checks",
+      "area": "Harness",
+      "check_type": "executed",
+      "status": "NEEDS_MORE",
+      "summary": "Live HTTP smoke checks were skipped. Run with --live to exercise local service routes.",
+      "evidence": "Skipped by flag",
+      "details": ""
+    },
+    {
+      "check_id": "auth_profile_wiring",
+      "name": "Auth and Profile Wiring",
+      "area": "Authentication and profile persistence",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Sign-in, sign-up, profile creation, and profile update wiring are present in app code.",
+      "evidence": "src/context/AuthContext.tsx:4, src/context/AuthContext.tsx:6, src/lib/firebaseUsers.ts:253, src/lib/firebaseUsers.ts:257",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    },
+    {
+      "check_id": "wardrobe_tagging_wiring",
+      "name": "Wardrobe Creation and Tagging Wiring",
+      "area": "Wardrobe item creation and tagging",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Closet persistence, classifier tagging, and upload auto-fill hooks are wired.",
+      "evidence": "src/screens/ProfileScreen.tsx:72, src/screens/ProfileScreen.tsx:73, src/utils/localClassifier.ts:115, src/screens/UploadScreen.tsx:409",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    },
+    {
+      "check_id": "recommender_pipeline_wiring",
+      "name": "Prompt Recommendation Wiring",
+      "area": "Prompt recommendation outputs for multiple prompt types",
+      "check_type": "source-backed",
+      "status": "FAIL",
+      "summary": "Prompt recommendation client and local recommender route are wired.",
+      "evidence": "src/utils/localRecommender.ts:36, src/screens/StudioScreen.tsx:missing, tryon-local/serve.mjs:3229",
+      "details": "One or more expected implementation anchors were missing."
+    },
+    {
+      "check_id": "tryon_pipeline_wiring",
+      "name": "Try-On Pipeline Wiring",
+      "area": "Try-on generation for each supported role",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Supported try-on roles and the client-to-server pipeline are wired.",
+      "evidence": "src/tryon/types.ts:2, src/tryon/TryOnEngine.ts:169, src/tryon/providers/googleTryOn.ts:139, tryon-local/serve.mjs:3575",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    },
+    {
+      "check_id": "listing_publish_wiring",
+      "name": "Listing Publish Wiring",
+      "area": "Listing creation and browsing",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Listing creation, update, and browse queries are wired.",
+      "evidence": "src/lib/firebaseListings.ts:133, src/lib/firebaseListings.ts:167, src/screens/UploadScreen.tsx:581, src/screens/HomeScreen.tsx:234",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    },
+    {
+      "check_id": "cart_checkout_wiring",
+      "name": "Cart and Hosted Checkout Wiring",
+      "area": "Cart assembly and sandbox checkout handoff",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Basket persistence and checkout handoff wiring are present.",
+      "evidence": "src/context/CartContext.tsx:213, src/context/CartContext.tsx:210, src/screens/BasketScreen.tsx:448, src/screens/BasketScreen.tsx:476, server/index.js:2417",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    },
+    {
+      "check_id": "post_feed_wiring",
+      "name": "Post Publish and Feed Wiring",
+      "area": "Post publishing and feed display",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Try-on posting and feed ranking/display wiring are present.",
+      "evidence": "src/lib/firebasePosts.ts:192, src/components/ResultModal.tsx:425, src/screens/FeedScreen.tsx:1398, src/lib/feedRanking.ts:398",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    },
+    {
+      "check_id": "blocking_access_wiring",
+      "name": "Blocking and Access Filtering Wiring",
+      "area": "Blocking behaviour and access denial",
+      "check_type": "source-backed",
+      "status": "NEEDS_MORE",
+      "summary": "Blocking mutations and blocked-user filtering are present.",
+      "evidence": "src/lib/postModeration.ts:195, src/lib/postModeration.ts:199, src/screens/FeedScreen.tsx:1373, src/screens/UserProfileScreen.tsx:812",
+      "details": "All anchors found, but the full flow still needs live integration coverage."
+    }
+  ]
+}

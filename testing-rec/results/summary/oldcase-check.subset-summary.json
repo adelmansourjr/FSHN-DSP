@@ -1,0 +1,15 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "subsetId": "all",
+    "caseCount": 1,
+    "overall": 0.5666666666666668,
+    "selection": 0.5,
+    "semantic": 0.5,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 8532.8
+  }
+]

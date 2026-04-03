@@ -1,0 +1,19 @@
+{
+  "name": "fshn-stripe-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "check": "node --check index.js",
+    "validate:config": "node validate-config.mjs",
+    "test:integration": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "expo-dev-client": "^6.0.20",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0",
+    "stripe": "^16.9.0"
+  }
+}

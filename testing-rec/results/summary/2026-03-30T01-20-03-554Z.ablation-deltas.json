@@ -1,0 +1,332 @@
+[
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "selection",
+    "meanDelta": 0.02103976034858389,
+    "ciLow": -0.0241976988017429,
+    "ciHigh": 0.07841755174291935,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "semantic",
+    "meanDelta": 0.09140223311546838,
+    "ciLow": 0.04562582380174289,
+    "ciHigh": 0.1436290509259259,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "negation",
+    "meanDelta": 0.09999999999999998,
+    "ciLow": 0,
+    "ciHigh": 0.29999999999999993,
+    "units": 7
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "color",
+    "meanDelta": 0.05555555555555555,
+    "ciLow": 0,
+    "ciHigh": 0.16666666666666666,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "persona",
+    "meanDelta": 0.8944444444444445,
+    "ciLow": 0.7277777777777779,
+    "ciHigh": 1,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "pool_quality",
+    "meanDelta": 0.011064814814814795,
+    "ciLow": -0.046348379629629614,
+    "ciHigh": 0.09140856481481476,
+    "units": 10
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "deterministic",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 10
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "diversity",
+    "meanDelta": 0.18055555555555555,
+    "ciLow": 0.041666666666666595,
+    "ciHigh": 0.3333333333333333,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "progression",
+    "meanDelta": 0.034275280217592075,
+    "ciLow": -0.009710321399031052,
+    "ciHigh": 0.0782608818342152,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "overall_cases",
+    "meanDelta": 0.08102817501854803,
+    "ciLow": 0.039407268703492315,
+    "ciHigh": 0.12878745398142386,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_off",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.13429738597938948,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "selection",
+    "meanDelta": 0.0014161220043572892,
+    "ciLow": -0.019974400871459717,
+    "ciHigh": 0.022657952069716745,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semantic",
+    "meanDelta": 0.0007080610021786446,
+    "ciLow": -0.009384463507625283,
+    "ciHigh": 0.011616625816993457,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "negation",
+    "meanDelta": 0.09999999999999998,
+    "ciLow": 0,
+    "ciHigh": 0.29999999999999993,
+    "units": 7
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "color",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "persona",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "pool_quality",
+    "meanDelta": 0.029537037037037008,
+    "ciLow": -0.02064814814814816,
+    "ciHigh": 0.10083796296296291,
+    "units": 10
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "deterministic",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 10
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "diversity",
+    "meanDelta": 0.2777777777777778,
+    "ciLow": 0.1944444444444445,
+    "ciHigh": 0.38888888888888884,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "progression",
+    "meanDelta": -0.0203602458465848,
+    "ciLow": -0.039971566305534556,
+    "ciHigh": -0.0007489253876350466,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_cases",
+    "meanDelta": 0.012167240598812412,
+    "ciLow": -0.005047052873490532,
+    "ciHigh": 0.034078305762244,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.034625385933493506,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "selection",
+    "meanDelta": 0.05056590413943357,
+    "ciLow": 0.009671228213507651,
+    "ciHigh": 0.10395744825708061,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "semantic",
+    "meanDelta": 0.10616530501089326,
+    "ciLow": 0.05411505991285405,
+    "ciHigh": 0.15798498774509806,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "negation",
+    "meanDelta": 0.03333333333333332,
+    "ciLow": 0,
+    "ciHigh": 0.09999999999999996,
+    "units": 7
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "color",
+    "meanDelta": 0.05555555555555555,
+    "ciLow": 0,
+    "ciHigh": 0.16666666666666666,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "persona",
+    "meanDelta": 0.8944444444444445,
+    "ciLow": 0.7277777777777779,
+    "ciHigh": 1,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "pool_quality",
+    "meanDelta": 0.028166666666666652,
+    "ciLow": -0.006611111111111101,
+    "ciHigh": 0.05790694444444443,
+    "units": 10
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "deterministic",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 10
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "diversity",
+    "meanDelta": -0.02777777777777779,
+    "ciLow": -0.08333333333333337,
+    "ciHigh": 0,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "progression",
+    "meanDelta": -0.0037301169026873193,
+    "ciLow": -0.004898970682841619,
+    "ciHigh": -0.0025612631225330196,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "overall_cases",
+    "meanDelta": 0.09239202744487435,
+    "ciLow": 0.0447713105018996,
+    "ciHigh": 0.14161308671079126,
+    "units": 34
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "heuristic_hybrid",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.12106711985954312,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 9
+  }
+]

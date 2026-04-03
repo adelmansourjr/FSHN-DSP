@@ -1,0 +1,12 @@
+[
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "overall": 0.9703407407407406,
+    "successRate": 1,
+    "meanLatencyMs": 19557.016666666666,
+    "progression": 0.8629654320987653,
+    "semanticShare": 0.017444333333333336,
+    "semanticFrontierShare": 0.07048416666666667
+  }
+]

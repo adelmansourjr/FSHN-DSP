@@ -1,0 +1,114 @@
+[
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall",
+    "meanDelta": -0.004960120487039199
+  },
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "selection",
+    "meanDelta": -0.030226337448559737
+  },
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semantic",
+    "meanDelta": -0.015113168724279813
+  },
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "pool_quality",
+    "meanDelta": -0.012037037037037068
+  },
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "diversity",
+    "meanDelta": 0.08333333333333348
+  },
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semanticShare",
+    "meanDelta": 0.0323356962962963
+  },
+  {
+    "surface": "internal",
+    "subsetId": "all",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semanticFrontierShare",
+    "meanDelta": 0
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall",
+    "meanDelta": -0.004960120487039199
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "selection",
+    "meanDelta": -0.030226337448559737
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semantic",
+    "meanDelta": -0.015113168724279813
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "pool_quality",
+    "meanDelta": -0.012037037037037068
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "diversity",
+    "meanDelta": 0.08333333333333348
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semanticShare",
+    "meanDelta": 0.0323356962962963
+  },
+  {
+    "surface": "internal",
+    "subsetId": "embedding_sensitive",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semanticFrontierShare",
+    "meanDelta": 0
+  }
+]

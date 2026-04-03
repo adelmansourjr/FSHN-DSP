@@ -1,0 +1,21 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,heuristic_off,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,19163.4,0.9277777777777777,0.9638888888888888,,,,0.9277777777777777,,0.5,0.8862393162393162,0,0
+internal,auto_off,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,11848.6,0.9277777777777777,0.9638888888888888,,,,0.9277777777777777,,0.5,0.8862393162393162,0,0
+internal,heuristic_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,5015.8,0.9277777777777777,0.9638888888888888,,,,0.951851851851852,,0.5,0.8917948717948717,0.0129496,0.010417
+internal,auto_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,12897.2,0.9422222222222223,0.971111111111111,,,,0.951851851851852,,1,0.9604444444444444,0.0120472,0.007576000000000001
+internal,heuristic_off,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,16526.666666666668,0.8555555555555555,0.9277777777777777,,,,,,,0.8899470899470898,0,0
+internal,auto_off,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,4177,0.8555555555555555,0.9277777777777777,,,,,,,0.8899470899470898,0,0
+internal,heuristic_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,5054,0.8796296296296297,0.9398148148148149,,,,,,,0.908289241622575,0.011068666666666666,0
+internal,auto_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,18029,0.8796296296296297,0.9398148148148149,,,,,,,0.908289241622575,0.010997333333333333,0
+internal,heuristic_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,16507,1,0.75,,,0.13333333333333333,,,,0.7371794871794871,0,0
+internal,auto_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,15928.333333333334,1,1,,,1,,,,1,0,0
+internal,heuristic_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,18201.666666666668,0.8916666666666667,0.6958333333333333,,,0.13333333333333333,,,,0.6705128205128205,0.03667566666666667,0.277778
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,19862.666666666668,0.9638888888888889,0.9819444444444444,,,1,,,,0.9777777777777779,0.02572933333333333,0.088235
+internal,heuristic_off,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,15703.333333333334,0.9277777777777777,0.9638888888888889,,,,,,,0.9449735449735449,0,0
+internal,auto_off,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,2566.6666666666665,0.9277777777777777,0.9638888888888889,,,,,,,0.9449735449735449,0,0
+internal,heuristic_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,4867.666666666667,0.9518518518518517,0.9759259259259259,,,,,,,0.9633156966490298,0.014501,0
+internal,auto_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,19050.666666666668,0.9037037037037036,0.9518518518518517,,,,,,,0.9266313932980598,0.014760333333333334,0.039216
+internal,heuristic_off,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,16718,0.7833333333333333,0.8916666666666666,,1,,,,,0.8666666666666666,0,0
+internal,auto_off,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,3292,0.8074074074074074,0.9037037037037038,,1,,,,,0.8814814814814813,0,0
+internal,heuristic_hybrid,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,6041.333333333333,0.7833333333333333,0.8916666666666666,,1,,,,,0.8666666666666666,0.02973033333333333,0
+internal,auto_hybrid,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,18919.666666666668,0.8074074074074074,0.9037037037037038,,1,,,,,0.8814814814814813,0.04163466666666667,0

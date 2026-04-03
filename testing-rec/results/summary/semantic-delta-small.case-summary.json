@@ -1,0 +1,318 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_kanye",
+    "prompt": "Kanye fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "persona",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 13478.333333333334,
+    "metrics": {
+      "selection": 1,
+      "semantic": 1,
+      "negation": null,
+      "color": null,
+      "persona": 1,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 1
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_kanye",
+    "prompt": "Kanye fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "persona",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 496.6666666666667,
+    "metrics": {
+      "selection": 1,
+      "semantic": 1,
+      "negation": null,
+      "color": null,
+      "persona": 1,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 1
+    },
+    "diagnostics": {
+      "semanticShare": 0.02935666666666667,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_all_black_streetwear",
+    "prompt": "All black streetwear outfit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "color",
+      "diversity",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 176.2,
+    "metrics": {
+      "selection": 0.9783333333333333,
+      "semantic": 0.9891666666666665,
+      "negation": null,
+      "color": 1,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": 0.8333333333333333,
+      "progression": null,
+      "overall": 0.9662222222222222
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_all_black_streetwear",
+    "prompt": "All black streetwear outfit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "color",
+      "diversity",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 279.2,
+    "metrics": {
+      "selection": 0.8916666666666668,
+      "semantic": 0.9458333333333332,
+      "negation": null,
+      "color": 1,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": 0.9166666666666667,
+      "progression": null,
+      "overall": 0.9311111111111113
+    },
+    "diagnostics": {
+      "semanticShare": 0.056484999999999994,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_gorp_clean",
+    "prompt": "Gorp but clean fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "overall"
+    ],
+    "tags": [
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 345.3333333333333,
+    "metrics": {
+      "selection": 1,
+      "semantic": 1,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.8916666666666666,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9714912280701753
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_gorp_clean",
+    "prompt": "Gorp but clean fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "overall"
+    ],
+    "tags": [
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 498.3333333333333,
+    "metrics": {
+      "selection": 0.9277777777777777,
+      "semantic": 0.9638888888888889,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.8916666666666666,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9309454191033137
+    },
+    "diagnostics": {
+      "semanticShare": 0.030714666666666668,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_gallery_opening_not_streetwear",
+    "prompt": "Gallery opening outfit, clean and modern, not streetwear",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "overall"
+    ],
+    "tags": [
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 189.66666666666666,
+    "metrics": {
+      "selection": 0.7833333333333333,
+      "semantic": 0.725,
+      "negation": 0,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.5861111111111111,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.5873188405797101
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_gallery_opening_not_streetwear",
+    "prompt": "Gallery opening outfit, clean and modern, not streetwear",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "overall"
+    ],
+    "tags": [
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 295,
+    "metrics": {
+      "selection": 0.7351851851851853,
+      "semantic": 0.700925925925926,
+      "negation": 0,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.5861111111111111,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.5649892646269458
+    },
+    "diagnostics": {
+      "semanticShare": 0.034989,
+      "semanticFrontierShare": 0
+    }
+  }
+]

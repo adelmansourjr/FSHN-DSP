@@ -1,0 +1,6 @@
+surface,baselineConfig,comparatorConfig,metric,meanDelta,ciLow,ciHigh,units
+internal,auto_hybrid,auto_off,selection,0,0,0,1
+internal,auto_hybrid,auto_off,semantic,0,0,0,1
+internal,auto_hybrid,auto_off,color,0,0,0,1
+internal,auto_hybrid,auto_off,overall_cases,0,0,0,1
+internal,auto_hybrid,auto_off,overall_weighted_estimate,0,,,3

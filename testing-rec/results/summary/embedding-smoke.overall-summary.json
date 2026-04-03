@@ -1,0 +1,10 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "overall": 0.6705128205128205,
+    "successRate": 1,
+    "meanLatencyMs": 13357.333333333334,
+    "progression": null
+  }
+]

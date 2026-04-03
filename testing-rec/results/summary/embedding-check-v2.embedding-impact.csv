@@ -1,0 +1,9 @@
+surface,subsetId,baselineConfig,comparatorConfig,metric,meanDelta
+internal,all,auto_hybrid,auto_off,overall,0.0043117744610279285
+internal,all,auto_hybrid,auto_off,selection,0.009027777777777857
+internal,all,auto_hybrid,auto_off,semantic,0.004513888888888817
+internal,all,auto_hybrid,auto_off,pool_quality,0
+internal,embedding_sensitive,auto_hybrid,auto_off,overall,0.0043117744610279285
+internal,embedding_sensitive,auto_hybrid,auto_off,selection,0.009027777777777857
+internal,embedding_sensitive,auto_hybrid,auto_off,semantic,0.004513888888888817
+internal,embedding_sensitive,auto_hybrid,auto_off,pool_quality,0

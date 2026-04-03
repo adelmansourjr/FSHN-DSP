@@ -1,0 +1,9 @@
+surface,configId,groupId,stages,score
+internal,heuristic_off,men_old_money,3,0.653223730421311
+internal,auto_off,men_old_money,3,0.6531265081990888
+internal,heuristic_hybrid,men_old_money,3,0.6516137996113802
+internal,auto_hybrid,men_old_money,3,0.6529768337994144
+internal,heuristic_off,women_dinner,2,0.8341569160997732
+internal,auto_off,women_dinner,2,0.8341569160997732
+internal,heuristic_hybrid,women_dinner,2,0.828280090702948
+internal,auto_hybrid,women_dinner,2,0.8341569160997732

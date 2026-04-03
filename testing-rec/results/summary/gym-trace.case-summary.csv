@@ -1,0 +1,2 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,auto_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,1,1,1,40043,1,1,,,,,,,1,0.018973,0.066667

@@ -1,0 +1,92 @@
+[
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "selection",
+    "meanDelta": -0.019526748971193428,
+    "ciLow": -0.03639197530864201,
+    "ciHigh": -0.004012345679012343,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semantic",
+    "meanDelta": -0.009763374485596709,
+    "ciLow": -0.018192644032921795,
+    "ciHigh": -0.0024074074074074015,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "negation",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "color",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "persona",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 3
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "pool_quality",
+    "meanDelta": -0.012037037037037032,
+    "ciLow": -0.036111111111111094,
+    "ciHigh": 0,
+    "units": 6
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "diversity",
+    "meanDelta": 0.08333333333333348,
+    "ciLow": 0.08333333333333348,
+    "ciHigh": 0.08333333333333348,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_cases",
+    "meanDelta": -0.011659851902075795,
+    "ciLow": -0.02082446927391831,
+    "ciHigh": -0.0037215959921274022,
+    "units": 9
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": -0.001430359339866776,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 7
+  }
+]

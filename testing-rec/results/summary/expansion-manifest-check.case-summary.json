@@ -1,0 +1,240 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_clean_minimal_variety",
+    "prompt": "Clean minimal outfit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "overall"
+    ],
+    "tags": [
+      "expansion",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 2,
+    "successCount": 2,
+    "successRate": 1,
+    "meanLatencyMs": 48162,
+    "metrics": {
+      "selection": 0.9277777777777777,
+      "semantic": 0.9638888888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.9398148148148148,
+      "deterministic": null,
+      "diversity": 0.9166666666666667,
+      "progression": null,
+      "overall": 0.9402991452991454
+    },
+    "diagnostics": {
+      "semanticShare": 0.0550505,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_elevated_casual_variety",
+    "prompt": "Elevated casual fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "overall"
+    ],
+    "tags": [
+      "expansion",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 2,
+    "successCount": 2,
+    "successRate": 1,
+    "meanLatencyMs": 24586.5,
+    "metrics": {
+      "selection": 1,
+      "semantic": 0.8333333333333333,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.9638888888888889,
+      "deterministic": null,
+      "diversity": 0.8333333333333333,
+      "progression": null,
+      "overall": 0.9198717948717948
+    },
+    "diagnostics": {
+      "semanticShare": 0.05534699999999999,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_no_denim_smart_casual",
+    "prompt": "Smart casual outfit with no denim",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "overall"
+    ],
+    "tags": [
+      "expansion"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 43996,
+    "metrics": {
+      "selection": 1,
+      "semantic": 1,
+      "negation": 1,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 1
+    },
+    "diagnostics": {
+      "semanticShare": 0.019103,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_office_no_heels",
+    "prompt": "Modern office outfit with no heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "overall"
+    ],
+    "tags": [
+      "expansion"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 44022,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.6777777777777778,
+      "negation": 0.7,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.7551440329218106
+    },
+    "diagnostics": {
+      "semanticShare": 0.016971,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_playboi_carti",
+    "prompt": "Playboi Carti fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "persona",
+      "overall"
+    ],
+    "tags": [
+      "expansion",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 5725,
+    "metrics": {
+      "selection": 1,
+      "semantic": 0.875,
+      "negation": null,
+      "color": null,
+      "persona": 0.5,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8557692307692307
+    },
+    "diagnostics": {
+      "semanticShare": 0.053975,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_rihanna",
+    "prompt": "Rihanna fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "persona",
+      "overall"
+    ],
+    "tags": [
+      "expansion",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 5770,
+    "metrics": {
+      "selection": 1,
+      "semantic": 0.75,
+      "negation": null,
+      "color": null,
+      "persona": 0,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.7115384615384615
+    },
+    "diagnostics": {
+      "semanticShare": 0.054713,
+      "semanticFrontierShare": 0
+    }
+  }
+]

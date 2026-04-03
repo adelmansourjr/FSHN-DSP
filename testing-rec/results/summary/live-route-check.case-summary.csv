@@ -1,0 +1,5 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+route,route_default,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,19280.4,0.9566666666666667,0.9783333333333332,,,,0.9518518518518517,,1,0.9675555555555555,0.011874,0.030303000000000004
+route,route_default,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,16838.666666666668,0.9037037037037036,0.9518518518518517,,,,,,,0.9266313932980598,0.010933,0
+route,route_default,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,20159.333333333332,1,1,,,1,,,,1,0.026878000000000003,0.196078
+route,route_default,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,21949.666666666668,0.9518518518518518,0.975925925925926,,,,,,,0.9633156966490299,0.020092333333333334,0.05555566666666667

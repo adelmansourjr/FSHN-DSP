@@ -1,0 +1,82 @@
+[
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "selection",
+    "meanDelta": 0.037916666666666626,
+    "ciLow": 0.028888888888888853,
+    "ciHigh": 0.04574074074074069,
+    "units": 4
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "semantic",
+    "meanDelta": 0.0189583333333333,
+    "ciLow": 0.013541666666666619,
+    "ciHigh": 0.02287037037037032,
+    "units": 4
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "persona",
+    "meanDelta": 0,
+    "ciLow": 0,
+    "ciHigh": 0,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "pool_quality",
+    "meanDelta": 0.024074074074074248,
+    "ciLow": 0.024074074074074248,
+    "ciHigh": 0.024074074074074248,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "diversity",
+    "meanDelta": 0.5,
+    "ciLow": 0.5,
+    "ciHigh": 0.5,
+    "units": 1
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "progression",
+    "meanDelta": 0.04378907882241223,
+    "ciLow": 0.025679012345679153,
+    "ciHigh": 0.06189914529914531,
+    "units": 2
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_cases",
+    "meanDelta": 0.04141900691900685,
+    "ciLow": 0.02028218694885353,
+    "ciHigh": 0.07093030118030111,
+    "units": 4
+  },
+  {
+    "surface": "internal",
+    "baselineConfig": "auto_hybrid",
+    "comparatorConfig": "auto_off",
+    "metric": "overall_weighted_estimate",
+    "meanDelta": 0.07241737298195633,
+    "ciLow": null,
+    "ciHigh": null,
+    "units": 6
+  }
+]

@@ -1,0 +1,9 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,auto_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,13478.333333333334,1,1,,,1,,,,1,0,0
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,496.6666666666667,1,1,,,1,,,,1,0.02935666666666667,0
+internal,auto_off,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,5,5,1,176.2,0.9783333333333333,0.9891666666666665,,1,,,,0.8333333333333333,0.9662222222222222,0,0
+internal,auto_hybrid,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,5,5,1,279.2,0.8916666666666668,0.9458333333333332,,1,,,,0.9166666666666667,0.9311111111111113,0.056484999999999994,0
+internal,auto_off,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,345.3333333333333,1,1,,,,0.8916666666666666,,,0.9714912280701753,0,0
+internal,auto_hybrid,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,498.3333333333333,0.9277777777777777,0.9638888888888889,,,,0.8916666666666666,,,0.9309454191033137,0.030714666666666668,0
+internal,auto_off,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,3,3,1,189.66666666666666,0.7833333333333333,0.725,0,,,0.5861111111111111,,,0.5873188405797101,0,0
+internal,auto_hybrid,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,3,3,1,295,0.7351851851851853,0.700925925925926,0,,,0.5861111111111111,,,0.5649892646269458,0.034989,0

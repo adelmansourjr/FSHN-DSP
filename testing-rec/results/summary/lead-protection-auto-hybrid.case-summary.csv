@@ -1,0 +1,9 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,auto_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,2,2,1,44038,0.9277777777777777,0.9638888888888888,,,,0.9638888888888888,,0.9166666666666667,0.9458547008547007,0.012038,0.007576
+internal,auto_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,1,1,1,43884,0.8555555555555555,0.9277777777777778,,,,,,,0.8899470899470898,0.011118,0
+internal,auto_hybrid,men_no_sneakers,No sneakers with black trousers and a blazer,men,top_bottom_shoes,core,1,1,1,42660,0.8916666666666667,0.9458333333333333,1,1,,,,,0.9458333333333334,0.04007,0
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,1,1,1,43441,1,1,,,1,,,,1,0.025277,0.088235
+internal,auto_hybrid,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,1,1,1,44046,0.8916666666666667,0.9458333333333333,,,1,,,,0.9333333333333335,0.01173,0.019608
+internal,auto_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,1,1,1,42179,0.9277777777777777,0.9638888888888888,,,,,,,0.9449735449735448,0.014728,0.039216
+internal,auto_hybrid,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,1,1,1,44566,0.8555555555555555,0.9277777777777778,,1,,,,,0.911111111111111,0.029658,0
+internal,auto_hybrid,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,1,1,1,42825,0.7833333333333333,0.725,0.7,,,0.9277777777777777,,,0.7833333333333332,0.037689,0.103175

@@ -1,0 +1,136 @@
+### Node ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnpm-debug.log*
+
+### Build outputs ###
+build/
+dist/
+bundles/
+web-build/
+
+### Expo ###
+.expo/
+.expo-shared/
+
+### React Native ###
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcuserstate
+ios/*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+
+### macOS ###
+.DS_Store
+
+### Environment ###
+.env
+.env.development
+.env.staging
+.env.production
+.env.*.local
+.env.local
+server/.env
+server/.env.*
+!server/.env.example
+tryon-local/.env
+tryon-local/.env.*
+!tryon-local/.env.example
+
+### Editor & IDE ###
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+### Logs ###
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+### TypeScript ###
+*.tsbuildinfo
+
+### Tests / Coverage ###
+coverage/
+
+### Cache / temp ###
+.cache/
+tmp/
+temp/
+
+### Misc ###
+.DS_Store
+.firebase/
+local.properties
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android
+
+# generated recommender assets for try-on API
+tryon-local/recommender-assets/
+
+# local gcloud auth/config created for deployment
+.gcloud/
+
+# service account and generated secret material
+*firebase-adminsdk*.json
+*.service-account.json
+service-account*.json
+*.runtimeconfig.json
+secrets/
+
+# stripped public-export image buckets
+src/data/images/
+src/data/images farfetch/
+testing-rec/results/visuals/
+
+# oversized/private sidecar excluded from the public export
+src/data/index.classified.embeddingsfarfetch.json

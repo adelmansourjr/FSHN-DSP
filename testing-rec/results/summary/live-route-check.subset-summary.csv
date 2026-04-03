@@ -1,0 +1,3 @@
+surface,configId,subsetId,caseCount,overall,selection,semantic,pool_quality,diversity,successRate,meanLatencyMs,semanticShare,semanticFrontierShare
+route,route_default,all,4,0.9703407407407406,0.9530555555555555,0.9765277777777777,0.9518518518518517,1,1,19557.016666666666,0.017444333333333336,0.07048416666666667
+route,route_default,embedding_sensitive,1,1,1,1,,,1,20159.333333333332,0.026878000000000003,0.196078

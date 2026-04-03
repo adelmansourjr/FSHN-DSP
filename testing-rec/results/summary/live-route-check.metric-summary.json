@@ -1,0 +1,65 @@
+[
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "selection",
+    "mean": 0.9530555555555555,
+    "cases": 4
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "semantic",
+    "mean": 0.9765277777777777,
+    "cases": 4
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "negation",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "color",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "persona",
+    "mean": 1,
+    "cases": 1
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "pool_quality",
+    "mean": 0.9518518518518517,
+    "cases": 1
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "deterministic",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "diversity",
+    "mean": 1,
+    "cases": 1
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "metric": "progression",
+    "mean": 0.8629654320987653,
+    "cases": 2
+  }
+]

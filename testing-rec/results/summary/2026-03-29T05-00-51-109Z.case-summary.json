@@ -1,0 +1,802 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "caseId": "men_old_money_stage1",
+    "prompt": "Old money fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 1,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 416,
+    "metrics": {
+      "selection": 0.8013888888888887,
+      "semantic": 0.9006944444444445,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.5620370370370371,
+      "deterministic": null,
+      "diversity": 0.8333333333333333,
+      "progression": null,
+      "overall": 0.7806410256410258
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_old_money_stage1",
+    "prompt": "Old money fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 1,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 314.4,
+    "metrics": {
+      "selection": 0.8013888888888887,
+      "semantic": 0.9006944444444445,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.5620370370370371,
+      "deterministic": null,
+      "diversity": 0.8333333333333333,
+      "progression": null,
+      "overall": 0.7806410256410258
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "caseId": "men_old_money_stage1",
+    "prompt": "Old money fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 1,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 392.8,
+    "metrics": {
+      "selection": 0.8447222222222222,
+      "semantic": 0.9223611111111112,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.513888888888889,
+      "deterministic": null,
+      "diversity": 1,
+      "progression": null,
+      "overall": 0.8113760683760685
+    },
+    "diagnostics": {
+      "semanticShare": 0.032473800000000004,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_old_money_stage1",
+    "prompt": "Old money fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 1,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 439.8,
+    "metrics": {
+      "selection": 0.8013888888888887,
+      "semantic": 0.9006944444444445,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.513888888888889,
+      "deterministic": null,
+      "diversity": 0.9166666666666667,
+      "progression": null,
+      "overall": 0.7797863247863247
+    },
+    "diagnostics": {
+      "semanticShare": 0.0273248,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "caseId": "men_old_money_stage2",
+    "prompt": "Old money fit with a cream knit polo and tailored trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 146.6,
+    "metrics": {
+      "selection": 0.5402777777777777,
+      "semantic": 0.6701388888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.3965277777777778,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.6036431623931624
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_old_money_stage2",
+    "prompt": "Old money fit with a cream knit polo and tailored trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 197,
+    "metrics": {
+      "selection": 0.5402777777777777,
+      "semantic": 0.6701388888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.39472222222222225,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.6032264957264958
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "caseId": "men_old_money_stage2",
+    "prompt": "Old money fit with a cream knit polo and tailored trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 169,
+    "metrics": {
+      "selection": 0.5402777777777777,
+      "semantic": 0.6701388888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.3965277777777778,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.6036431623931624
+    },
+    "diagnostics": {
+      "semanticShare": 0.1849008,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_old_money_stage2",
+    "prompt": "Old money fit with a cream knit polo and tailored trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 255.2,
+    "metrics": {
+      "selection": 0.5402777777777777,
+      "semantic": 0.6701388888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.39111111111111113,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.6023931623931623
+    },
+    "diagnostics": {
+      "semanticShare": 0.30415280000000006,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "caseId": "men_old_money_stage3",
+    "prompt": "Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 3,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 157.8,
+    "metrics": {
+      "selection": 0.7544444444444445,
+      "semantic": 0.8772222222222222,
+      "negation": 1,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8732616487455198
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "men_old_money_stage3",
+    "prompt": "Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 3,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 160.4,
+    "metrics": {
+      "selection": 0.7544444444444445,
+      "semantic": 0.8772222222222222,
+      "negation": 1,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8732616487455198
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "caseId": "men_old_money_stage3",
+    "prompt": "Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 3,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 184.2,
+    "metrics": {
+      "selection": 0.7544444444444445,
+      "semantic": 0.8772222222222222,
+      "negation": 1,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8732616487455198
+    },
+    "diagnostics": {
+      "semanticShare": 0.3228318,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_old_money_stage3",
+    "prompt": "Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 3,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 185.2,
+    "metrics": {
+      "selection": 0.7544444444444445,
+      "semantic": 0.8772222222222222,
+      "negation": 1,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8732616487455198
+    },
+    "diagnostics": {
+      "semanticShare": 0.3186642,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "caseId": "women_dinner_stage1",
+    "prompt": "Dinner date fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 1,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 261.6666666666667,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777777,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8899470899470898
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "women_dinner_stage1",
+    "prompt": "Dinner date fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 1,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 231,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777777,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8899470899470898
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "caseId": "women_dinner_stage1",
+    "prompt": "Dinner date fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 1,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 282.6666666666667,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777777,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8899470899470898
+    },
+    "diagnostics": {
+      "semanticShare": 0.014649666666666667,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_dinner_stage1",
+    "prompt": "Dinner date fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 1,
+    "runCount": 3,
+    "successCount": 3,
+    "successRate": 1,
+    "meanLatencyMs": 288.3333333333333,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777777,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8899470899470898
+    },
+    "diagnostics": {
+      "semanticShare": 0.01416,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "caseId": "women_dinner_stage2",
+    "prompt": "Elegant dinner date outfit with heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 235.6,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777778,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9075555555555556
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "caseId": "women_dinner_stage2",
+    "prompt": "Elegant dinner date outfit with heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 234.4,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777778,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9075555555555556
+    },
+    "diagnostics": {
+      "semanticShare": 0,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "caseId": "women_dinner_stage2",
+    "prompt": "Elegant dinner date outfit with heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 318.8,
+    "metrics": {
+      "selection": 0.8411111111111111,
+      "semantic": 0.9205555555555556,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8983111111111112
+    },
+    "diagnostics": {
+      "semanticShare": 0.013921,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_dinner_stage2",
+    "prompt": "Elegant dinner date outfit with heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "deterministic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 2,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 339.6,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777778,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9075555555555556
+    },
+    "diagnostics": {
+      "semanticShare": 0.013819999999999999,
+      "semanticFrontierShare": 0
+    }
+  }
+]

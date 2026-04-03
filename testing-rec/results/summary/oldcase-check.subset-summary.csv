@@ -1,0 +1,2 @@
+surface,configId,subsetId,caseCount,overall,selection,semantic,pool_quality,diversity,successRate,meanLatencyMs
+internal,heuristic_off,all,1,0.5666666666666668,0.5,0.5,,,1,8532.8

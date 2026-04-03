@@ -1,0 +1,32 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "all",
+    "caseCount": 8,
+    "overall": 0.9261597938144329,
+    "selection": 0.8916666666666666,
+    "semantic": 0.9249999999999999,
+    "pool_quality": 0.9458333333333333,
+    "diversity": 0.9166666666666667,
+    "successRate": 1,
+    "meanLatencyMs": 43454.875,
+    "semanticShare": 0.0227885,
+    "semanticFrontierShare": 0.03222625
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 4,
+    "overall": 0.8958177278401998,
+    "selection": 0.8826388888888889,
+    "semantic": 0.8996527777777777,
+    "pool_quality": 0.9277777777777777,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 43719.5,
+    "semanticShare": 0.0260885,
+    "semanticFrontierShare": 0.052754499999999996
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "caseId": "men_oxford_trousers",
+    "prompt": "White oxford and navy trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "color",
+      "deterministic",
+      "overall"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 5,
+    "successCount": 5,
+    "successRate": 1,
+    "meanLatencyMs": 8485.2,
+    "metrics": {
+      "selection": 0.5,
+      "semantic": 0.5,
+      "negation": null,
+      "color": 0.5,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": 1,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.5606060606060607
+    }
+  }
+]

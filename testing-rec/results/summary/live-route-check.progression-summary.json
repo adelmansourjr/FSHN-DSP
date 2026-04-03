@@ -1,0 +1,16 @@
+[
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "groupId": "men_old_money",
+    "stages": 1,
+    "score": 0.8772888888888888
+  },
+  {
+    "surface": "route",
+    "configId": "route_default",
+    "groupId": "women_dinner",
+    "stages": 1,
+    "score": 0.8486419753086418
+  }
+]

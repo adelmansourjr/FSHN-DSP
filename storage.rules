@@ -1,0 +1,57 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    // Firestore-backed mutual block check (works for Storage rules too)
+    function isBlocked(a, b) {
+      return firestore.exists(/databases/(default)/documents/users/$(a)/blocked/$(b))
+          || firestore.exists(/databases/(default)/documents/users/$(b)/blocked/$(a));
+    }
+
+    /*
+      Profile pictures (ONLY) are stored in Storage now:
+      path: /profilePics/{uid}/{fileName}
+
+      - Owner can upload/delete their own profile pics
+      - Signed-in users can read profile pics ONLY if not blocked either way
+    */
+    match /profilePics/{uid}/{fileName} {
+      allow read: if signedIn() && !isBlocked(request.auth.uid, uid);
+      allow write: if signedIn() && request.auth.uid == uid;
+    }
+
+    /*
+      Post images:
+      path: /posts/{postId}/{fileName}
+
+      NOTE:
+      Storage rules cannot reliably enforce "blocked users can't view this image"
+      without an extra mapping document or duplicated authorUid in metadata.
+      For v1, keep authenticated reads; your Firestore feed will hide blocked content.
+    */
+    match /posts/{postId}/{fileName} {
+      allow read: if signedIn();
+      allow write: if signedIn();
+    }
+
+    /*
+      Listing images:
+      path: /listings/{listingId}/{fileName}
+    */
+    match /listings/{listingId}/{fileName} {
+      allow read: if signedIn();
+      allow write: if signedIn();
+    }
+
+    match /catalog/farfetch/{fileName} {
+      // Seed catalog images are rendered directly by the app through plain HTTPS
+      // image URLs, so they cannot rely on Firebase Auth headers.
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

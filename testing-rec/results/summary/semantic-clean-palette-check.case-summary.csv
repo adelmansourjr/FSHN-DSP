@@ -1,0 +1,13 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,auto_off,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,2,2,1,45033,0.9277777777777777,0.9638888888888888,,,,0.9277777777777777,,0.5,0.8862393162393162,0,0
+internal,auto_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,2,2,1,25057,0.9277777777777777,0.9638888888888888,,,,0.9518518518518518,,0.9166666666666667,0.943076923076923,0.012,0.007576
+internal,auto_off,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,1,1,1,41653,0.8555555555555555,0.9277777777777778,,,,,,,0.8899470899470898,0,0
+internal,auto_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,1,1,1,44564,0.9277777777777777,0.9638888888888888,,,,,,,0.9449735449735448,0.011013,0
+internal,auto_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,1,1,1,42445,1,1,,,1,,,,1,0,0
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,1,1,1,43943,1,1,,,1,,,,1,0.025208,0.088235
+internal,auto_off,women_gym,Gym fit,women,top_bottom_shoes,core,1,1,1,44969,0.9277777777777777,0.9638888888888888,,,,,,,0.9449735449735448,0,0
+internal,auto_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,1,1,1,43660,0.9277777777777777,0.9638888888888888,,,,,,,0.9449735449735448,0.014706,0.039216
+internal,auto_off,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,1,1,1,42823,0.7833333333333333,0.8916666666666666,,1,,,,,0.8666666666666666,0,0
+internal,auto_hybrid,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,1,1,1,45817,0.8555555555555555,0.9277777777777778,,1,,,,,0.911111111111111,0.030385,0
+internal,auto_off,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,1,1,1,41872,0.711111111111111,0.6888888888888889,0,,,0.6185185185185186,,,0.5608695652173912,0,0
+internal,auto_hybrid,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,1,1,1,43293,0.7833333333333333,0.725,0.7,,,0.9277777777777777,,,0.7833333333333332,0.03729,0.103175

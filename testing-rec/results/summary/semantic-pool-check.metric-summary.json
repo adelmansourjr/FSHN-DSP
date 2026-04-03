@@ -1,0 +1,128 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "selection",
+    "mean": 0.8667111111111112,
+    "cases": 25
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "semantic",
+    "mean": 0.8760222222222223,
+    "cases": 25
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "negation",
+    "mean": 0.75,
+    "cases": 4
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "color",
+    "mean": 0.8125,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "persona",
+    "mean": 0.8333333333333334,
+    "cases": 3
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "pool_quality",
+    "mean": 0.6428587962962963,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "deterministic",
+    "mean": 1,
+    "cases": 10
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "diversity",
+    "mean": 0.8333333333333333,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "progression",
+    "mean": 0.7426695781106303,
+    "cases": 6
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "selection",
+    "mean": 0.8547222222222223,
+    "cases": 25
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "semantic",
+    "mean": 0.8700277777777776,
+    "cases": 25
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "negation",
+    "mean": 0.75,
+    "cases": 4
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "color",
+    "mean": 0.8125,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "persona",
+    "mean": 0.8333333333333334,
+    "cases": 3
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "pool_quality",
+    "mean": 0.6273611111111111,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "deterministic",
+    "mean": 1,
+    "cases": 10
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "diversity",
+    "mean": 0.9166666666666667,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "progression",
+    "mean": 0.7424550583711105,
+    "cases": 6
+  }
+]

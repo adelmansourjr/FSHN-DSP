@@ -1,0 +1,10 @@
+surface,baselineConfig,comparatorConfig,metric,meanDelta,ciLow,ciHigh,units
+internal,auto_hybrid,auto_off,selection,-0.042129629629629614,-0.09629629629629627,-0.00601851851851851,9
+internal,auto_hybrid,auto_off,semantic,-0.021064814814814814,-0.048148148148148134,-0.003009259259259261,9
+internal,auto_hybrid,auto_off,negation,-0.7,-0.7,-0.7,1
+internal,auto_hybrid,auto_off,color,0,0,0,1
+internal,auto_hybrid,auto_off,persona,0,0,0,3
+internal,auto_hybrid,auto_off,pool_quality,-0.012037037037037032,-0.036111111111111094,0,6
+internal,auto_hybrid,auto_off,diversity,0,0,0,1
+internal,auto_hybrid,auto_off,overall_cases,-0.03677063027940216,-0.10211679662118255,-0.0032098765432098477,9
+internal,auto_hybrid,auto_off,overall_weighted_estimate,-0.1023577701412753,,,7

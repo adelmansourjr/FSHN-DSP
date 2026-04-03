@@ -1,0 +1,755 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    /* =========================
+       Helpers
+    ========================= */
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    // Admin custom claim (set via Admin SDK)
+    function isAdmin() {
+      return signedIn() && request.auth.token.admin == true;
+    }
+
+    function isUid(u) {
+      return u is string && u.size() > 0;
+    }
+
+    // Mutual block check: if either side blocked the other, treat as blocked
+    // Guard against missing/invalid UIDs so reads don't fail on legacy docs.
+    function isBlocked(a, b) {
+      return isUid(a) && isUid(b) && (
+        exists(/databases/$(database)/documents/users/$(a)/blocked/$(b))
+        || exists(/databases/$(database)/documents/users/$(b)/blocked/$(a))
+      );
+    }
+
+    // Basic YYYY-MM-DD format check (not full calendar validation)
+    function isDobString(s) {
+      return s is string
+        && s.size() == 10
+        && s.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$');
+    }
+
+    // IMPORTANT:
+    // Firestore rules cannot reliably compute ">= 18 years old" from a DOB string alone.
+    // So we require an immutable boolean `isAdult == true` on the user profile.
+    // You MUST set this at signup after validating DOB client-side, or (better) via a Cloud Function.
+    function isAdultFlag(d) {
+      return d.isAdult == true;
+    }
+
+    function maxLen(s, n) {
+      return !(s is string) || s.size() <= n;
+    }
+
+    // Follow edge helpers (used to validate counter updates in the same batch)
+    // Note: follow edge lives under the follower's user doc.
+    function followingEdgeExists(followerUid, targetUid) {
+      return exists(/databases/$(database)/documents/users/$(followerUid)/following/$(targetUid));
+    }
+    function followingEdgeExistsAfter(followerUid, targetUid) {
+      return existsAfter(/databases/$(database)/documents/users/$(followerUid)/following/$(targetUid));
+    }
+
+    // Listing like edge helpers for client-managed likeCount updates
+    function listingLikerEdgeExists(listingId, uid) {
+      return exists(/databases/$(database)/documents/listings/$(listingId)/likers/$(uid));
+    }
+    function listingLikerEdgeExistsAfter(listingId, uid) {
+      return existsAfter(/databases/$(database)/documents/listings/$(listingId)/likers/$(uid));
+    }
+
+    function orderHasNoShipmentProgress(data) {
+      return data.shippedAt == null
+        && data.outForDeliveryAt == null
+        && data.deliveredAt == null
+        && data.completedAt == null;
+    }
+
+    function sellerCanAdvanceOrder() {
+      return request.auth.uid == resource.data.sellerUid
+        && (
+          (
+            resource.data.status in ['paid', 'pending_delivery']
+            && request.resource.data.status == 'shipped'
+            && request.resource.data.diff(resource.data).changedKeys().hasOnly(['status', 'updatedAt', 'shippedAt'])
+            && request.resource.data.updatedAt == request.time
+            && request.resource.data.shippedAt == request.time
+          )
+          ||
+          (
+            resource.data.status == 'shipped'
+            && request.resource.data.status == 'out_for_delivery'
+            && request.resource.data.diff(resource.data).changedKeys().hasOnly(['status', 'updatedAt', 'outForDeliveryAt'])
+            && request.resource.data.updatedAt == request.time
+            && request.resource.data.outForDeliveryAt == request.time
+          )
+          ||
+          (
+            resource.data.status == 'out_for_delivery'
+            && request.resource.data.status == 'delivered'
+            && request.resource.data.diff(resource.data).changedKeys().hasOnly(['status', 'updatedAt', 'deliveredAt'])
+            && request.resource.data.updatedAt == request.time
+            && request.resource.data.deliveredAt == request.time
+          )
+          ||
+          (
+            resource.data.status == 'delivered'
+            && request.resource.data.status == 'completed'
+            && request.resource.data.diff(resource.data).changedKeys().hasOnly(['status', 'updatedAt', 'completedAt'])
+            && request.resource.data.updatedAt == request.time
+            && request.resource.data.completedAt == request.time
+          )
+        );
+    }
+
+    function buyerCanCancelOrder() {
+      return request.auth.uid == resource.data.buyerUid
+        && resource.data.status in ['paid', 'pending_delivery']
+        && request.resource.data.status == 'cancelled_by_buyer'
+        && request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          'status', 'updatedAt', 'cancelledAt', 'cancelledBy', 'cancelledByUid'
+        ])
+        && request.resource.data.updatedAt == request.time
+        && request.resource.data.cancelledAt == request.time
+        && request.resource.data.cancelledBy == 'buyer'
+        && request.resource.data.cancelledByUid == request.auth.uid
+        && orderHasNoShipmentProgress(resource.data);
+    }
+
+    function sellerCanCancelOrder() {
+      return request.auth.uid == resource.data.sellerUid
+        && resource.data.status in ['paid', 'pending_delivery']
+        && request.resource.data.status == 'cancelled_by_seller'
+        && request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          'status', 'updatedAt', 'cancelledAt', 'cancelledBy', 'cancelledByUid'
+        ])
+        && request.resource.data.updatedAt == request.time
+        && request.resource.data.cancelledAt == request.time
+        && request.resource.data.cancelledBy == 'seller'
+        && request.resource.data.cancelledByUid == request.auth.uid
+        && orderHasNoShipmentProgress(resource.data);
+    }
+
+    function cancellationOrderDocId(paymentRef, listingId) {
+      return paymentRef + '__' + listingId;
+    }
+
+    function cancelledOrderExistsAfter(listingId, paymentRef) {
+      return paymentRef is string
+        && paymentRef.size() > 0
+        && existsAfter(/databases/$(database)/documents/orders/$(cancellationOrderDocId(paymentRef, listingId)))
+        && getAfter(/databases/$(database)/documents/orders/$(cancellationOrderDocId(paymentRef, listingId))).data.listingId == listingId
+        && getAfter(/databases/$(database)/documents/orders/$(cancellationOrderDocId(paymentRef, listingId))).data.status in [
+          'cancelled_by_buyer',
+          'cancelled_by_seller'
+        ];
+    }
+
+    /* =========================
+       Username uniqueness
+       /usernames/{username} -> { uid, createdAt }
+    ========================= */
+    match /usernames/{username} {
+      // You can make this false if you never need to read it client-side
+      allow read: if signedIn();
+
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['uid','createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.createdAt == request.time;
+
+      allow update, delete: if false; // immutable
+    }
+
+    /* =========================
+       Users
+       /users/{uid}
+       (Profile picture is stored in Storage; Firestore holds photoURL/path reference only.)
+    ========================= */
+    match /users/{uid} {
+      // Read: signed-in and not blocked either way
+      allow read: if signedIn() && !isBlocked(request.auth.uid, uid);
+
+      // Create: self only, must include DOB string + isAdult true, counters start at 0
+      allow create: if signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.keys().hasAll([
+          'username','displayName','dateOfBirth','isAdult','createdAt','lastActiveAt',
+          'followersCount','followingCount','postsCount','listingsCount','tryOnCount',
+          'status','strikesCount',
+          'photoURL','bio'
+        ])
+        && request.resource.data.username is string
+        && request.resource.data.username.size() >= 3
+        && request.resource.data.displayName is string
+        && request.resource.data.displayName.size() >= 1
+        && isDobString(request.resource.data.dateOfBirth)
+        && isAdultFlag(request.resource.data)
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.lastActiveAt == request.time
+        && request.resource.data.followersCount == 0
+        && request.resource.data.followingCount == 0
+        && request.resource.data.postsCount == 0
+        && request.resource.data.listingsCount == 0
+        && request.resource.data.tryOnCount == 0
+        && request.resource.data.status == 'active'
+        && request.resource.data.strikesCount == 0
+        && maxLen(request.resource.data.bio, 200);
+
+      // Update:
+      // - Owner can edit displayName/bio/photoURL/lastActiveAt only
+      // - followersCount can change by +/-1 when the follower edge is created/deleted in the same batch
+      // - followingCount can change by +/-1 by the owner (client-managed)
+      allow update: if signedIn()
+        && !isBlocked(request.auth.uid, uid)
+        && (
+          // Profile edits by owner (no counters/moderation changes)
+          (
+            request.auth.uid == uid
+            // immutable identity gating
+            && request.resource.data.dateOfBirth == resource.data.dateOfBirth
+            && request.resource.data.isAdult == resource.data.isAdult
+            && request.resource.data.username == resource.data.username
+            // lock counters
+            && request.resource.data.followersCount == resource.data.followersCount
+            && request.resource.data.followingCount == resource.data.followingCount
+            && request.resource.data.postsCount == resource.data.postsCount
+            && request.resource.data.listingsCount == resource.data.listingsCount
+            && request.resource.data.tryOnCount == resource.data.tryOnCount
+            // lock moderation status
+            && request.resource.data.status == resource.data.status
+            && request.resource.data.strikesCount == resource.data.strikesCount
+            // editable fields
+            && request.resource.data.displayName is string
+            && request.resource.data.displayName.size() >= 1
+            && maxLen(request.resource.data.bio, 200)
+          )
+          ||
+          // followersCount update by follower (must coincide with following edge write)
+          (
+            request.resource.data.diff(resource.data).changedKeys().hasOnly(['followersCount'])
+            && request.resource.data.followersCount is int
+            && request.resource.data.followersCount >= 0
+            && (
+              (
+                !followingEdgeExists(request.auth.uid, uid)
+                && followingEdgeExistsAfter(request.auth.uid, uid)
+                && request.resource.data.followersCount == resource.data.followersCount + 1
+              )
+              ||
+              (
+                followingEdgeExists(request.auth.uid, uid)
+                && !followingEdgeExistsAfter(request.auth.uid, uid)
+                && request.resource.data.followersCount == resource.data.followersCount - 1
+              )
+            )
+          )
+          ||
+          // followingCount update by owner (client-managed)
+          (
+            request.auth.uid == uid
+            && request.resource.data.diff(resource.data).changedKeys().hasOnly(['followingCount'])
+            && request.resource.data.followingCount is int
+            && request.resource.data.followingCount >= 0
+            && (
+              request.resource.data.followingCount == resource.data.followingCount + 1
+              || request.resource.data.followingCount == resource.data.followingCount - 1
+            )
+          )
+        );
+
+      // Delete user doc: disabled from client (do account deletion via server cleanup flow)
+      allow delete: if false;
+
+      /* ---- Social graph ---- */
+      match /following/{targetUid} {
+        allow read: if signedIn() && !isBlocked(request.auth.uid, uid);
+
+        allow create: if signedIn()
+          && request.auth.uid == uid
+          && !isBlocked(uid, targetUid)
+          && request.resource.data.keys().hasOnly(['createdAt'])
+          && request.resource.data.createdAt == request.time;
+
+        allow delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+
+      match /followers/{sourceUid} {
+        allow read: if signedIn() && !isBlocked(request.auth.uid, uid);
+
+        // Allow follower to create/delete their follower edge (no Cloud Function required)
+        allow create: if signedIn()
+          && request.auth.uid == sourceUid
+          && !isBlocked(sourceUid, uid)
+          && request.resource.data.keys().hasOnly(['createdAt'])
+          && request.resource.data.createdAt == request.time;
+
+        allow delete: if signedIn() && request.auth.uid == sourceUid;
+        allow update: if false;
+      }
+
+      /* ---- Blocking ---- */
+      match /blocked/{targetUid} {
+        allow read: if signedIn() && request.auth.uid == uid;
+
+        allow create: if signedIn()
+          && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['createdAt','reason'])
+          && request.resource.data.createdAt == request.time
+          && maxLen(request.resource.data.reason, 120);
+
+        allow delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+
+      /* ---- Like mirrors (owner-only) ---- */
+      match /postLikes/{postId} {
+        allow read, create, delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+      match /commentLikes/{commentId} {
+        allow read, create, delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+      match /replyLikes/{replyId} {
+        allow read, create, delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+      match /listingLikes/{listingLikeId} {
+        allow read: if signedIn() && request.auth.uid == uid;
+        allow create: if signedIn()
+          && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['createdAt'])
+          && request.resource.data.createdAt == request.time;
+        allow delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+
+      /* ---- Try-on jobs (NO model photo storage in Firebase anymore) ---- */
+      match /tryOnJobs/{jobId} {
+        allow read: if signedIn() && request.auth.uid == uid;
+
+        // User can create a job request; server should later write results via Admin SDK/Functions
+        allow create: if signedIn()
+          && request.auth.uid == uid
+          && request.resource.data.keys().hasAll(['createdAt','status','provider','inputs'])
+          && request.resource.data.createdAt == request.time
+          && request.resource.data.status == 'queued'
+          // inputs should NOT include model photo references to Firebase Storage
+          && request.resource.data.inputs is map;
+
+        // Hard delete allowed (as requested)
+        allow delete: if signedIn() && request.auth.uid == uid;
+
+        // Disallow client updates (server writes bypass rules)
+        allow update: if false;
+      }
+
+      /* ---- Notifications ---- */
+      match /notifications/{notifId} {
+        allow read: if signedIn() && request.auth.uid == uid;
+
+        // Create should be server-only
+        allow create: if false;
+
+        // Delete allowed for owner
+        allow delete: if signedIn() && request.auth.uid == uid;
+
+        // Update: owner can only toggle "read" (no other field changes)
+        allow update: if signedIn()
+          && request.auth.uid == uid
+          && request.resource.data.diff(resource.data).changedKeys().hasOnly(['read'])
+          && request.resource.data.read is bool;
+      }
+
+    }
+
+    /* =========================
+       Posts (feed)
+       /posts/{postId}
+    ========================= */
+    match /posts/{postId} {
+      // Public post reads (signed-in or signed-out).
+      allow read: if true;
+
+      // Create post (images only)
+      allow create: if signedIn()
+        && request.resource.data.authorUid == request.auth.uid
+        && request.resource.data.keys().hasAll([
+          'authorUid','createdAt','caption','images',
+          'likeCount','commentCount',
+          'state','removedAt','removedReason'
+        ])
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.images is list
+        && request.resource.data.images.size() >= 1
+        && request.resource.data.likeCount == 0
+        && request.resource.data.commentCount == 0
+        && request.resource.data.state == 'ok'
+        && request.resource.data.removedAt == null
+        && request.resource.data.removedReason == null
+        && maxLen(request.resource.data.caption, 500);
+
+      // Update: author can edit caption/images only (no counters/moderation changes)
+      allow update: if signedIn()
+        && resource.data.authorUid == request.auth.uid
+        && request.resource.data.authorUid == resource.data.authorUid
+        && request.resource.data.createdAt == resource.data.createdAt
+        && request.resource.data.likeCount == resource.data.likeCount
+        && request.resource.data.commentCount == resource.data.commentCount
+        && request.resource.data.state == resource.data.state
+        && request.resource.data.removedAt == resource.data.removedAt
+        && request.resource.data.removedReason == resource.data.removedReason
+        && request.resource.data.images is list
+        && request.resource.data.images.size() >= 1
+        && maxLen(request.resource.data.caption, 500);
+
+      // Hard delete by author
+      allow delete: if signedIn() && resource.data.authorUid == request.auth.uid;
+
+      /* ---- Post likes ---- */
+      match /likers/{uid} {
+        allow read: if signedIn()
+          && (
+            request.auth.uid == uid
+            || request.auth.uid == get(/databases/$(database)/documents/posts/$(postId)).data.authorUid
+          );
+
+        allow create: if signedIn()
+          && request.auth.uid == uid
+          && !isBlocked(uid, get(/databases/$(database)/documents/posts/$(postId)).data.authorUid)
+          && request.resource.data.keys().hasOnly(['createdAt'])
+          && request.resource.data.createdAt == request.time;
+
+        allow delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+
+      /* ---- Comments ---- */
+      match /comments/{commentId} {
+        allow read: if signedIn()
+          && !isBlocked(request.auth.uid, get(/databases/$(database)/documents/posts/$(postId)).data.authorUid);
+
+        allow create: if signedIn()
+          && request.resource.data.keys().hasAll([
+            'authorUid','createdAt','text',
+            'state','removedAt','removedReason',
+            'likeCount','replyCount'
+          ])
+          && request.resource.data.authorUid == request.auth.uid
+          && request.resource.data.createdAt == request.time
+          && request.resource.data.state == 'ok'
+          && request.resource.data.removedAt == null
+          && request.resource.data.removedReason == null
+          && request.resource.data.likeCount == 0
+          && request.resource.data.replyCount == 0
+          && request.resource.data.text is string
+          && request.resource.data.text.size() >= 1
+          && request.resource.data.text.size() <= 800;
+
+        // Update: comment author can edit text only (keeps counters/moderation locked)
+        allow update: if signedIn()
+          && request.auth.uid == resource.data.authorUid
+          && request.resource.data.authorUid == resource.data.authorUid
+          && request.resource.data.createdAt == resource.data.createdAt
+          && request.resource.data.likeCount == resource.data.likeCount
+          && request.resource.data.replyCount == resource.data.replyCount
+          && request.resource.data.state == resource.data.state
+          && request.resource.data.removedAt == resource.data.removedAt
+          && request.resource.data.removedReason == resource.data.removedReason
+          && request.resource.data.text is string
+          && request.resource.data.text.size() >= 1
+          && request.resource.data.text.size() <= 800;
+
+        // Hard delete: comment author OR post author
+        allow delete: if signedIn()
+          && (
+            request.auth.uid == resource.data.authorUid
+            || request.auth.uid == get(/databases/$(database)/documents/posts/$(postId)).data.authorUid
+          );
+
+        /* ---- Comment likes ---- */
+        match /likers/{uid} {
+          allow read: if signedIn()
+            && (
+              request.auth.uid == uid
+              || request.auth.uid == get(/databases/$(database)/documents/posts/$(postId)/comments/$(commentId)).data.authorUid
+            );
+
+          allow create: if signedIn()
+            && request.auth.uid == uid
+            && request.resource.data.keys().hasOnly(['createdAt'])
+            && request.resource.data.createdAt == request.time;
+
+          allow delete: if signedIn() && request.auth.uid == uid;
+          allow update: if false;
+        }
+
+        /* ---- Replies ---- */
+        match /replies/{replyId} {
+          allow read: if signedIn();
+
+          allow create: if signedIn()
+            && request.resource.data.keys().hasAll([
+              'authorUid','createdAt','text',
+              'state','removedAt','removedReason',
+              'likeCount'
+            ])
+            && request.resource.data.authorUid == request.auth.uid
+            && request.resource.data.createdAt == request.time
+            && request.resource.data.state == 'ok'
+            && request.resource.data.removedAt == null
+            && request.resource.data.removedReason == null
+            && request.resource.data.likeCount == 0
+            && request.resource.data.text is string
+            && request.resource.data.text.size() >= 1
+            && request.resource.data.text.size() <= 800;
+
+          // Update: reply author can edit text only
+          allow update: if signedIn()
+            && request.auth.uid == resource.data.authorUid
+            && request.resource.data.authorUid == resource.data.authorUid
+            && request.resource.data.createdAt == resource.data.createdAt
+            && request.resource.data.likeCount == resource.data.likeCount
+            && request.resource.data.state == resource.data.state
+            && request.resource.data.removedAt == resource.data.removedAt
+            && request.resource.data.removedReason == resource.data.removedReason
+            && request.resource.data.text is string
+            && request.resource.data.text.size() >= 1
+            && request.resource.data.text.size() <= 800;
+
+          // Hard delete: reply author OR post author
+          allow delete: if signedIn()
+            && (
+              request.auth.uid == resource.data.authorUid
+              || request.auth.uid == get(/databases/$(database)/documents/posts/$(postId)).data.authorUid
+            );
+
+          match /likers/{uid} {
+            allow read: if signedIn()
+              && (
+                request.auth.uid == uid
+                || request.auth.uid == get(/databases/$(database)/documents/posts/$(postId)/comments/$(commentId)/replies/$(replyId)).data.authorUid
+              );
+
+            allow create: if signedIn()
+              && request.auth.uid == uid
+              && request.resource.data.keys().hasOnly(['createdAt'])
+              && request.resource.data.createdAt == request.time;
+
+            allow delete: if signedIn() && request.auth.uid == uid;
+            allow update: if false;
+          }
+        }
+      }
+    }
+
+    /* =========================
+       Listings
+       /listings/{listingId}
+    ========================= */
+    match /listings/{listingId} {
+      // Public listings: any signed-in user can read
+      allow read: if signedIn();
+
+      allow create: if signedIn()
+        && request.resource.data.sellerUid == request.auth.uid
+        && request.resource.data.keys().hasAll([
+          'sellerUid','createdAt','updatedAt','status',
+          'title','description','price',
+          'primeImage','photos',
+          'brand','category','size','condition',
+          'role','vibes','colors','pattern','season',
+          'material','gender','fit','measurements','sku','source',
+          'tags',
+          'state','removedAt','removedReason',
+          'likeCount','viewCount'
+        ])
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.updatedAt == request.time
+        && (request.resource.data.status in ['active','sold','archived'])
+        && request.resource.data.title is string
+        && request.resource.data.title.size() >= 1
+        && request.resource.data.title.size() <= 120
+        && request.resource.data.description is string
+        && request.resource.data.description.size() <= 2000
+        // price
+        && request.resource.data.price.amount is int
+        && request.resource.data.price.amount >= 0
+        && request.resource.data.price.currency is string
+        && request.resource.data.price.currency.size() == 3
+        // images
+        && request.resource.data.primeImage.url is string
+        && request.resource.data.photos is list
+        && request.resource.data.photos.size() >= 1
+        // moderation (client cannot create as removed)
+        && request.resource.data.state == 'ok'
+        && request.resource.data.removedAt == null
+        && request.resource.data.removedReason == null
+        // counters
+        && request.resource.data.likeCount == 0
+        && request.resource.data.viewCount == 0
+        // required tags (string list, small)
+        && request.resource.data.tags is list
+        && request.resource.data.tags.size() >= 1
+        && request.resource.data.tags.size() <= 40;
+
+      // Update by seller (no moderation/counter changes by client)
+      allow update: if signedIn()
+        && (
+          // Seller edits (no moderation/counter changes by seller client)
+          (
+            resource.data.sellerUid == request.auth.uid
+            && request.resource.data.sellerUid == resource.data.sellerUid
+            && request.resource.data.createdAt == resource.data.createdAt
+            && request.resource.data.likeCount == resource.data.likeCount
+            && request.resource.data.viewCount == resource.data.viewCount
+            && request.resource.data.state == resource.data.state
+            && request.resource.data.removedAt == resource.data.removedAt
+            && request.resource.data.removedReason == resource.data.removedReason
+            && request.resource.data.updatedAt == request.time
+            // required tags (string list, small)
+            && request.resource.data.tags is list
+            && request.resource.data.tags.size() >= 1
+            && request.resource.data.tags.size() <= 40
+          )
+          ||
+          // Release a sold listing back to active when a pre-shipment order is cancelled
+          (
+            (
+              request.auth.uid == resource.data.sellerUid
+              || request.auth.uid == resource.data.soldToUid
+            )
+            && resource.data.status == 'sold'
+            && cancelledOrderExistsAfter(listingId, resource.data.soldPaymentRef)
+            && request.resource.data.status == 'active'
+            && request.resource.data.diff(resource.data).changedKeys().hasOnly([
+              'status', 'updatedAt', 'soldAt', 'soldToUid', 'soldPaymentRef', 'soldSource'
+            ])
+            && request.resource.data.updatedAt == request.time
+            && !request.resource.data.keys().hasAny(['soldAt', 'soldToUid', 'soldPaymentRef', 'soldSource'])
+          )
+          ||
+          // likeCount update by liker (must coincide with liker edge write/delete in same batch/tx)
+          (
+            request.resource.data.diff(resource.data).changedKeys().hasOnly(['likeCount'])
+            && request.resource.data.likeCount is int
+            && request.resource.data.likeCount >= 0
+            && (
+              (
+                !listingLikerEdgeExists(listingId, request.auth.uid)
+                && listingLikerEdgeExistsAfter(listingId, request.auth.uid)
+                && request.resource.data.likeCount == resource.data.likeCount + 1
+              )
+              ||
+              (
+                listingLikerEdgeExists(listingId, request.auth.uid)
+                && !listingLikerEdgeExistsAfter(listingId, request.auth.uid)
+                && request.resource.data.likeCount == resource.data.likeCount - 1
+              )
+            )
+          )
+        );
+
+      // Hard delete by seller
+      allow delete: if signedIn() && resource.data.sellerUid == request.auth.uid;
+
+      /* ---- Listing likes ---- */
+      match /likers/{uid} {
+        allow read: if signedIn()
+          && (
+            request.auth.uid == uid
+            || request.auth.uid == get(/databases/$(database)/documents/listings/$(listingId)).data.sellerUid
+          );
+
+        allow create: if signedIn()
+          && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['createdAt'])
+          && request.resource.data.createdAt == request.time;
+
+        allow delete: if signedIn() && request.auth.uid == uid;
+        allow update: if false;
+      }
+    }
+
+    match /listingEmbeddings/{listingId} {
+      allow read: if false;
+      allow write: if false;
+    }
+
+    /* =========================
+       Stripe / Payments (server-only writes)
+    ========================= */
+    match /stripeCustomers/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow write: if false; // Admin SDK / Functions only
+    }
+
+    match /checkoutSessions/{sessionId} {
+      allow read: if signedIn() && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+
+    match /orders/{orderId} {
+      allow read: if signedIn()
+        && (
+          resource.data.buyerUid == request.auth.uid
+          || resource.data.sellerUid == request.auth.uid
+          || isAdmin()
+        );
+      allow update: if signedIn()
+        && (
+          isAdmin()
+          || sellerCanAdvanceOrder()
+          || buyerCanCancelOrder()
+          || sellerCanCancelOrder()
+        );
+      allow create, delete: if false;
+    }
+
+    /* =========================
+       Reports (no evidence)
+       /reports/{reportId}
+    ========================= */
+    match /reports/{reportId} {
+      // Reporter can read own; admins can read all
+      allow read: if signedIn()
+        && (isAdmin() || resource.data.reporterUid == request.auth.uid);
+
+      allow create: if signedIn()
+        && request.resource.data.keys().hasAll([
+          'reporterUid','targetType','targetId','reasonCode','note','createdAt',
+          'status','resolvedAt','resolvedByUid'
+        ])
+        && request.resource.data.reporterUid == request.auth.uid
+        && (request.resource.data.targetType in ['post','user','listing'])
+        && request.resource.data.targetId is string
+        && request.resource.data.reasonCode is string
+        && maxLen(request.resource.data.note, 500)
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.status == 'open'
+        && request.resource.data.resolvedAt == null
+        && request.resource.data.resolvedByUid == null;
+
+      // Only admins can resolve/update
+      allow update: if isAdmin();
+
+      // Admin-only delete (optional)
+      allow delete: if isAdmin();
+    }
+
+    /* =========================
+       Moderation actions (admin only)
+       /moderationActions/{actionId}
+    ========================= */
+    match /moderationActions/{actionId} {
+      allow read, create, update, delete: if isAdmin();
+    }
+  }
+}

@@ -1,0 +1,5 @@
+surface,configId,overall,successRate,meanLatencyMs,progression
+internal,heuristic_off,0.7119402985074627,1,6906.499999999999,
+internal,auto_off,0.9014925373134329,1,565,
+internal,heuristic_hybrid,0.7291873963515754,1,606.4166666666667,
+internal,auto_hybrid,0.9058043117744609,1,926.25,

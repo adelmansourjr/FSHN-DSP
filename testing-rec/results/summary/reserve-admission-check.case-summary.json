@@ -1,0 +1,318 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_old_money_stage1",
+    "prompt": "Old money fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "diversity",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 1,
+    "runCount": 2,
+    "successCount": 2,
+    "successRate": 1,
+    "meanLatencyMs": 44969.5,
+    "metrics": {
+      "selection": 0.9277777777777777,
+      "semantic": 0.9638888888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.9638888888888888,
+      "deterministic": null,
+      "diversity": 0.9166666666666667,
+      "progression": null,
+      "overall": 0.9458547008547007
+    },
+    "diagnostics": {
+      "semanticShare": 0.012025000000000001,
+      "semanticFrontierShare": 0.007576
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_dinner_stage1",
+    "prompt": "Dinner date fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "progression",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 1,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 44169,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777778,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8899470899470898
+    },
+    "diagnostics": {
+      "semanticShare": 0.011039,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_no_sneakers",
+    "prompt": "No sneakers with black trousers and a blazer",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "color",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 41874,
+    "metrics": {
+      "selection": 0.9277777777777777,
+      "semantic": 0.9638888888888888,
+      "negation": 1,
+      "color": 1,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9638888888888888
+    },
+    "diagnostics": {
+      "semanticShare": 0.039583,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_kanye",
+    "prompt": "Kanye fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "persona",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 46697,
+    "metrics": {
+      "selection": 0.8916666666666667,
+      "semantic": 0.9458333333333333,
+      "negation": null,
+      "color": null,
+      "persona": 1,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9333333333333335
+    },
+    "diagnostics": {
+      "semanticShare": 0.025474,
+      "semanticFrontierShare": 0.088235
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_princess_diana",
+    "prompt": "Princess Diana fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "persona",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 44587,
+    "metrics": {
+      "selection": 0.7833333333333333,
+      "semantic": 0.8916666666666666,
+      "negation": null,
+      "color": null,
+      "persona": 1,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8666666666666666
+    },
+    "diagnostics": {
+      "semanticShare": 0.011691,
+      "semanticFrontierShare": 0.019608
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_gym",
+    "prompt": "Gym fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "overall"
+    ],
+    "tags": [
+      "core"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 42850,
+    "metrics": {
+      "selection": 0.9277777777777777,
+      "semantic": 0.9638888888888888,
+      "negation": null,
+      "color": null,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.9449735449735448
+    },
+    "diagnostics": {
+      "semanticShare": 0.014658,
+      "semanticFrontierShare": 0.039216
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "women_cream_monochrome",
+    "prompt": "Cream monochrome outfit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "color",
+      "overall"
+    ],
+    "tags": [
+      "core",
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 44219,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.9277777777777778,
+      "negation": null,
+      "color": 1,
+      "persona": null,
+      "pool_quality": null,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.911111111111111
+    },
+    "diagnostics": {
+      "semanticShare": 0.029013,
+      "semanticFrontierShare": 0
+    }
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "caseId": "men_gallery_opening_not_streetwear",
+    "prompt": "Gallery opening outfit, clean and modern, not streetwear",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "metricFamilies": [
+      "selection",
+      "semantic",
+      "negation",
+      "overall"
+    ],
+    "tags": [
+      "embedding_sensitive"
+    ],
+    "progressionGroup": null,
+    "progressionStage": null,
+    "runCount": 1,
+    "successCount": 1,
+    "successRate": 1,
+    "meanLatencyMs": 43970,
+    "metrics": {
+      "selection": 0.8555555555555555,
+      "semantic": 0.7611111111111111,
+      "negation": 0.7,
+      "color": null,
+      "persona": null,
+      "pool_quality": 0.9277777777777777,
+      "deterministic": null,
+      "diversity": null,
+      "progression": null,
+      "overall": 0.8168276972624797
+    },
+    "diagnostics": {
+      "semanticShare": 0.037189,
+      "semanticFrontierShare": 0.103175
+    }
+  }
+]

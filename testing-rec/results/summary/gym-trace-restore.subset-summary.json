@@ -1,0 +1,17 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "all",
+    "caseCount": 1,
+    "overall": 1,
+    "selection": 1,
+    "semantic": 1,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 39823,
+    "semanticShare": 0.018831,
+    "semanticFrontierShare": 0
+  }
+]

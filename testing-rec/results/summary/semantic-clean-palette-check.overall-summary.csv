@@ -1,0 +1,3 @@
+surface,configId,overall,successRate,meanLatencyMs,progression,semanticShare,semanticFrontierShare
+internal,auto_off,0.7505631920580375,1,43132.5,0.8216652421652421,0,0
+internal,auto_hybrid,0.9092115311187476,1,41055.666666666664,0.8608176638176637,0.021766999999999998,0.03970033333333334

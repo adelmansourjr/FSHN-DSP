@@ -1,0 +1,10 @@
+surface,configId,metric,mean,cases
+internal,auto_hybrid,selection,1,1
+internal,auto_hybrid,semantic,1,1
+internal,auto_hybrid,negation,,0
+internal,auto_hybrid,color,,0
+internal,auto_hybrid,persona,,0
+internal,auto_hybrid,pool_quality,,0
+internal,auto_hybrid,deterministic,,0
+internal,auto_hybrid,diversity,,0
+internal,auto_hybrid,progression,,0

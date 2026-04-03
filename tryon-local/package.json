@@ -1,0 +1,28 @@
+{
+  "name": "tryon-api",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "tsx serve.mjs",
+    "check": "node --check serve.mjs && node --check recommender-runtime.mjs",
+    "validate:config": "node validate-config.mjs",
+    "prepare:recommender": "node ./scripts/prepare-recommender-assets.mjs",
+    "upload:farfetch": "node ./scripts/upload-farfetch-images.mjs",
+    "deploy:staging": "DEPLOY_ENV=staging ./scripts/deploy-cloud-run.sh",
+    "deploy:production": "DEPLOY_ENV=production ./scripts/deploy-cloud-run.sh"
+  },
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "@google-cloud/vertexai": "^1.7.1",
+    "@google-cloud/vision": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0",
+    "google-auth-library": "^9.14.1",
+    "sharp": "^0.34.3",
+    "tsx": "^4.19.2",
+    "yargs": "^17.7.2"
+  }
+}

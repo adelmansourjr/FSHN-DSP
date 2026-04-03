@@ -1,0 +1,4718 @@
+[
+  {
+    "id": "19930879_44913154_1000.jpg",
+    "imagePath": "images/19930879_44913154_1000.jpg",
+    "category": "bottom",
+    "sub": "jeans",
+    "colours": [
+      "black",
+      "brown"
+    ],
+    "vibes": [
+      "edgy"
+    ],
+    "gender": "men",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "19930879 44913154 1000",
+    "name_normalized": "19930879 44913154 1000",
+    "entities": [
+      "trousers",
+      "tshirt",
+      "farfetch",
+      "clothing",
+      "jeans",
+      "leather",
+      "vetements",
+      "express",
+      "pocket",
+      "19930879 44913154 1000",
+      "19930879",
+      "44913154",
+      "1000",
+      "141",
+      "19930879449131541000"
+    ],
+    "entityMeta": [
+      {
+        "text": "trousers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "farfetch",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jeans",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "leather",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "vetements",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "express",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "19930879 44913154 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "19930879",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "44913154",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "141",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "19930879449131541000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pocket",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "25034123_55256089_1000.jpg",
+    "imagePath": "images/25034123_55256089_1000.jpg",
+    "category": "top",
+    "sub": "shirt/t-shirt",
+    "colours": [
+      "black",
+      "grey"
+    ],
+    "vibes": [
+      "streetwear",
+      "edgy"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "25034123 55256089 1000",
+    "name_normalized": "25034123 55256089 1000",
+    "entities": [
+      "balenciaga",
+      "tshirt",
+      "shirt",
+      "cotton",
+      "jersey",
+      "crew neck",
+      "crew",
+      "neck",
+      "cn",
+      "crewneck",
+      "tape type tshirt",
+      "tape",
+      "type",
+      "ttt",
+      "tapetypetshirt",
+      "settled",
+      "active shirt",
+      "active",
+      "as",
+      "activeshirt",
+      "25034123 55256089 1000",
+      "25034123",
+      "55256089",
+      "1000",
+      "251",
+      "25034123552560891000"
+    ],
+    "entityMeta": [
+      {
+        "text": "balenciaga",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cotton",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crew neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crew",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cn",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crewneck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tape type tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tape",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "type",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ttt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tapetypetshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "settled",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25034123 55256089 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25034123",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "55256089",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "251",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25034123552560891000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "active shirt",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "active",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "as",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "activeshirt",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "25726851_55869235_1000.jpg",
+    "imagePath": "images/25726851_55869235_1000.jpg",
+    "category": "bottom",
+    "sub": "jeans",
+    "colours": [
+      "blue"
+    ],
+    "vibes": [
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": "oversized",
+    "sportMeta": null,
+    "name": "25726851 55869235 1000",
+    "name_normalized": "25726851 55869235 1000",
+    "entities": [
+      "balenciaga",
+      "jeans",
+      "trousers",
+      "denim",
+      "wide leg jeans",
+      "wide",
+      "leg",
+      "wlj",
+      "widelegjeans",
+      "belt",
+      "farfetch",
+      "light blue baggy jeans balenciaga",
+      "light",
+      "blue",
+      "baggy",
+      "lbbjb",
+      "lightbluebaggyjeansbalenciaga",
+      "25726851 55869235 1000",
+      "25726851",
+      "55869235",
+      "1000",
+      "251",
+      "25726851558692351000",
+      "balenciaga unisex",
+      "unisex",
+      "bu",
+      "balenciagaunisex"
+    ],
+    "entityMeta": [
+      {
+        "text": "balenciaga",
+        "weight": 0.9914582967758179,
+        "type": "brand"
+      },
+      {
+        "text": "jeans",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "trousers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "denim",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "wide leg jeans",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "wide",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "leg",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "wlj",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "widelegjeans",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "belt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "farfetch",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25726851 55869235 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25726851",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "55869235",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "251",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25726851558692351000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "light blue baggy jeans balenciaga",
+        "weight": 0.8,
+        "type": "brand"
+      },
+      {
+        "text": "light",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "blue",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "baggy",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "lbbjb",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "lightbluebaggyjeansbalenciaga",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "balenciaga unisex",
+        "weight": 0.7,
+        "type": "brand"
+      },
+      {
+        "text": "unisex",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "bu",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "balenciagaunisex",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "30192761_59201809_1000.jpg",
+    "imagePath": "images/30192761_59201809_1000.jpg",
+    "category": "top",
+    "sub": "t-shirt",
+    "colours": [
+      "black",
+      "beige"
+    ],
+    "vibes": [
+      "preppy",
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "30192761 59201809 1000",
+    "name_normalized": "30192761 59201809 1000",
+    "entities": [
+      "ralph lauren corporation",
+      "ralph",
+      "lauren",
+      "corporation",
+      "rlc",
+      "ralphlaurencorporation",
+      "tshirt",
+      "ralph lauren",
+      "rl",
+      "ralphlauren",
+      "jumper",
+      "lauren ralph lauren",
+      "lrl",
+      "laurenralphlauren",
+      "crew neck",
+      "crew",
+      "neck",
+      "cn",
+      "crewneck",
+      "ralph lauren purple label black polo bear polo",
+      "purple",
+      "label",
+      "black",
+      "polo",
+      "bear",
+      "rlplbpbp",
+      "ralphlaurenpurplelabelblackpolobearpolo",
+      "sweatshirt",
+      "ralph lauren teddy bear",
+      "teddy",
+      "rltb",
+      "ralphlaurenteddybear",
+      "30192761 59201809 1000",
+      "30192761",
+      "59201809",
+      "1000",
+      "351",
+      "30192761592018091000",
+      "polo by ralph lau polo rl",
+      "by",
+      "lau",
+      "pbrlpr",
+      "polobyralphlaupolorl"
+    ],
+    "entityMeta": [
+      {
+        "text": "ralph lauren corporation",
+        "weight": 0.9290301203727722,
+        "type": "generic"
+      },
+      {
+        "text": "ralph",
+        "weight": 0.9290301203727722,
+        "type": "generic"
+      },
+      {
+        "text": "lauren",
+        "weight": 0.9290301203727722,
+        "type": "generic"
+      },
+      {
+        "text": "corporation",
+        "weight": 0.9290301203727722,
+        "type": "generic"
+      },
+      {
+        "text": "rlc",
+        "weight": 0.9290301203727722,
+        "type": "generic"
+      },
+      {
+        "text": "ralphlaurencorporation",
+        "weight": 0.9290301203727722,
+        "type": "generic"
+      },
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ralph lauren",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rl",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ralphlauren",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jumper",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lauren ralph lauren",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lrl",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "laurenralphlauren",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crew neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crew",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cn",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crewneck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ralph lauren purple label black polo bear polo",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "purple",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "label",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "black",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "polo",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bear",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rlplbpbp",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ralphlaurenpurplelabelblackpolobearpolo",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sweatshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ralph lauren teddy bear",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "teddy",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rltb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ralphlaurenteddybear",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "30192761 59201809 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "30192761",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "59201809",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "351",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "30192761592018091000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "polo by ralph lau polo rl",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "by",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "lau",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "pbrlpr",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "polobyralphlaupolorl",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "31085551_60485738_1000.jpg",
+    "imagePath": "images/31085551_60485738_1000.jpg",
+    "category": "top",
+    "sub": "hoodie",
+    "colours": [
+      "white",
+      "beige"
+    ],
+    "vibes": [
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "31085551 60485738 1000",
+    "name_normalized": "31085551 60485738 1000",
+    "entities": [
+      "balenciaga",
+      "tshirt",
+      "jacket",
+      "zip",
+      "hoodie",
+      "coat",
+      "clothing",
+      "hood",
+      "31085551 60485738 1000",
+      "31085551",
+      "60485738",
+      "1000",
+      "361",
+      "31085551604857381000"
+    ],
+    "entityMeta": [
+      {
+        "text": "balenciaga",
+        "weight": 0.9996821880340576,
+        "type": "brand"
+      },
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jacket",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "zip",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "hoodie",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "coat",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "hood",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "31085551 60485738 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "31085551",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "60485738",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "361",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "31085551604857381000",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "31806290_61381270_1000.jpg",
+    "imagePath": "images/31806290_61381270_1000.jpg",
+    "category": "bottom",
+    "sub": "trousers",
+    "colours": [
+      "black",
+      "white"
+    ],
+    "vibes": [
+      "minimal"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "31806290 61381270 1000",
+    "name_normalized": "31806290 61381270 1000",
+    "entities": [
+      "pocket",
+      "31806290 61381270 1000",
+      "31806290",
+      "61381270",
+      "1000",
+      "361",
+      "31806290613812701000"
+    ],
+    "entityMeta": [
+      {
+        "text": "31806290 61381270 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "31806290",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "61381270",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "361",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "31806290613812701000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pocket",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "32198291_62056828_1000.jpg",
+    "imagePath": "images/32198291_62056828_1000.jpg",
+    "category": "shoes",
+    "sub": "shoes",
+    "colours": [
+      "yellow",
+      "grey"
+    ],
+    "vibes": [
+      "edgy",
+      "techwear"
+    ],
+    "gender": "unisex",
+    "fit": null,
+    "sportMeta": null,
+    "name": "32198291 62056828 1000",
+    "name_normalized": "32198291 62056828 1000",
+    "entities": [
+      "the timberland company",
+      "the",
+      "timberland",
+      "company",
+      "tc",
+      "thetimberlandcompany",
+      "boot",
+      "timberland women s waterproof premium 6 inch",
+      "women",
+      "s",
+      "waterproof",
+      "premium",
+      "6",
+      "inch",
+      "twswp6i",
+      "timberlandwomenswaterproofpremium6inch",
+      "men s boot",
+      "men",
+      "msb",
+      "mensboot",
+      "shoe",
+      "leather",
+      "snow boot",
+      "snow",
+      "sb",
+      "snowboot",
+      "lace up boot",
+      "lace",
+      "up",
+      "lub",
+      "laceupboot",
+      "32198291 62056828 1000",
+      "32198291",
+      "62056828",
+      "1000",
+      "361",
+      "32198291620568281000",
+      "anteed wat imberland",
+      "anteed",
+      "wat",
+      "imberland",
+      "awi",
+      "anteedwatimberland"
+    ],
+    "entityMeta": [
+      {
+        "text": "the timberland company",
+        "weight": 0.9999454021453857,
+        "type": "brand"
+      },
+      {
+        "text": "the",
+        "weight": 0.9999454021453857,
+        "type": "generic"
+      },
+      {
+        "text": "timberland",
+        "weight": 0.9999454021453857,
+        "type": "brand"
+      },
+      {
+        "text": "company",
+        "weight": 0.9999454021453857,
+        "type": "generic"
+      },
+      {
+        "text": "tc",
+        "weight": 0.9999454021453857,
+        "type": "generic"
+      },
+      {
+        "text": "thetimberlandcompany",
+        "weight": 0.9999454021453857,
+        "type": "generic"
+      },
+      {
+        "text": "boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "timberland women s waterproof premium 6 inch",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "women",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "s",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "waterproof",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "premium",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "6",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "inch",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "twswp6i",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "timberlandwomenswaterproofpremium6inch",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "men s boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "men",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "msb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "mensboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "leather",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "snow boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "snow",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "snowboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lace up boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lace",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "up",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lub",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "laceupboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "32198291 62056828 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "32198291",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "62056828",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "361",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "32198291620568281000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "anteed wat imberland",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "anteed",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "wat",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "imberland",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "awi",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "anteedwatimberland",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "32527174_62664135_1000.jpg",
+    "imagePath": "images/32527174_62664135_1000.jpg",
+    "category": "top",
+    "sub": "sweater",
+    "colours": [
+      "red"
+    ],
+    "vibes": [
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "32527174 62664135 1000",
+    "name_normalized": "32527174 62664135 1000",
+    "entities": [
+      "tshirt",
+      "jumper",
+      "ami paris",
+      "ami",
+      "paris",
+      "ap",
+      "amiparis",
+      "merino",
+      "crew neck",
+      "crew",
+      "neck",
+      "cn",
+      "crewneck",
+      "clothing",
+      "wool",
+      "shirt",
+      "round neck",
+      "round",
+      "rn",
+      "roundneck",
+      "sweatshirt",
+      "sweater",
+      "32527174 62664135 1000",
+      "32527174",
+      "62664135",
+      "1000",
+      "361",
+      "32527174626641351000"
+    ],
+    "entityMeta": [
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jumper",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ami paris",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ami",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "paris",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ap",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "amiparis",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "merino",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crew neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crew",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cn",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "crewneck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "wool",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "round neck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "round",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rn",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "roundneck",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sweatshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "32527174 62664135 1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "32527174",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "62664135",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "361",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "32527174626641351000",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sweater",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "Yeezy-Gap-Dove-Hoodie-Black.jpg",
+    "imagePath": "images/Yeezy-Gap-Dove-Hoodie-Black.jpg",
+    "category": "top",
+    "sub": "top",
+    "colours": [
+      "black",
+      "grey"
+    ],
+    "vibes": [
+      "streetwear",
+      "edgy"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "Yeezy Gap Dove Hoodie Black",
+    "name_normalized": "yeezy gap dove hoodie black",
+    "entities": [
+      "yeezy gap dove hoodie black",
+      "yeezy",
+      "gap",
+      "dove",
+      "hoodie",
+      "black",
+      "ygdhb",
+      "yeezygapdovehoodieblack"
+    ],
+    "entityMeta": [
+      {
+        "text": "yeezy gap dove hoodie black",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezy",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "gap",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dove",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "hoodie",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "black",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ygdhb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezygapdovehoodieblack",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "Yeezy-JC-01-Jacket-Black.jpg",
+    "imagePath": "images/Yeezy-JC-01-Jacket-Black.jpg",
+    "category": "top",
+    "sub": "top",
+    "colours": [
+      "black"
+    ],
+    "vibes": [
+      "edgy"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "Yeezy JC 01 Jacket Black",
+    "name_normalized": "yeezy jc 01 jacket black",
+    "entities": [
+      "yeezy jc 01 jacket black",
+      "yeezy",
+      "jc",
+      "01",
+      "jacket",
+      "black",
+      "yj0jb",
+      "yeezyjc01jacketblack"
+    ],
+    "entityMeta": [
+      {
+        "text": "yeezy jc 01 jacket black",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezy",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jc",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "01",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jacket",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "black",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yj0jb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezyjc01jacketblack",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "barca.jpg",
+    "imagePath": "images/barca.jpg",
+    "category": "top",
+    "sub": "shirt/t-shirt",
+    "colours": [
+      "red",
+      "blue"
+    ],
+    "vibes": [
+      "sporty",
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "football",
+      "teams": [
+        "fc barcelona",
+        "fc",
+        "barcelona",
+        "barca"
+      ],
+      "isKit": true
+    },
+    "name": "barca",
+    "name_normalized": "barca",
+    "entities": [
+      "fc barcelona",
+      "fc",
+      "barcelona",
+      "fcbarcelona",
+      "barca",
+      "nike",
+      "a s roma",
+      "a",
+      "s",
+      "roma",
+      "asr",
+      "asroma",
+      "qatar",
+      "uefa champions league",
+      "uefa",
+      "champions",
+      "league",
+      "ucl",
+      "uefachampionsleague",
+      "qatar airways",
+      "airways",
+      "qa",
+      "qatarairways",
+      "team jersey",
+      "team",
+      "jersey",
+      "tj",
+      "teamjersey",
+      "qatar soccer jersey",
+      "soccer",
+      "qsj",
+      "qatarsoccerjersey",
+      "dri fit 1899 qatar airways",
+      "dri",
+      "fit",
+      "1899",
+      "df1qa",
+      "drifit1899qatarairways"
+    ],
+    "entityMeta": [
+      {
+        "text": "fc barcelona",
+        "weight": 0.973076343536377,
+        "type": "team"
+      },
+      {
+        "text": "fc",
+        "weight": 0.973076343536377,
+        "type": "team"
+      },
+      {
+        "text": "barcelona",
+        "weight": 0.973076343536377,
+        "type": "team"
+      },
+      {
+        "text": "fcbarcelona",
+        "weight": 0.973076343536377,
+        "type": "generic"
+      },
+      {
+        "text": "barca",
+        "weight": 0.973076343536377,
+        "type": "team"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9517344832420349,
+        "type": "brand"
+      },
+      {
+        "text": "qatar",
+        "weight": 0.9,
+        "type": "sponsor"
+      },
+      {
+        "text": "uefa champions league",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "uefa",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "champions",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "league",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ucl",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "uefachampionsleague",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "qatar airways",
+        "weight": 0.9,
+        "type": "sponsor"
+      },
+      {
+        "text": "airways",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "qa",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "qatarairways",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "team jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "team",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tj",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "teamjersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "qatar soccer jersey",
+        "weight": 0.8,
+        "type": "sponsor"
+      },
+      {
+        "text": "soccer",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "qsj",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "qatarsoccerjersey",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "dri fit 1899 qatar airways",
+        "weight": 0.7,
+        "type": "sponsor"
+      },
+      {
+        "text": "dri",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "fit",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "1899",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "df1qa",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "drifit1899qatarairways",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "a s roma",
+        "weight": 0.6989771127700806,
+        "type": "generic"
+      },
+      {
+        "text": "a",
+        "weight": 0.6989771127700806,
+        "type": "generic"
+      },
+      {
+        "text": "s",
+        "weight": 0.6989771127700806,
+        "type": "generic"
+      },
+      {
+        "text": "roma",
+        "weight": 0.6989771127700806,
+        "type": "generic"
+      },
+      {
+        "text": "asr",
+        "weight": 0.6989771127700806,
+        "type": "generic"
+      },
+      {
+        "text": "asroma",
+        "weight": 0.6989771127700806,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "barcashorts.jpg",
+    "imagePath": "images/barcashorts.jpg",
+    "category": "bottom",
+    "sub": "shorts",
+    "colours": [
+      "blue",
+      "black"
+    ],
+    "vibes": [
+      "sporty"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "other",
+      "teams": [
+        "fc barcelona",
+        "fc",
+        "barcelona",
+        "barca",
+        "fcb"
+      ],
+      "isKit": true
+    },
+    "name": "barcashorts",
+    "name_normalized": "barcashorts",
+    "entities": [
+      "fc barcelona",
+      "fc",
+      "barcelona",
+      "fcbarcelona",
+      "barca",
+      "nike",
+      "tshirt",
+      "bermuda shorts",
+      "bermuda",
+      "shorts",
+      "bs",
+      "bermudashorts",
+      "nike barcelona home shorts 2020 2021 l",
+      "home",
+      "2020",
+      "2021",
+      "l",
+      "nbhs22l",
+      "nikebarcelonahomeshorts20202021l",
+      "clothing",
+      "shoe",
+      "plus size shorts",
+      "plus",
+      "size",
+      "pss",
+      "plussizeshorts",
+      "barcashorts",
+      "fcb"
+    ],
+    "entityMeta": [
+      {
+        "text": "fc barcelona",
+        "weight": 0.9806018471717834,
+        "type": "team"
+      },
+      {
+        "text": "fc",
+        "weight": 0.9806018471717834,
+        "type": "team"
+      },
+      {
+        "text": "barcelona",
+        "weight": 0.9806018471717834,
+        "type": "team"
+      },
+      {
+        "text": "fcbarcelona",
+        "weight": 0.9806018471717834,
+        "type": "generic"
+      },
+      {
+        "text": "barca",
+        "weight": 0.9806018471717834,
+        "type": "team"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9736605286598206,
+        "type": "brand"
+      },
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bermuda shorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bermuda",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bs",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bermudashorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike barcelona home shorts 2020 2021 l",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "home",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2020",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2021",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "l",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nbhs22l",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nikebarcelonahomeshorts20202021l",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "plus size shorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "plus",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "size",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pss",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "plussizeshorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "barcashorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fcb",
+        "weight": 0.7,
+        "type": "team"
+      }
+    ]
+  },
+  {
+    "id": "bbshorts.jpg",
+    "imagePath": "images/bbshorts.jpg",
+    "category": "bottom",
+    "sub": "shorts",
+    "colours": [
+      "yellow",
+      "grey"
+    ],
+    "vibes": [
+      "sporty"
+    ],
+    "gender": "men",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "basketball",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "bbshorts",
+    "name_normalized": "bbshorts",
+    "entities": [
+      "los angeles lakers",
+      "los",
+      "angeles",
+      "lakers",
+      "lal",
+      "losangeleslakers",
+      "tshirt",
+      "nba",
+      "shorts",
+      "adidas",
+      "nike",
+      "men s shorts",
+      "men",
+      "s",
+      "mss",
+      "mensshorts",
+      "board short",
+      "board",
+      "short",
+      "bs",
+      "boardshort",
+      "bbshorts"
+    ],
+    "entityMeta": [
+      {
+        "text": "los angeles lakers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "los",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "angeles",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lakers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lal",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "losangeleslakers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nba",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "adidas",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "men s shorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "men",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "s",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "mss",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "mensshorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bbshorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "board short",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "board",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "short",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "bs",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "boardshort",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "dress.jpg",
+    "imagePath": "images/dress.jpg",
+    "category": "mono",
+    "sub": "dress",
+    "colours": [
+      "grey"
+    ],
+    "vibes": [
+      "chic"
+    ],
+    "gender": "women",
+    "fit": null,
+    "sportMeta": null,
+    "name": "dress",
+    "name_normalized": "dress",
+    "entities": [
+      "dress"
+    ],
+    "entityMeta": [
+      {
+        "text": "dress",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "dress2.jpg",
+    "imagePath": "images/dress2.jpg",
+    "category": "mono",
+    "sub": "dress",
+    "colours": [
+      "red"
+    ],
+    "vibes": [
+      "minimal"
+    ],
+    "gender": "women",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "dress2",
+    "name_normalized": "dress2",
+    "entities": [
+      "dress2"
+    ],
+    "entityMeta": [
+      {
+        "text": "dress2",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "fleecepants.jpg",
+    "imagePath": "images/fleecepants.jpg",
+    "category": "bottom",
+    "sub": "trousers",
+    "colours": [
+      "black",
+      "white"
+    ],
+    "vibes": [
+      "sporty"
+    ],
+    "gender": "men",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "other",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "fleecepants",
+    "name_normalized": "fleecepants",
+    "entities": [
+      "nike",
+      "trousers",
+      "sweatpants",
+      "nike men s tech fleece reflective jogger pants",
+      "men",
+      "s",
+      "tech",
+      "fleece",
+      "reflective",
+      "jogger",
+      "pants",
+      "nmstfrjp",
+      "nikemenstechfleecereflectivejoggerpants",
+      "nike tech",
+      "nt",
+      "niketech",
+      "nike tech fleece pants",
+      "ntfp",
+      "niketechfleecepants",
+      "polar fleece",
+      "polar",
+      "pf",
+      "polarfleece",
+      "nike men s sportswear tech fleece shorts",
+      "sportswear",
+      "shorts",
+      "nmsstfs",
+      "nikemenssportsweartechfleeceshorts",
+      "pocket",
+      "fleecepants"
+    ],
+    "entityMeta": [
+      {
+        "text": "nike",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "trousers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sweatpants",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike men s tech fleece reflective jogger pants",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "men",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "s",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tech",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fleece",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "reflective",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jogger",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pants",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nmstfrjp",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nikemenstechfleecereflectivejoggerpants",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike tech",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "nt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "niketech",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike tech fleece pants",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "ntfp",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "niketechfleecepants",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "polar fleece",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "polar",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pf",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "polarfleece",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike men s sportswear tech fleece shorts",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "sportswear",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nmsstfs",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nikemenssportsweartechfleeceshorts",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fleecepants",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pocket",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "formal.jpg",
+    "imagePath": "images/formal.jpg",
+    "category": "bottom",
+    "sub": "trousers",
+    "colours": [
+      "beige",
+      "grey"
+    ],
+    "vibes": [
+      "chic"
+    ],
+    "gender": "men",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "formal",
+    "name_normalized": "formal",
+    "entities": [
+      "tshirt",
+      "trousers",
+      "high heeled shoe",
+      "high",
+      "heeled",
+      "shoe",
+      "hhs",
+      "highheeledshoe",
+      "suit",
+      "linen",
+      "dobell",
+      "shirt",
+      "clothing",
+      "dress shirt",
+      "dress",
+      "ds",
+      "dressshirt",
+      "high heel",
+      "heel",
+      "hh",
+      "highheel",
+      "formal"
+    ],
+    "entityMeta": [
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "trousers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "high heeled shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "high",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "heeled",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "hhs",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "highheeledshoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "suit",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "linen",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dobell",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dress shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dress",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ds",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dressshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "formal",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "high heel",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "heel",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "hh",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "highheel",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "girlshoe.jpg",
+    "imagePath": "images/girlshoe.jpg",
+    "category": "shoes",
+    "sub": "shoes",
+    "colours": [
+      "black",
+      "brown"
+    ],
+    "vibes": [
+      "minimal",
+      "edgy"
+    ],
+    "gender": "women",
+    "fit": null,
+    "sportMeta": null,
+    "name": "girlshoe",
+    "name_normalized": "girlshoe",
+    "entities": [
+      "sandal",
+      "stiletto heel",
+      "stiletto",
+      "heel",
+      "sh",
+      "stilettoheel",
+      "high heeled shoe",
+      "high",
+      "heeled",
+      "shoe",
+      "hhs",
+      "highheeledshoe",
+      "clothing",
+      "shoe heel",
+      "shoeheel",
+      "pump",
+      "leather",
+      "boot",
+      "girlshoe"
+    ],
+    "entityMeta": [
+      {
+        "text": "sandal",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "stiletto heel",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "stiletto",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "heel",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sh",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "stilettoheel",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "high heeled shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "high",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "heeled",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "hhs",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "highheeledshoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe heel",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoeheel",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pump",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "leather",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "girlshoe",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "jersey2.jpg",
+    "imagePath": "images/jersey2.jpg",
+    "category": "top",
+    "sub": "shirt/t-shirt",
+    "colours": [
+      "blue"
+    ],
+    "vibes": [
+      "sporty",
+      "streetwear"
+    ],
+    "gender": "men",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "football",
+      "teams": [
+        "chelsea f c",
+        "chelsea",
+        "manchester united f c",
+        "united"
+      ],
+      "isKit": true
+    },
+    "name": "jersey2",
+    "name_normalized": "jersey2",
+    "entities": [
+      "chelsea f c",
+      "chelsea",
+      "f",
+      "c",
+      "cfc",
+      "chelseafc",
+      "nike",
+      "2025 26 premier league",
+      "2025",
+      "26",
+      "premier",
+      "league",
+      "22pl",
+      "202526premierleague",
+      "english football league",
+      "english",
+      "football",
+      "efl",
+      "englishfootballleague",
+      "2025 26 uefa champions league",
+      "uefa",
+      "champions",
+      "22ucl",
+      "202526uefachampionsleague",
+      "kit",
+      "manchester united f c",
+      "manchester",
+      "united",
+      "mufc",
+      "manchesterunitedfc",
+      "manutd",
+      "fanatics",
+      "team jersey",
+      "team",
+      "jersey",
+      "tj",
+      "teamjersey",
+      "jersey2",
+      "gotball club",
+      "gotball",
+      "club",
+      "gotballclub"
+    ],
+    "entityMeta": [
+      {
+        "text": "chelsea f c",
+        "weight": 0.9384017586708069,
+        "type": "team"
+      },
+      {
+        "text": "chelsea",
+        "weight": 0.9384017586708069,
+        "type": "team"
+      },
+      {
+        "text": "f",
+        "weight": 0.9384017586708069,
+        "type": "generic"
+      },
+      {
+        "text": "c",
+        "weight": 0.9384017586708069,
+        "type": "generic"
+      },
+      {
+        "text": "cfc",
+        "weight": 0.9384017586708069,
+        "type": "generic"
+      },
+      {
+        "text": "chelseafc",
+        "weight": 0.9384017586708069,
+        "type": "generic"
+      },
+      {
+        "text": "2025 26 premier league",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2025",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "26",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "premier",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "league",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "22pl",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "202526premierleague",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "english football league",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "english",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "football",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "efl",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "englishfootballleague",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2025 26 uefa champions league",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "uefa",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "champions",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "22ucl",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "202526uefachampionsleague",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "kit",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "manchester united f c",
+        "weight": 0.9,
+        "type": "team"
+      },
+      {
+        "text": "manchester",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "united",
+        "weight": 0.9,
+        "type": "team"
+      },
+      {
+        "text": "mufc",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "manchesterunitedfc",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "manutd",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fanatics",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "team jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "team",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "tj",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "teamjersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jersey2",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike",
+        "weight": 0.7285107970237732,
+        "type": "brand"
+      },
+      {
+        "text": "gotball club",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "gotball",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "club",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "gotballclub",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "jerseysoccer.jpg",
+    "imagePath": "images/jerseysoccer.jpg",
+    "category": "top",
+    "sub": "top",
+    "colours": [
+      "grey"
+    ],
+    "vibes": [
+      "sporty",
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "other",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "jerseysoccer",
+    "name_normalized": "jerseysoccer",
+    "entities": [
+      "jerseysoccer"
+    ],
+    "entityMeta": [
+      {
+        "text": "jerseysoccer",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "jersnab.jpg",
+    "imagePath": "images/jersnab.jpg",
+    "category": "top",
+    "sub": "shirt/t-shirt",
+    "colours": [
+      "yellow",
+      "purple"
+    ],
+    "vibes": [
+      "sporty",
+      "streetwear"
+    ],
+    "gender": "men",
+    "fit": "regular",
+    "sportMeta": {
+      "sport": "basketball",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "jersnab",
+    "name_normalized": "jersnab",
+    "entities": [
+      "los angeles lakers",
+      "los",
+      "angeles",
+      "lakers",
+      "lal",
+      "losangeleslakers",
+      "nike",
+      "nba",
+      "2024 25 los angeles lakers season",
+      "2024",
+      "25",
+      "season",
+      "22lals",
+      "202425losangeleslakersseason",
+      "basketball",
+      "nba jersey",
+      "jersey",
+      "nj",
+      "nbajersey",
+      "nba los angeles lakers lebron james nike men s icon swingman jersey",
+      "lebron",
+      "james",
+      "men",
+      "s",
+      "icon",
+      "swingman",
+      "nlalljnmsisj",
+      "nbalosangeleslakerslebronjamesnikemensiconswingmanjersey",
+      "los angeles lakers anthony davis",
+      "anthony",
+      "davis",
+      "lalad",
+      "losangeleslakersanthonydavis",
+      "fanatics",
+      "2020 21 los angeles lakers season",
+      "2020",
+      "21",
+      "202021losangeleslakersseason",
+      "lakers jersey",
+      "lj",
+      "lakersjersey",
+      "jersnab",
+      "lakers 6 leave a legacy clates",
+      "6",
+      "leave",
+      "a",
+      "legacy",
+      "clates",
+      "l6lalc",
+      "lakers6leavealegacyclates"
+    ],
+    "entityMeta": [
+      {
+        "text": "los angeles lakers",
+        "weight": 0.9943289756774902,
+        "type": "generic"
+      },
+      {
+        "text": "los",
+        "weight": 0.9943289756774902,
+        "type": "generic"
+      },
+      {
+        "text": "angeles",
+        "weight": 0.9943289756774902,
+        "type": "generic"
+      },
+      {
+        "text": "lakers",
+        "weight": 0.9943289756774902,
+        "type": "generic"
+      },
+      {
+        "text": "lal",
+        "weight": 0.9943289756774902,
+        "type": "generic"
+      },
+      {
+        "text": "losangeleslakers",
+        "weight": 0.9943289756774902,
+        "type": "generic"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9712846875190735,
+        "type": "brand"
+      },
+      {
+        "text": "nba",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2024 25 los angeles lakers season",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2024",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "25",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "season",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "22lals",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "202425losangeleslakersseason",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "basketball",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nba jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nj",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nbajersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nba los angeles lakers lebron james nike men s icon swingman jersey",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "lebron",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "james",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "men",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "s",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "icon",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "swingman",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nlalljnmsisj",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nbalosangeleslakerslebronjamesnikemensiconswingmanjersey",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "los angeles lakers anthony davis",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "anthony",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "davis",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lalad",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "losangeleslakersanthonydavis",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fanatics",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2020 21 los angeles lakers season",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "2020",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "21",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "202021losangeleslakersseason",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jersnab",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lakers jersey",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "lj",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "lakersjersey",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "lakers 6 leave a legacy clates",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "6",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "leave",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "a",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "legacy",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "clates",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "l6lalc",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "lakers6leavealegacyclates",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "jordan.jpg",
+    "imagePath": "images/jordan.jpg",
+    "category": "shoes",
+    "sub": "shoes",
+    "colours": [
+      "black",
+      "brown"
+    ],
+    "vibes": [
+      "sporty",
+      "streetwear"
+    ],
+    "gender": "unisex",
+    "fit": null,
+    "sportMeta": {
+      "sport": "basketball",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "jordan",
+    "name_normalized": "jordan",
+    "entities": [
+      "air jordan",
+      "air",
+      "jordan",
+      "aj",
+      "airjordan",
+      "sneaker",
+      "nike",
+      "basketball shoe",
+      "basketball",
+      "shoe",
+      "bs",
+      "basketballshoe",
+      "air jordan 1 low womens",
+      "1",
+      "low",
+      "womens",
+      "aj1lw",
+      "airjordan1lowwomens",
+      "farfetch"
+    ],
+    "entityMeta": [
+      {
+        "text": "air",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "jordan",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sneaker",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "basketball shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "basketball",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bs",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "basketballshoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "air jordan 1 low womens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "low",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "womens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "aj1lw",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "airjordan1lowwomens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "farfetch",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "air jordan",
+        "weight": 0.7661949396133423,
+        "type": "generic"
+      },
+      {
+        "text": "aj",
+        "weight": 0.7661949396133423,
+        "type": "generic"
+      },
+      {
+        "text": "airjordan",
+        "weight": 0.7661949396133423,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "maabe.jpg",
+    "imagePath": "images/maabe.jpg",
+    "category": "top",
+    "sub": "dress shirt",
+    "colours": [
+      "black"
+    ],
+    "vibes": [
+      "chic"
+    ],
+    "gender": "women",
+    "fit": null,
+    "sportMeta": null,
+    "name": "maabe",
+    "name_normalized": "maabe",
+    "entities": [
+      "t m lewin",
+      "t",
+      "m",
+      "lewin",
+      "tml",
+      "tmlewin",
+      "tshirt",
+      "sleeve",
+      "shirt",
+      "men s shirt",
+      "men",
+      "s",
+      "mss",
+      "mensshirt",
+      "agnes b",
+      "agnes",
+      "b",
+      "ab",
+      "agnesb",
+      "trousers",
+      "clothing",
+      "coat",
+      "dress shirt",
+      "dress",
+      "ds",
+      "dressshirt",
+      "cotton",
+      "maabe",
+      "est 1898 t m lewin jermyn st london",
+      "est",
+      "1898",
+      "jermyn",
+      "st",
+      "london",
+      "e1tmljsl",
+      "est1898tmlewinjermynstlondon"
+    ],
+    "entityMeta": [
+      {
+        "text": "tshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sleeve",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "men s shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "men",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "s",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "mss",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "mensshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "agnes b",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "agnes",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "b",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ab",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "agnesb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "trousers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "coat",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dress shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dress",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ds",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dressshirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cotton",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "maabe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "t",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "m",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "lewin",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "est 1898 t m lewin jermyn st london",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "est",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "1898",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "jermyn",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "st",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "london",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "e1tmljsl",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "est1898tmlewinjermynstlondon",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "t m lewin",
+        "weight": 0.6147463321685791,
+        "type": "generic"
+      },
+      {
+        "text": "tml",
+        "weight": 0.6147463321685791,
+        "type": "generic"
+      },
+      {
+        "text": "tmlewin",
+        "weight": 0.6147463321685791,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "maabe1.jpg",
+    "imagePath": "images/maabe1.jpg",
+    "category": "top",
+    "sub": "shirt/t-shirt",
+    "colours": [
+      "white"
+    ],
+    "vibes": [
+      "chic"
+    ],
+    "gender": "women",
+    "fit": null,
+    "sportMeta": null,
+    "name": "maabe1",
+    "name_normalized": "maabe1",
+    "entities": [
+      "shirt",
+      "active shirt",
+      "active",
+      "as",
+      "activeshirt",
+      "maabe1",
+      "6"
+    ],
+    "entityMeta": [
+      {
+        "text": "shirt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "maabe1",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "active shirt",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "active",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "as",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "activeshirt",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "6",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "nike techfleece.jpg",
+    "imagePath": "images/nike techfleece.jpg",
+    "category": "top",
+    "sub": "top",
+    "colours": [
+      "grey"
+    ],
+    "vibes": [
+      "minimal"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "nike techfleece",
+    "name_normalized": "nike techfleece",
+    "entities": [
+      "nike techfleece",
+      "nike",
+      "techfleece",
+      "nt",
+      "niketechfleece"
+    ],
+    "entityMeta": [
+      {
+        "text": "nike techfleece",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "techfleece",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nt",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "niketechfleece",
+        "weight": 0.9,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "shoes.jpg",
+    "imagePath": "images/shoes.jpg",
+    "category": "shoes",
+    "sub": "shoes",
+    "colours": [
+      "beige",
+      "yellow"
+    ],
+    "vibes": [
+      "streetwear",
+      "preppy"
+    ],
+    "gender": "unisex",
+    "fit": null,
+    "sportMeta": null,
+    "name": "shoes",
+    "name_normalized": "shoes",
+    "entities": [
+      "sneaker",
+      "off white",
+      "off",
+      "white",
+      "ow",
+      "offwhite",
+      "shoe",
+      "farfetch",
+      "leather",
+      "off white office varsity sneakers",
+      "office",
+      "varsity",
+      "sneakers",
+      "owovs",
+      "offwhiteofficevarsitysneakers",
+      "pricena",
+      "shoes",
+      "te shoelaces",
+      "te",
+      "shoelaces",
+      "ts",
+      "teshoelaces"
+    ],
+    "entityMeta": [
+      {
+        "text": "sneaker",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "off white",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "off",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "white",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ow",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "offwhite",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "farfetch",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "leather",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "off white office varsity sneakers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "office",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "varsity",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sneakers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "owovs",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "offwhiteofficevarsitysneakers",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pricena",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoes",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "te shoelaces",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "te",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "shoelaces",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "ts",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "teshoelaces",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "shoes1jpg.jpg",
+    "imagePath": "images/shoes1jpg.jpg",
+    "category": "shoes",
+    "sub": "shoes",
+    "colours": [
+      "black",
+      "brown"
+    ],
+    "vibes": [
+      "edgy"
+    ],
+    "gender": "men",
+    "fit": null,
+    "sportMeta": null,
+    "name": "shoes1jpg",
+    "name_normalized": "shoes1jpg",
+    "entities": [
+      "boot",
+      "rick owens",
+      "rick",
+      "owens",
+      "ro",
+      "rickowens",
+      "leather",
+      "shoe",
+      "lace up",
+      "lace",
+      "up",
+      "lu",
+      "laceup",
+      "lace up boot",
+      "lub",
+      "laceupboot",
+      "clothing",
+      "steel toe boot",
+      "steel",
+      "toe",
+      "stb",
+      "steeltoeboot",
+      "dr martens",
+      "dr",
+      "martens",
+      "dm",
+      "drmartens",
+      "zip",
+      "work boots",
+      "work",
+      "boots",
+      "wb",
+      "workboots",
+      "shoes1jpg",
+      "ce"
+    ],
+    "entityMeta": [
+      {
+        "text": "boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rick owens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rick",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "owens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ro",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rickowens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "leather",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lace up",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lace",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "up",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lu",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "laceup",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lace up boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lub",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "laceupboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "clothing",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "steel toe boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "steel",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "toe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "stb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "steeltoeboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dr martens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dr",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "martens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "dm",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "drmartens",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "zip",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoes1jpg",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "work boots",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "work",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "boots",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "wb",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "workboots",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "ce",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "soccershoes.jpg",
+    "imagePath": "images/soccershoes.jpg",
+    "category": "shoes",
+    "sub": "boots",
+    "colours": [
+      "orange",
+      "black"
+    ],
+    "vibes": [
+      "sporty",
+      "edgy"
+    ],
+    "gender": "unisex",
+    "fit": null,
+    "sportMeta": {
+      "sport": "football",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "soccershoes",
+    "name_normalized": "soccershoes",
+    "entities": [
+      "lacrosse boot",
+      "lacrosse",
+      "boot",
+      "lb",
+      "lacrosseboot",
+      "nike",
+      "football boot",
+      "football",
+      "fb",
+      "footballboot",
+      "cleat",
+      "firm ground",
+      "firm",
+      "ground",
+      "fg",
+      "firmground",
+      "shoe",
+      "nike mercurial vapor 1 rgn se fg soccer cleats",
+      "mercurial",
+      "vapor",
+      "1",
+      "rgn",
+      "se",
+      "soccer",
+      "cleats",
+      "nmv1rsfsc",
+      "nikemercurialvapor1rgnsefgsoccercleats",
+      "nike hypervenom",
+      "hypervenom",
+      "nh",
+      "nikehypervenom",
+      "soccershoes",
+      "hypervenom hyper",
+      "hyper",
+      "hh",
+      "hypervenomhyper"
+    ],
+    "entityMeta": [
+      {
+        "text": "lacrosse boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lacrosse",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "lacrosseboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "football boot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "football",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "footballboot",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cleat",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "firm ground",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "firm",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ground",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "fg",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "firmground",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike mercurial vapor 1 rgn se fg soccer cleats",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "mercurial",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "vapor",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "1",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "rgn",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "se",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "soccer",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "cleats",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nmv1rsfsc",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nikemercurialvapor1rgnsefgsoccercleats",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "soccershoes",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "nike hypervenom",
+        "weight": 0.8,
+        "type": "brand"
+      },
+      {
+        "text": "hypervenom",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "nh",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "nikehypervenom",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "hypervenom hyper",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "hyper",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "hh",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "hypervenomhyper",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "vargo.jpg",
+    "imagePath": "images/vargo.jpg",
+    "category": "bottom",
+    "sub": "trousers",
+    "colours": [
+      "black",
+      "white"
+    ],
+    "vibes": [
+      "techwear",
+      "edgy"
+    ],
+    "gender": "unisex",
+    "fit": "regular",
+    "sportMeta": null,
+    "name": "vargo",
+    "name_normalized": "vargo",
+    "entities": [
+      "pocket",
+      "vargo"
+    ],
+    "entityMeta": [
+      {
+        "text": "vargo",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "pocket",
+        "weight": 0.8,
+        "type": "generic"
+      }
+    ]
+  },
+  {
+    "id": "yeezy bred.jpg",
+    "imagePath": "images/yeezy bred.jpg",
+    "category": "shoes",
+    "sub": "shoes",
+    "colours": [
+      "black",
+      "grey"
+    ],
+    "vibes": [
+      "edgy",
+      "sporty"
+    ],
+    "gender": "unisex",
+    "fit": null,
+    "sportMeta": {
+      "sport": "other",
+      "teams": [],
+      "isKit": false
+    },
+    "name": "yeezy bred",
+    "name_normalized": "yeezy bred",
+    "entities": [
+      "adidas",
+      "yeezy",
+      "sneaker",
+      "shoe",
+      "yeezy boost 350 v2",
+      "boost",
+      "350",
+      "v2",
+      "yb3v",
+      "yeezyboost350v2",
+      "yeezy shoes women",
+      "shoes",
+      "women",
+      "ysw",
+      "yeezyshoeswomen",
+      "adidas yeezy boost 350 v2",
+      "ayb3v",
+      "adidasyeezyboost350v2",
+      "adidas yeezy",
+      "ay",
+      "adidasyeezy",
+      "yeezy bred",
+      "bred",
+      "yb",
+      "yeezybred",
+      "2b a 320",
+      "2b",
+      "a",
+      "320",
+      "2a3",
+      "2ba320"
+    ],
+    "entityMeta": [
+      {
+        "text": "adidas",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "yeezy",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "sneaker",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoe",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezy boost 350 v2",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "boost",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "350",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "v2",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yb3v",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezyboost350v2",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezy shoes women",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "shoes",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "women",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "ysw",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezyshoeswomen",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "adidas yeezy boost 350 v2",
+        "weight": 0.9,
+        "type": "brand"
+      },
+      {
+        "text": "ayb3v",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "adidasyeezyboost350v2",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezy bred",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "bred",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yb",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "yeezybred",
+        "weight": 0.9,
+        "type": "generic"
+      },
+      {
+        "text": "adidas yeezy",
+        "weight": 0.8,
+        "type": "brand"
+      },
+      {
+        "text": "ay",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "adidasyeezy",
+        "weight": 0.8,
+        "type": "generic"
+      },
+      {
+        "text": "2b a 320",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "2b",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "a",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "320",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "2a3",
+        "weight": 0.7,
+        "type": "generic"
+      },
+      {
+        "text": "2ba320",
+        "weight": 0.7,
+        "type": "generic"
+      }
+    ]
+  }
+]

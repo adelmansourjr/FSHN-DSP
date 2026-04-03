@@ -1,0 +1,34 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "overall": 0.7281094527363183,
+    "successRate": 1,
+    "meanLatencyMs": 6806.083333333334,
+    "progression": null
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "overall": 0.9133499170812602,
+    "successRate": 1,
+    "meanLatencyMs": 575.0833333333334,
+    "progression": null
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "overall": 0.7453565505804312,
+    "successRate": 1,
+    "meanLatencyMs": 634,
+    "progression": null
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "overall": 0.9133499170812602,
+    "successRate": 1,
+    "meanLatencyMs": 964.4166666666665,
+    "progression": null
+  }
+]

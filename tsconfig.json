@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "App.tsx",
+    "index.ts",
+    "app.config.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "server",
+    "functions",
+    "tryon-local",
+    "Testing py",
+    "src/components/classifier/classify_images.ts",
+    "src/components/classifier/classify_images old.ts",
+    "src/components/reccomender",
+    "src/lib/recommender"
+  ]
+}

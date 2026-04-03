@@ -1,0 +1,5 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,deterministic,diversity,overall
+internal,heuristic_off,women_black_cocktail,Black cocktail dress with heels,women,mono_shoes,5,0,0,,,,,,,0,,0
+internal,heuristic_hybrid,women_black_cocktail,Black cocktail dress with heels,women,mono_shoes,5,0,0,,,,,,,0,,0
+internal,heuristic_off,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,5,5,1,8575.2,0.5,0.5,,0.5,,1,,0.5606060606060607
+internal,heuristic_hybrid,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,5,5,1,771,0.5,0.5,,0.5,,1,,0.5606060606060607

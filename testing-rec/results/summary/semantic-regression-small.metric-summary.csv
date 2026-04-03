@@ -1,0 +1,10 @@
+surface,configId,metric,mean,cases
+internal,auto_hybrid,selection,0.9247685185185185,6
+internal,auto_hybrid,semantic,0.9623842592592592,6
+internal,auto_hybrid,negation,,0
+internal,auto_hybrid,color,1,1
+internal,auto_hybrid,persona,1,1
+internal,auto_hybrid,pool_quality,0.513888888888889,1
+internal,auto_hybrid,deterministic,,0
+internal,auto_hybrid,diversity,0.7083333333333334,2
+internal,auto_hybrid,progression,0.784406695156695,2

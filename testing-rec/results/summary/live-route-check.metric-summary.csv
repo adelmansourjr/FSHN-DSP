@@ -1,0 +1,10 @@
+surface,configId,metric,mean,cases
+route,route_default,selection,0.9530555555555555,4
+route,route_default,semantic,0.9765277777777777,4
+route,route_default,negation,,0
+route,route_default,color,,0
+route,route_default,persona,1,1
+route,route_default,pool_quality,0.9518518518518517,1
+route,route_default,deterministic,,0
+route,route_default,diversity,1,1
+route,route_default,progression,0.8629654320987653,2

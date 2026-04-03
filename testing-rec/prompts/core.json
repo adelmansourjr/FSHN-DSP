@@ -1,0 +1,320 @@
+[
+  {
+    "id": "men_old_money_stage1",
+    "prompt": "Old money fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_old_money_stage1",
+    "metricFamilies": ["selection", "semantic", "diversity", "progression", "overall"],
+    "tags": ["core"],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 1
+  },
+  {
+    "id": "men_old_money_stage2",
+    "prompt": "Old money fit with a cream knit polo and tailored trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_old_money_stage2",
+    "metricFamilies": ["selection", "semantic", "deterministic", "progression", "overall"],
+    "tags": ["core"],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 2
+  },
+  {
+    "id": "men_old_money_stage3",
+    "prompt": "Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_old_money_stage3",
+    "metricFamilies": ["selection", "semantic", "negation", "deterministic", "progression", "overall"],
+    "tags": ["core"],
+    "progressionGroup": "men_old_money",
+    "progressionStage": 3
+  },
+  {
+    "id": "women_dinner_stage1",
+    "prompt": "Dinner date fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_dinner_stage1",
+    "metricFamilies": ["selection", "semantic", "progression", "overall"],
+    "tags": ["core"],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 1
+  },
+  {
+    "id": "women_dinner_stage2",
+    "prompt": "Elegant dinner date outfit with heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_dinner_stage2",
+    "metricFamilies": ["selection", "semantic", "deterministic", "progression", "overall"],
+    "tags": ["core"],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 2
+  },
+  {
+    "id": "women_dinner_stage3",
+    "prompt": "Black silk dinner date outfit with trousers and heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_dinner_stage3",
+    "metricFamilies": ["selection", "semantic", "color", "deterministic", "progression", "overall"],
+    "tags": ["core"],
+    "progressionGroup": "women_dinner",
+    "progressionStage": 3
+  },
+  {
+    "id": "men_jeans_timbs",
+    "prompt": "Jeans and timbos",
+    "genderPref": "men",
+    "selectionForm": "bottom_shoes",
+    "rubricId": "men_jeans_timbs",
+    "metricFamilies": ["selection", "semantic", "deterministic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "women_black_cocktail",
+    "prompt": "Black cocktail dress with heels",
+    "genderPref": "women",
+    "selectionForm": "mono_shoes",
+    "rubricId": "women_black_cocktail",
+    "metricFamilies": ["selection", "semantic", "color", "deterministic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "men_oxford_trousers",
+    "prompt": "White oxford and navy trousers",
+    "genderPref": "men",
+    "selectionForm": "top_bottom",
+    "rubricId": "men_oxford_trousers",
+    "metricFamilies": ["selection", "semantic", "color", "deterministic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "women_leather_boots",
+    "prompt": "Cropped leather jacket and boots",
+    "genderPref": "women",
+    "selectionForm": "top_shoes",
+    "rubricId": "women_leather_boots",
+    "metricFamilies": ["selection", "semantic", "deterministic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "men_red_hoodie",
+    "prompt": "Red hoodie",
+    "genderPref": "men",
+    "selectionForm": "single_top",
+    "rubricId": "men_red_hoodie",
+    "metricFamilies": ["selection", "color", "deterministic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "women_little_black_dress",
+    "prompt": "Little black dress",
+    "genderPref": "women",
+    "selectionForm": "single_mono",
+    "rubricId": "women_little_black_dress",
+    "metricFamilies": ["selection", "color", "deterministic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "men_no_sneakers",
+    "prompt": "No sneakers with black trousers and a blazer",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_no_sneakers",
+    "metricFamilies": ["selection", "semantic", "negation", "color", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "women_no_pink_floral",
+    "prompt": "Summer dress with no pink and no florals",
+    "genderPref": "women",
+    "selectionForm": "mono_shoes",
+    "rubricId": "women_no_pink_floral",
+    "metricFamilies": ["selection", "semantic", "negation", "color", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "men_kanye",
+    "prompt": "Kanye fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_kanye",
+    "metricFamilies": ["selection", "semantic", "persona", "overall"],
+    "tags": ["core", "embedding_sensitive"]
+  },
+  {
+    "id": "women_princess_diana",
+    "prompt": "Princess Diana fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_princess_diana",
+    "metricFamilies": ["selection", "semantic", "persona", "overall"],
+    "tags": ["core", "embedding_sensitive"]
+  },
+  {
+    "id": "men_barca",
+    "prompt": "Barca soccer outfit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_barca",
+    "metricFamilies": ["selection", "semantic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "women_gym",
+    "prompt": "Gym fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_gym",
+    "metricFamilies": ["selection", "semantic", "overall"],
+    "tags": ["core"]
+  },
+  {
+    "id": "men_all_black_streetwear",
+    "prompt": "All black streetwear outfit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_all_black_streetwear",
+    "metricFamilies": ["selection", "semantic", "color", "diversity", "overall"],
+    "tags": ["core", "embedding_sensitive"]
+  },
+  {
+    "id": "women_cream_monochrome",
+    "prompt": "Cream monochrome outfit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_cream_monochrome",
+    "metricFamilies": ["selection", "semantic", "color", "overall"],
+    "tags": ["core", "embedding_sensitive"]
+  },
+  {
+    "id": "men_quiet_luxury_summer_dinner",
+    "prompt": "Quiet luxury summer dinner fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_quiet_luxury_summer_dinner",
+    "metricFamilies": ["selection", "semantic", "overall"],
+    "tags": ["embedding_sensitive"]
+  },
+  {
+    "id": "men_clean_minimal_variety",
+    "prompt": "Clean minimal outfit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_clean_minimal_variety",
+    "metricFamilies": ["selection", "semantic", "diversity", "overall"],
+    "tags": ["expansion", "embedding_sensitive"]
+  },
+  {
+    "id": "women_elevated_casual_variety",
+    "prompt": "Elevated casual fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_elevated_casual_variety",
+    "metricFamilies": ["selection", "semantic", "diversity", "overall"],
+    "tags": ["expansion", "embedding_sensitive"]
+  },
+  {
+    "id": "men_no_denim_smart_casual",
+    "prompt": "Smart casual outfit with no denim",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_no_denim_smart_casual",
+    "metricFamilies": ["selection", "semantic", "negation", "overall"],
+    "tags": ["expansion"]
+  },
+  {
+    "id": "women_office_no_heels",
+    "prompt": "Modern office outfit with no heels",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_office_no_heels",
+    "metricFamilies": ["selection", "semantic", "negation", "overall"],
+    "tags": ["expansion"]
+  },
+  {
+    "id": "men_playboi_carti",
+    "prompt": "Playboi Carti fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_playboi_carti",
+    "metricFamilies": ["selection", "semantic", "persona", "overall"],
+    "tags": ["expansion", "embedding_sensitive"]
+  },
+  {
+    "id": "women_rihanna",
+    "prompt": "Rihanna fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_rihanna",
+    "metricFamilies": ["selection", "semantic", "persona", "overall"],
+    "tags": ["expansion", "embedding_sensitive"]
+  },
+  {
+    "id": "women_off_duty_model",
+    "prompt": "Off duty model outfit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_off_duty_model",
+    "metricFamilies": ["selection", "semantic", "diversity", "overall"],
+    "tags": ["embedding_sensitive"]
+  },
+  {
+    "id": "men_gorp_clean",
+    "prompt": "Gorp but clean fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_gorp_clean",
+    "metricFamilies": ["selection", "semantic", "overall"],
+    "tags": ["embedding_sensitive"]
+  },
+  {
+    "id": "women_zendaya_airport",
+    "prompt": "Zendaya airport fit",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_zendaya_airport",
+    "metricFamilies": ["selection", "semantic", "persona", "overall"],
+    "tags": ["embedding_sensitive"]
+  },
+  {
+    "id": "men_gallery_opening_not_streetwear",
+    "prompt": "Gallery opening outfit, clean and modern, not streetwear",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_gallery_opening_not_streetwear",
+    "metricFamilies": ["selection", "semantic", "negation", "overall"],
+    "tags": ["embedding_sensitive"]
+  },
+  {
+    "id": "women_mob_wife_toned_down",
+    "prompt": "Mob wife outfit but toned down",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_mob_wife_toned_down",
+    "metricFamilies": ["selection", "semantic", "diversity", "overall"],
+    "tags": ["embedding_sensitive"]
+  },
+  {
+    "id": "men_asap_rocky",
+    "prompt": "A$AP Rocky fit",
+    "genderPref": "men",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "men_asap_rocky",
+    "metricFamilies": ["selection", "semantic", "persona", "overall"],
+    "tags": ["expansion", "embedding_sensitive"]
+  },
+  {
+    "id": "women_no_logos_minimal",
+    "prompt": "Minimal outfit with no logos",
+    "genderPref": "women",
+    "selectionForm": "top_bottom_shoes",
+    "rubricId": "women_no_logos_minimal",
+    "metricFamilies": ["selection", "semantic", "negation", "overall"],
+    "tags": ["expansion"]
+  }
+]

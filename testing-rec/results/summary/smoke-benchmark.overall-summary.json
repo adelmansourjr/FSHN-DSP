@@ -1,0 +1,18 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "overall": 0.8681811263318112,
+    "successRate": 1,
+    "meanLatencyMs": 4445.146666666667,
+    "progression": 0.7483899591998189
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "overall": 0.8723363774733636,
+    "successRate": 1,
+    "meanLatencyMs": 926.0266666666666,
+    "progression": 0.7481090690659875
+  }
+]

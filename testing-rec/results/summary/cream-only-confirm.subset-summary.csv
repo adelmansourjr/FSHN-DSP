@@ -1,0 +1,5 @@
+surface,configId,subsetId,caseCount,overall,selection,semantic,pool_quality,diversity,successRate,meanLatencyMs,semanticShare,semanticFrontierShare
+internal,auto_off,all,1,0.8666666666666666,0.7833333333333333,0.8916666666666666,,,1,44168,0,0
+internal,auto_hybrid,all,1,0.8666666666666666,0.7833333333333333,0.8916666666666666,,,1,49106,0.041773,0
+internal,auto_off,embedding_sensitive,1,0.8666666666666666,0.7833333333333333,0.8916666666666666,,,1,44168,0,0
+internal,auto_hybrid,embedding_sensitive,1,0.8666666666666666,0.7833333333333333,0.8916666666666666,,,1,49106,0.041773,0

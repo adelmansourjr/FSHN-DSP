@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-04-03T20:44:53.280Z",
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "id": "unpaid_checkout_session",
+      "name": "Unpaid checkout session rejection",
+      "expected": "Unpaid checkout sessions must not fulfil listings or create orders.",
+      "actual": "ok=false; error=Checkout session is not paid yet (status: unpaid).; fulfillCalls=0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "id": "missing_checkout_metadata",
+      "name": "Missing listing metadata rejection",
+      "expected": "Paid checkout sessions without listing metadata must not fulfil listings.",
+      "actual": "ok=false; error=Checkout session is missing listing metadata.; fulfillCalls=0; paymentIntentId=pi_missing_meta",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "id": "invalid_webhook_signature",
+      "name": "Invalid webhook signature rejection",
+      "expected": "Malformed or unsigned webhook traffic must be rejected before fulfilment logic runs.",
+      "actual": "ok=false; statusCode=400; error=Invalid webhook signature.",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "id": "duplicate_fulfilment_prevention",
+      "name": "Duplicate fulfilment prevention",
+      "expected": "The same payment-plus-listing pair must map to the same order id and short-circuit duplicate fulfilment.",
+      "actual": "orderId=cs_paid_1__listing_1; duplicate=true; reason=order-already-exists",
+      "passed": true,
+      "details": ""
+    }
+  ]
+}

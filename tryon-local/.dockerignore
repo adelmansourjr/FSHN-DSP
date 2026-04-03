@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+yarn.lock
+env.local
+.env
+.env.development
+.env.production
+.git
+.gitignore
+.DS_Store

@@ -1,0 +1,65 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "selection",
+    "mean": 0.8555555555555556,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "semantic",
+    "mean": 0.6777777777777777,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "negation",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "color",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "persona",
+    "mean": 0.13333333333333333,
+    "cases": 1
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "pool_quality",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "deterministic",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "diversity",
+    "mean": null,
+    "cases": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "progression",
+    "mean": null,
+    "cases": 0
+  }
+]

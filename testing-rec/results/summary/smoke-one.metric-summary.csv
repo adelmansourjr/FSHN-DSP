@@ -1,0 +1,9 @@
+surface,configId,metric,mean,cases
+internal,heuristic_off,selection,0.5,1
+internal,heuristic_off,semantic,0.5,1
+internal,heuristic_off,negation,,0
+internal,heuristic_off,color,0.5,1
+internal,heuristic_off,persona,,0
+internal,heuristic_off,deterministic,1,1
+internal,heuristic_off,diversity,,0
+internal,heuristic_off,progression,,0

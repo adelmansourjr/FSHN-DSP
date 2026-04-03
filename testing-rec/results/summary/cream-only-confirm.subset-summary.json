@@ -1,0 +1,62 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "subsetId": "all",
+    "caseCount": 1,
+    "overall": 0.8666666666666666,
+    "selection": 0.7833333333333333,
+    "semantic": 0.8916666666666666,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 44168,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "all",
+    "caseCount": 1,
+    "overall": 0.8666666666666666,
+    "selection": 0.7833333333333333,
+    "semantic": 0.8916666666666666,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 49106,
+    "semanticShare": 0.041773,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 1,
+    "overall": 0.8666666666666666,
+    "selection": 0.7833333333333333,
+    "semantic": 0.8916666666666666,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 44168,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 1,
+    "overall": 0.8666666666666666,
+    "selection": 0.7833333333333333,
+    "semantic": 0.8916666666666666,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 49106,
+    "semanticShare": 0.041773,
+    "semanticFrontierShare": 0
+  }
+]

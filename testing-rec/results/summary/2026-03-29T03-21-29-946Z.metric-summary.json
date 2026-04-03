@@ -1,0 +1,226 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "selection",
+    "mean": 0.796029239766082,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "semantic",
+    "mean": 0.780909356725146,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "negation",
+    "mean": 1,
+    "cases": 3
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "color",
+    "mean": 0.8125,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "persona",
+    "mean": 0.06666666666666667,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "deterministic",
+    "mean": 0.9,
+    "cases": 10
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "diversity",
+    "mean": 0.6666666666666666,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "metric": "progression",
+    "mean": 0.7447100901930577,
+    "cases": 6
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "selection",
+    "mean": 0.8744152046783625,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "semantic",
+    "mean": 0.885891812865497,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "negation",
+    "mean": 1,
+    "cases": 3
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "color",
+    "mean": 0.8125,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "persona",
+    "mean": 1,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "deterministic",
+    "mean": 1,
+    "cases": 10
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "diversity",
+    "mean": 0.6666666666666666,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "metric": "progression",
+    "mean": 0.7486494678325633,
+    "cases": 6
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "selection",
+    "mean": 0.793051656920078,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "semantic",
+    "mean": 0.7794205653021442,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "negation",
+    "mean": 1,
+    "cases": 3
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "color",
+    "mean": 0.8125,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "persona",
+    "mean": 0.06666666666666667,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "deterministic",
+    "mean": 0.9,
+    "cases": 10
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "diversity",
+    "mean": 0.9583333333333334,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_hybrid",
+    "metric": "progression",
+    "mean": 0.7454681434143463,
+    "cases": 6
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "selection",
+    "mean": 0.8673830409356724,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "semantic",
+    "mean": 0.882375730994152,
+    "cases": 19
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "negation",
+    "mean": 1,
+    "cases": 3
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "color",
+    "mean": 0.8125,
+    "cases": 8
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "persona",
+    "mean": 1,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "deterministic",
+    "mean": 1,
+    "cases": 10
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "diversity",
+    "mean": 0.9166666666666667,
+    "cases": 2
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "metric": "progression",
+    "mean": 0.7473848786635622,
+    "cases": 6
+  }
+]

@@ -1,0 +1,2 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,deterministic,diversity,overall
+internal,heuristic_off,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,5,5,1,8485.2,0.5,0.5,,0.5,,1,,0.5606060606060607

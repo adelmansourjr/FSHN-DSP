@@ -1,0 +1,28 @@
+[
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "subsetId": "all",
+    "caseCount": 1,
+    "overall": 0.6482905982905982,
+    "selection": 0.8555555555555556,
+    "semantic": 0.6777777777777777,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 13609.333333333334
+  },
+  {
+    "surface": "internal",
+    "configId": "heuristic_off",
+    "subsetId": "embedding_sensitive",
+    "caseCount": 1,
+    "overall": 0.6482905982905982,
+    "selection": 0.8555555555555556,
+    "semantic": 0.6777777777777777,
+    "pool_quality": null,
+    "diversity": null,
+    "successRate": 1,
+    "meanLatencyMs": 13609.333333333334
+  }
+]

@@ -1,0 +1,17 @@
+surface,configId,metric,mean,cases
+internal,heuristic_off,selection,0.7614444444444445,5
+internal,heuristic_off,semantic,0.8607222222222222,5
+internal,heuristic_off,negation,1,1
+internal,heuristic_off,color,,0
+internal,heuristic_off,persona,,0
+internal,heuristic_off,deterministic,1,3
+internal,heuristic_off,diversity,0.8333333333333333,1
+internal,heuristic_off,progression,0.7483899591998189,5
+internal,heuristic_hybrid,selection,0.7701111111111111,5
+internal,heuristic_hybrid,semantic,0.8650555555555556,5
+internal,heuristic_hybrid,negation,1,1
+internal,heuristic_hybrid,color,,0
+internal,heuristic_hybrid,persona,,0
+internal,heuristic_hybrid,deterministic,1,3
+internal,heuristic_hybrid,diversity,0.8333333333333333,1
+internal,heuristic_hybrid,progression,0.7481090690659875,5

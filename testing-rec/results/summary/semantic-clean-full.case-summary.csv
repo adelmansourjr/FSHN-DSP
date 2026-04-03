@@ -1,0 +1,105 @@
+surface,configId,caseId,prompt,genderPref,selectionForm,tags,runCount,successCount,successRate,meanLatencyMs,selection,semantic,negation,color,persona,pool_quality,deterministic,diversity,overall,semanticShare,semanticFrontierShare
+internal,heuristic_off,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,3446.6,0.9277777777777777,0.9638888888888888,,,,0.9277777777777777,,0.5,0.8862393162393162,0,0
+internal,auto_off,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,2915.2,0.9277777777777777,0.9638888888888888,,,,0.9277777777777777,,0.5,0.8862393162393162,0,0
+internal,heuristic_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,4463,0.9422222222222221,0.971111111111111,,,,0.951851851851852,,1,0.9604444444444442,0.0130062,0.010417
+internal,auto_hybrid,men_old_money_stage1,Old money fit,men,top_bottom_shoes,core,5,5,1,5537.6,0.9422222222222223,0.971111111111111,,,,0.951851851851852,,1,0.9604444444444444,0.012058999999999999,0.007576000000000001
+internal,heuristic_off,men_old_money_stage2,Old money fit with a cream knit polo and tailored trousers,men,top_bottom_shoes,core,5,5,1,1769.6,0.5944444444444443,0.6972222222222222,,,,0.6185185185185186,1,,0.6815384615384615,0,0
+internal,auto_off,men_old_money_stage2,Old money fit with a cream knit polo and tailored trousers,men,top_bottom_shoes,core,5,5,1,1413.8,0.5980555555555556,0.6990277777777778,,,,0.5060185185185185,1,,0.6573547008547009,0,0
+internal,heuristic_hybrid,men_old_money_stage2,Old money fit with a cream knit polo and tailored trousers,men,top_bottom_shoes,core,5,5,1,2170.8,0.6233333333333333,0.7116666666666667,,,,0.6076851851851851,1,,0.6932606837606837,0.047158599999999995,0
+internal,auto_hybrid,men_old_money_stage2,Old money fit with a cream knit polo and tailored trousers,men,top_bottom_shoes,core,5,5,1,1711.6,0.5547222222222222,0.6773611111111111,,,,0.5060185185185185,1,,0.6360213675213675,0.074462,0
+internal,heuristic_off,men_old_money_stage3,"Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",men,top_bottom_shoes,core,5,5,1,1620,0.9133333333333333,0.9566666666666667,1,,,,1,,0.955268817204301,0,0
+internal,auto_off,men_old_money_stage3,"Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",men,top_bottom_shoes,core,5,5,1,1620,0.9133333333333333,0.9566666666666667,1,,,,1,,0.955268817204301,0,0
+internal,heuristic_hybrid,men_old_money_stage3,"Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",men,top_bottom_shoes,core,5,5,1,1901.6,0.9133333333333333,0.9566666666666667,1,,,,1,,0.955268817204301,0.0123934,0
+internal,auto_hybrid,men_old_money_stage3,"Old money outfit with a navy knit polo, beige trousers, loafers, no sneakers",men,top_bottom_shoes,core,5,5,1,1883.4,0.8988888888888888,0.9494444444444443,1,,,,1,,0.9478136200716846,0.012367399999999999,0
+internal,heuristic_off,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,3294.6666666666665,0.8555555555555555,0.9277777777777777,,,,,,,0.8899470899470898,0,0
+internal,auto_off,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,3049.6666666666665,0.8555555555555555,0.9277777777777777,,,,,,,0.8899470899470898,0,0
+internal,heuristic_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,4714.333333333333,0.8796296296296297,0.9398148148148148,,,,,,,0.908289241622575,0.010984,0
+internal,auto_hybrid,women_dinner_stage1,Dinner date fit,women,top_bottom_shoes,core,3,3,1,5084.333333333333,0.8796296296296297,0.9398148148148149,,,,,,,0.908289241622575,0.011024333333333332,0
+internal,heuristic_off,women_dinner_stage2,Elegant dinner date outfit with heels,women,top_bottom_shoes,core,5,5,1,3169.6,1,1,,,,,1,,1,0,0
+internal,auto_off,women_dinner_stage2,Elegant dinner date outfit with heels,women,top_bottom_shoes,core,5,5,1,3476.8,1,1,,,,,1,,1,0,0
+internal,heuristic_hybrid,women_dinner_stage2,Elegant dinner date outfit with heels,women,top_bottom_shoes,core,5,5,1,4796.2,0.9133333333333333,0.9566666666666667,,,,,1,,0.9445333333333333,0.0113674,0.020833
+internal,auto_hybrid,women_dinner_stage2,Elegant dinner date outfit with heels,women,top_bottom_shoes,core,5,5,1,5197.8,0.8988888888888888,0.9494444444444443,,,,,1,,0.935288888888889,0.0115632,0.007937
+internal,heuristic_off,women_dinner_stage3,Black silk dinner date outfit with trousers and heels,women,top_bottom_shoes,core,5,5,1,2816,0.9306666666666665,0.9653333333333333,,1,,,1,,0.9630222222222222,0,0
+internal,auto_off,women_dinner_stage3,Black silk dinner date outfit with trousers and heels,women,top_bottom_shoes,core,5,5,1,2916.4,1,1,,1,,,1,,1,0,0
+internal,heuristic_hybrid,women_dinner_stage3,Black silk dinner date outfit with trousers and heels,women,top_bottom_shoes,core,5,5,1,4593.4,0.916222222222222,0.9581111111111109,,1,,,1,,0.9553185185185183,0.010375200000000001,0.020833
+internal,auto_hybrid,women_dinner_stage3,Black silk dinner date outfit with trousers and heels,women,top_bottom_shoes,core,5,5,1,3819,0.9133333333333333,0.9566666666666664,,1,,,1,,0.9537777777777777,0.009334199999999999,0.009259
+internal,heuristic_off,men_jeans_timbs,Jeans and timbos,men,bottom_shoes,core,5,5,1,1382,0.5,0.5,,,,,1,,0.5800000000000001,0,0
+internal,auto_off,men_jeans_timbs,Jeans and timbos,men,bottom_shoes,core,5,5,1,1410.4,1,1,,,,,1,,1,0,0
+internal,heuristic_hybrid,men_jeans_timbs,Jeans and timbos,men,bottom_shoes,core,5,5,1,1566.8,0.5,0.5,,,,,1,,0.5800000000000001,0.0722312,0
+internal,auto_hybrid,men_jeans_timbs,Jeans and timbos,men,bottom_shoes,core,5,5,1,1748,1,1,,,,,1,,1,0.023555800000000002,0.035714
+internal,heuristic_off,women_black_cocktail,Black cocktail dress with heels,women,mono_shoes,core,5,5,1,2320.6,0.8916666666666666,0.8208333333333332,,1,,,1,,0.9005555555555554,0,0
+internal,auto_off,women_black_cocktail,Black cocktail dress with heels,women,mono_shoes,core,5,5,1,2511.6,0.9349999999999999,0.8425,,1,,,1,,0.9236666666666665,0,0
+internal,heuristic_hybrid,women_black_cocktail,Black cocktail dress with heels,women,mono_shoes,core,5,5,1,3419.4,0.9133333333333333,0.8316666666666667,,1,,,1,,0.912111111111111,0.022622999999999997,0.0625
+internal,auto_hybrid,women_black_cocktail,Black cocktail dress with heels,women,mono_shoes,core,5,5,1,3499.2,0.8916666666666666,0.8208333333333332,,1,,,1,,0.9005555555555554,0.017318,0
+internal,heuristic_off,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,core,5,5,1,1317.2,0.39166666666666666,0.4458333333333333,,0.5,,,1,,0.508888888888889,0,0
+internal,auto_off,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,core,5,5,1,2385.2,1,1,,1,,,1,,1,0,0
+internal,heuristic_hybrid,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,core,5,5,1,1379.8,0.39166666666666666,0.4458333333333333,,0.5,,,1,,0.508888888888889,0.117364,0
+internal,auto_hybrid,men_oxford_trousers,White oxford and navy trousers,men,top_bottom,core,5,5,1,1742,1,1,,1,,,1,,1,0.1521652,0
+internal,heuristic_off,women_leather_boots,Cropped leather jacket and boots,women,top_shoes,core,5,5,1,2320.6,1,1,,,,,1,,1,0,0
+internal,auto_off,women_leather_boots,Cropped leather jacket and boots,women,top_shoes,core,5,5,1,2477.2,1,1,,,,,1,,1,0,0
+internal,heuristic_hybrid,women_leather_boots,Cropped leather jacket and boots,women,top_shoes,core,5,5,1,3480.2,1,1,,,,,1,,1,0.0291944,0.145833
+internal,auto_hybrid,women_leather_boots,Cropped leather jacket and boots,women,top_shoes,core,5,5,1,3632.8,1,1,,,,,1,,1,0.025844600000000002,0.11764700000000002
+internal,heuristic_off,men_red_hoodie,Red hoodie,men,single_top,core,5,5,1,1429.6,0.8699999999999999,0.685,,0,,,1,,0.6806666666666668,0,0
+internal,auto_off,men_red_hoodie,Red hoodie,men,single_top,core,5,5,1,1665,0.8699999999999999,0.685,,0,,,1,,0.6806666666666668,0,0
+internal,heuristic_hybrid,men_red_hoodie,Red hoodie,men,single_top,core,5,5,1,1471.4,0.8699999999999999,0.685,,0,,,1,,0.6806666666666668,0.08681,0
+internal,auto_hybrid,men_red_hoodie,Red hoodie,men,single_top,core,5,5,1,1529.4,0.8699999999999999,0.685,,0,,,1,,0.6806666666666668,0.086755,0
+internal,heuristic_off,women_little_black_dress,Little black dress,women,single_mono,core,5,5,1,1341.4,1,0.75,,1,,,1,,0.9166666666666666,0,0
+internal,auto_off,women_little_black_dress,Little black dress,women,single_mono,core,5,5,1,1568.6,1,0.75,,1,,,1,,0.9166666666666666,0,0
+internal,heuristic_hybrid,women_little_black_dress,Little black dress,women,single_mono,core,5,5,1,1397.4,1,0.75,,1,,,1,,0.9166666666666666,0.766225,0
+internal,auto_hybrid,women_little_black_dress,Little black dress,women,single_mono,core,5,5,1,1402.4,1,0.75,,1,,,1,,0.9166666666666666,0.108148,0
+internal,heuristic_off,men_no_sneakers,No sneakers with black trousers and a blazer,men,top_bottom_shoes,core,3,3,1,1458.3333333333333,0.6666666666666666,0.5833333333333333,1,1,,,,,0.7552083333333333,0,0
+internal,auto_off,men_no_sneakers,No sneakers with black trousers and a blazer,men,top_bottom_shoes,core,3,3,1,1849.6666666666667,1,1,1,1,,,,,1,0,0
+internal,heuristic_hybrid,men_no_sneakers,No sneakers with black trousers and a blazer,men,top_bottom_shoes,core,3,3,1,2250.6666666666665,0.6305555555555555,0.5652777777777777,1,1,,,,,0.7371527777777777,0.085852,0
+internal,auto_hybrid,men_no_sneakers,No sneakers with black trousers and a blazer,men,top_bottom_shoes,core,3,3,1,2833.3333333333335,0.9277777777777777,0.9638888888888889,1,1,,,,,0.9638888888888889,0.040265666666666665,0
+internal,heuristic_off,women_no_pink_floral,Summer dress with no pink and no florals,women,mono_shoes,core,3,3,1,1328,0.5,0.5,1,1,,,,,0.6718750000000001,0,0
+internal,auto_off,women_no_pink_floral,Summer dress with no pink and no florals,women,mono_shoes,core,3,3,1,1340,0.5,0.5,1,1,,,,,0.6718750000000001,0,0
+internal,heuristic_hybrid,women_no_pink_floral,Summer dress with no pink and no florals,women,mono_shoes,core,3,3,1,1523,0.5,0.5,1,1,,,,,0.6718750000000001,0.536866,0
+internal,auto_hybrid,women_no_pink_floral,Summer dress with no pink and no florals,women,mono_shoes,core,3,3,1,1442.6666666666667,0.5,0.5,1,1,,,,,0.6718750000000001,0.117331,0
+internal,heuristic_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,3026.3333333333335,1,0.75,,,0.13333333333333333,,,,0.7371794871794871,0,0
+internal,auto_off,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,3389.3333333333335,1,1,,,1,,,,1,0,0
+internal,heuristic_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,4552.666666666667,0.8916666666666667,0.6958333333333333,,,0.13333333333333333,,,,0.6705128205128205,0.03611933333333333,0.277778
+internal,auto_hybrid,men_kanye,Kanye fit,men,top_bottom_shoes,core|embedding_sensitive,3,3,1,5771.333333333333,1,1,,,1,,,,1,0.025705333333333334,0.088235
+internal,heuristic_off,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,3221.3333333333335,0.8916666666666667,0.6958333333333333,,,0,,,,0.6448717948717949,0,0
+internal,auto_off,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,3309,0.7833333333333333,0.8916666666666666,,,1,,,,0.8666666666666666,0,0
+internal,heuristic_hybrid,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,4805.666666666667,0.8555555555555556,0.6777777777777777,,,0,,,,0.6226495726495727,0.036252,0.319444
+internal,auto_hybrid,women_princess_diana,Princess Diana fit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,5166.666666666667,0.9638888888888889,0.9819444444444444,,,1,,,,0.9777777777777779,0.011802,0.019608
+internal,heuristic_off,men_barca,Barca soccer outfit,men,top_bottom_shoes,core,3,3,1,1944,0.7472222222222222,0.7486111111111112,,,,,,,0.7478835978835978,0,0
+internal,auto_off,men_barca,Barca soccer outfit,men,top_bottom_shoes,core,3,3,1,2002,0.7472222222222222,0.8736111111111112,,,,,,,0.8074074074074074,0,0
+internal,heuristic_hybrid,men_barca,Barca soccer outfit,men,top_bottom_shoes,core,3,3,1,2267.3333333333335,0.7472222222222222,0.7486111111111112,,,,,,,0.7478835978835978,0.019397,0
+internal,auto_hybrid,men_barca,Barca soccer outfit,men,top_bottom_shoes,core,3,3,1,2324,0.7472222222222222,0.8736111111111112,,,,,,,0.8074074074074074,0.023047,0
+internal,heuristic_off,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,2590.3333333333335,0.9277777777777777,0.9638888888888889,,,,,,,0.9449735449735449,0,0
+internal,auto_off,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,2658.3333333333335,0.9518518518518517,0.9759259259259259,,,,,,,0.9633156966490298,0,0
+internal,heuristic_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,4802.333333333333,0.9518518518518517,0.9759259259259259,,,,,,,0.9633156966490298,0.014425666666666665,0
+internal,auto_hybrid,women_gym,Gym fit,women,top_bottom_shoes,core,3,3,1,4650,0.9518518518518517,0.9759259259259259,,,,,,,0.9633156966490298,0.014724333333333334,0.039216
+internal,heuristic_off,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,5,5,1,3073.2,0.8916666666666668,0.9458333333333332,,1,,,,0.8333333333333333,0.9200000000000002,0,0
+internal,auto_off,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,5,5,1,1382.2,0.8916666666666668,0.9458333333333332,,1,,,,0.5,0.8755555555555558,0,0
+internal,heuristic_hybrid,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,5,5,1,5547.4,0.8916666666666668,0.9458333333333332,,1,,,,0.5,0.8755555555555558,0.0140736,0.009804
+internal,auto_hybrid,men_all_black_streetwear,All black streetwear outfit,men,top_bottom_shoes,core|embedding_sensitive,5,5,1,2081,0.8916666666666668,0.9458333333333332,,1,,,,0.9166666666666667,0.9311111111111113,0.011291,0
+internal,heuristic_off,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,4747.333333333333,0.7833333333333333,0.8916666666666666,,1,,,,,0.8666666666666666,0,0
+internal,auto_off,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,2996.6666666666665,0.7833333333333333,0.8916666666666666,,1,,,,,0.8666666666666666,0,0
+internal,heuristic_hybrid,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,4900.333333333333,0.7833333333333333,0.8916666666666666,,1,,,,,0.8666666666666666,0.028649333333333332,0
+internal,auto_hybrid,women_cream_monochrome,Cream monochrome outfit,women,top_bottom_shoes,core|embedding_sensitive,3,3,1,5981.333333333333,0.8555555555555555,0.9277777777777777,,1,,,,,0.911111111111111,0.029362,0
+internal,heuristic_off,men_quiet_luxury_summer_dinner,Quiet luxury summer dinner fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,3194,1,1,,,,0.9518518518518518,,,0.9873294346978557,0,0
+internal,auto_off,men_quiet_luxury_summer_dinner,Quiet luxury summer dinner fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,2827,0.9277777777777777,0.9638888888888889,,,,0.9518518518518518,,,0.9467836257309942,0,0
+internal,heuristic_hybrid,men_quiet_luxury_summer_dinner,Quiet luxury summer dinner fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,4606,1,1,,,,0.9518518518518518,,,0.9873294346978557,0.010791333333333333,0.020833
+internal,auto_hybrid,men_quiet_luxury_summer_dinner,Quiet luxury summer dinner fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,4945.333333333333,0.9277777777777777,0.9638888888888889,,,,0.9518518518518518,,,0.9467836257309942,0.010104,0.009259
+internal,heuristic_off,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,2982.3333333333335,1,0.8333333333333334,,,,0.9638888888888889,,,0.932017543859649,0,0
+internal,auto_off,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,2953,1,0.8333333333333334,,,,0.9638888888888889,,,0.932017543859649,0,0
+internal,heuristic_hybrid,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,4947.666666666667,0.8916666666666666,0.7791666666666667,,,,0.8555555555555555,,,0.8426900584795319,0.036654,0.319444
+internal,auto_hybrid,women_off_duty_model,Off duty model outfit,women,top_bottom_shoes,embedding_sensitive,3,3,1,5077,0.8916666666666666,0.7791666666666667,,,,0.8916666666666666,,,0.8521929824561402,0.04627866666666667,0.071429
+internal,heuristic_off,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,2753.3333333333335,0.8916666666666667,0.7791666666666667,,,,0.8555555555555555,,,0.8426900584795322,0,0
+internal,auto_off,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,2880.6666666666665,0.8916666666666667,0.9458333333333333,,,,0.8555555555555555,,,0.9011695906432748,0,0
+internal,heuristic_hybrid,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,4542.666666666667,0.7833333333333333,0.725,,,,0.6888888888888888,,,0.7380116959064327,0.035714,0.277778
+internal,auto_hybrid,men_gorp_clean,Gorp but clean fit,men,top_bottom_shoes,embedding_sensitive,3,3,1,4755.333333333333,0.8194444444444445,0.9097222222222222,,,,0.7833333333333333,,,0.8416179337231968,0.032535,0.083333
+internal,heuristic_off,women_zendaya_airport,Zendaya airport fit,women,top_bottom_shoes,embedding_sensitive,3,3,1,3060.3333333333335,0.8916666666666667,0.6958333333333333,,,0,0.9277777777777777,,,0.7082089552238806,0,0
+internal,auto_off,women_zendaya_airport,Zendaya airport fit,women,top_bottom_shoes,embedding_sensitive,3,3,1,4204.666666666667,0.7833333333333333,0.7666666666666666,,,0.5,0.8916666666666666,,,0.760323383084577,0,0
+internal,heuristic_hybrid,women_zendaya_airport,Zendaya airport fit,women,top_bottom_shoes,embedding_sensitive,3,3,1,4936,0.9277777777777777,0.7138888888888889,,,0,0.8555555555555555,,,0.7092868988391375,0.029243666666666668,0.361111
+internal,auto_hybrid,women_zendaya_airport,Zendaya airport fit,women,top_bottom_shoes,embedding_sensitive,3,3,1,5045,0.8916666666666667,0.8208333333333333,,,0.5,0.9277777777777777,,,0.8201492537313434,0.012223999999999999,0.007937
+internal,heuristic_off,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,3,3,1,2562.3333333333335,0.7111111111111109,0.6888888888888888,0,,,0.6185185185185186,,,0.5608695652173912,0,0
+internal,auto_off,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,3,3,1,2386.6666666666665,0.7111111111111109,0.6888888888888888,0,,,0.6185185185185186,,,0.5608695652173912,0,0
+internal,heuristic_hybrid,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,3,3,1,3566.3333333333335,0.7592592592592592,0.7129629629629629,0.4666666666666666,,,0.8555555555555555,,,0.715888352120236,0.03397466666666667,0.010417000000000001
+internal,auto_hybrid,men_gallery_opening_not_streetwear,"Gallery opening outfit, clean and modern, not streetwear",men,top_bottom_shoes,embedding_sensitive,3,3,1,3719.3333333333335,0.9277777777777777,0.7972222222222222,0.6999999999999998,,,0.9277777777777777,,,0.8503220611916262,0.036916333333333336,0.103175
+internal,heuristic_off,women_mob_wife_toned_down,Mob wife outfit but toned down,women,top_bottom_shoes,embedding_sensitive,3,3,1,3012,0.8916666666666667,0.7791666666666667,,,,0.7972222222222222,,,0.8273391812865497,0,0
+internal,auto_off,women_mob_wife_toned_down,Mob wife outfit but toned down,women,top_bottom_shoes,embedding_sensitive,3,3,1,3021.6666666666665,0.8916666666666667,0.9458333333333333,,,,0.7972222222222222,,,0.8858187134502923,0,0
+internal,heuristic_hybrid,women_mob_wife_toned_down,Mob wife outfit but toned down,women,top_bottom_shoes,embedding_sensitive,3,3,1,5064.666666666667,0.8194444444444445,0.7430555555555555,,,,0.8555555555555555,,,0.8021442495126704,0.036872666666666665,0.319444
+internal,auto_hybrid,women_mob_wife_toned_down,Mob wife outfit but toned down,women,top_bottom_shoes,embedding_sensitive,3,3,1,5054.333333333333,0.8555555555555556,0.9277777777777777,,,,0.8555555555555555,,,0.8808966861598438,0.046422,0.079365

@@ -1,0 +1,22 @@
+[
+  {
+    "surface": "internal",
+    "configId": "auto_off",
+    "overall": 0.7939175257731959,
+    "successRate": 1,
+    "meanLatencyMs": 3547.3833333333337,
+    "progression": null,
+    "semanticShare": 0,
+    "semanticFrontierShare": 0
+  },
+  {
+    "surface": "internal",
+    "configId": "auto_hybrid",
+    "overall": 0.7837151584574266,
+    "successRate": 1,
+    "meanLatencyMs": 392.3,
+    "progression": null,
+    "semanticShare": 0.037886333333333334,
+    "semanticFrontierShare": 0
+  }
+]
